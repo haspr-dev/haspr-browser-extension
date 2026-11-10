@@ -26,27 +26,26 @@ Please only use github for bugs or pull request.
   * Make sure you fill in the earliest version that you know has the issue if it is a bug.
   * Clearly describe the issue including steps to reproduce the bug
 
-### Requesting a new feature or ehancement
+### Requesting a new feature or enhancement
 
-Please use the community forum: http://community.passbolt.com/
-Do not use github to request new features.
+Please use the community forum: https://github.com/pbolt-dev/pbolt-docs/discussions
+Do not use GitHub issues to request new features.
 
 ### Getting help with an installation issue
 
-Please use the community forum: http://community.passbolt.com/
-Do not use github to request help with your instance installation.
+Please use the community forum: https://github.com/pbolt-dev/pbolt-docs/discussions
+Do not use GitHub issues to request help with your instance installation.
 
 ### How can you help?
 
 There are several ways you can help out:
 
-* Create an [issue](https://github.com/passbolt/passbolt/issues) on GitHub ONLY if you have found a bug
-* Review [enhancement or new feature requests](https://community.passbolt.com/c/backlog) on the community foum and contribute to the functional or technical specifications in the issues.
+* Create an [issue](https://github.com/pbolt-dev/pbolt-browser-extension/issues) on GitHub ONLY if you have found a bug
+* Review discussions on the [community forum](https://github.com/pbolt-dev/pbolt-docs/discussions) and contribute to specifications in issues.
+* Contribute translations in `src/all/locales/<locale>/common.json` and `src/all/_locales/<lang>/messages.json`.
 * Write patches for open bug/feature issues, preferably with test cases included
-* Contribute to the [documentation](https://passbolt.com/help).
-* Help design the proposed changes by editing the [styleguide](https://github.com/passbolt/passbolt_styleguide) or by submitting changes in the [wireframes](https://github.com/passbolt/passbolt_wireframes).
-* Write unit test cases to help increase [test coverage](https://coveralls.io/github/passbolt/passbolt).
-* Extend the [selenium test suite](https://github.com/passbolt/passbolt_selenium) for any open bug or change requests
+* Contribute to the [documentation](https://doc.pbolt.dev).
+* Write unit test cases to help increase test coverage.
 
 If you have any suggestions or want to get involved in other ways feel free to get in touch with us at [contact@passbolt.com](mailto:contact@passbolt.com)!
 
