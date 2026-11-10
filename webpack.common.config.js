@@ -12,9 +12,11 @@
  * @since         5.12.0
  */
 const path = require('path');
+const webpack = require('webpack');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const { svgRule, reactAlias, baseConfigPath } = require('./webpack/common-blocks');
 const I18nextExtractionPlugin = require('./webpack/i18nextExtractionPlugin');
+const buildPassboltEnvPlugin = require('./webpack/passboltEnvPlugin');
 
 const fs = require('fs');
 const resolveSrc = relPath => path.resolve(__dirname, relPath);
@@ -33,6 +35,7 @@ const buildConfig = ({ entry, chunkLoadingGlobal, outputPath, withReact = false,
   ...(withSvg ? { module: { rules: [svgRule] } } : {}),
   resolve: {
     extensions: [".js", ".jsx"],
+    fallback: { crypto: false },
     alias: {
       'haspr-styleguide': resolveSrc(styleguideDir),
       'passbolt-styleguide': resolveSrc(styleguideDir),
@@ -116,6 +119,26 @@ const buildSharedExtraPlugins = () => [
 ];
 
 const buildCommonConfigs = () => [
+  buildConfig({
+    entry: { app: resolveSrc('./src/all/browserAuth/app.js') },
+    chunkLoadingGlobal: 'browserAuthChunkLoadingGlobal',
+    outputPath: './build/all/browserAuth',
+    extraPlugins: [
+      buildPassboltEnvPlugin(),
+      new CopyWebpackPlugin({
+        patterns: [
+          {
+            from: resolveSrc('./src/all/browserAuth/browser-auth.html'),
+            to: resolveSrc('./build/all/browser-auth.html'),
+          },
+          {
+            from: resolveSrc('./src/all/browserAuth/browser-auth.html'),
+            to: resolveSrc('./build/all/browserAuth/browser-auth.html'),
+          },
+        ],
+      }),
+    ],
+  }),
   // Content scripts — main app entries. Hosts the i18next extraction + locales
   // copy plugins so they execute exactly once per build.
   buildConfig({
