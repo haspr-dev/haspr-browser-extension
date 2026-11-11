@@ -4,6 +4,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [5.18.1] - 2026-11-11
+### Fixed
+- Update extension name (`appName`) and description (`appDescription`) to Haspr across all language message catalogs (`src/all/_locales/*/messages.json`)
+
 ## [5.18.0] - 2026-11-11
 ### Added
 - Rebranding to Haspr with updated logos, assets, and documentation links

@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Haspr - password manager",
   "short_name": "haspr",
-  "version": "5.18.0",
+  "version": "5.18.1",
   "description": "Haspr extension for the open source password manager.",
   "default_locale": "en",
   "icons": {

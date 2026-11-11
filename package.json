@@ -1,6 +1,6 @@
 {
   "name": "haspr-browser-extension",
-  "version": "5.18.0",
+  "version": "5.18.1",
   "license": "AGPL-3.0",
   "copyright": "Copyright 2026 haspr-dev contributors and Passbolt SA",
   "description": "Browser extension (Firefox, Chrome, Edge) for Haspr and Passbolt password manager",
