@@ -16,7 +16,7 @@ const buildSafariBackgroundConfig = ({ manifestPath } = {}) => {
       rules: [
         {
           test: /\.(js|jsx)$/,
-          exclude: /(node_modules[\\/]((?!(passbolt\-styleguide))))/,
+          exclude: /(node_modules[\\/]((?!((passbolt|haspr)\-styleguide))))/,
           loader: "babel-loader",
           options: {
             presets: ["@babel/react"],
@@ -31,7 +31,7 @@ const buildSafariBackgroundConfig = ({ manifestPath } = {}) => {
         minSize: 0,
         cacheGroups: {
           commons: {
-            test: /[\\/]node_modules[\\/]((?!(passbolt\-styleguide)).*)[\\/]/,
+            test: /[\\/]node_modules[\\/]((?!((passbolt|haspr)\-styleguide)).*)[\\/]/,
             name: 'vendors',
             chunks: 'all'
           },
