@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [5.18.0] - 2026-11-11
+### Added
+- Rebranding to Haspr with updated logos, assets, and documentation links
+- Firefox gecko ID updated to `extension@haspr.dev`
+- Multi-browser package builds with automated GitHub Actions release workflow
+- Documentation for macOS/Safari self-installation and local extension loading
+
 ## [5.17.1] - 2026-10-26
 ### Fixed
 PB-55748 Upgrade passbolt-styleguide to v5.17.2

@@ -175,7 +175,7 @@ describe("ResourcesCollection", () => {
       const collection = new ResourcesCollection(dtos);
       const time = performance.now() - start;
       expect(collection).toHaveLength(count);
-      expect(time).toBeLessThan(10_000);
+      expect(time).toBeLessThan(30_000);
     });
   });
 

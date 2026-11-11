@@ -28,7 +28,7 @@ applyOutputClean(configs);
 const webExtPlugin = new WebExtPlugin({
   sourceDir: path.resolve(__dirname, "./build/all"),
   artifactsDir: path.resolve(__dirname, "./dist/chromium-mv2"),
-  filename: `passbolt-${pkg.version}${isDevelopment ? "-debug" : ""}.zip`,
+  filename: `haspr-${pkg.version}-chromium-mv2${isDevelopment ? "-debug" : ""}.zip`,
   expectedCount: configs.length,
   expectedFiles: COMMON_EXPECTED_FILES,
 });
