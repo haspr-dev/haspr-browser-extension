@@ -12,12 +12,12 @@
  * @since         5.7.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import ResourceSecretRevisionsCollection from "passbolt-styleguide/src/shared/models/entity/secretRevision/resourceSecretRevisionsCollection";
-import { defaultResourceSecretRevisionsDtos } from "passbolt-styleguide/src/shared/models/entity/secretRevision/resourceSecretRevisionsCollection.test.data";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import ResourceSecretRevisionsCollection from "haspr-styleguide/src/shared/models/entity/secretRevision/resourceSecretRevisionsCollection";
+import { defaultResourceSecretRevisionsDtos } from "haspr-styleguide/src/shared/models/entity/secretRevision/resourceSecretRevisionsCollection.test.data";
 import { v4 as uuidv4 } from "uuid";
 import FindResourceSecretRevisionsForDisplayController from "./findResourceSecretRevisionsForDisplayController";
 import UserAbortsOperationError from "../../error/userAbortsOperationError";

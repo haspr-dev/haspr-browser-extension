@@ -12,7 +12,7 @@
  * @since         5.7.0
  */
 
-import SecretRevisionsSettingsEntity from "passbolt-styleguide/src/shared/models/entity/secretRevision/secretRevisionsSettingsEntity";
+import SecretRevisionsSettingsEntity from "haspr-styleguide/src/shared/models/entity/secretRevision/secretRevisionsSettingsEntity";
 import SaveSecretRevisionsSettingsService from "../../service/secretRevisions/saveSecretRevisionsSettingsService";
 
 export default class SaveSecretRevisionsSettingsController {

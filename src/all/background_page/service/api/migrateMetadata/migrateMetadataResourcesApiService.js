@@ -15,7 +15,7 @@
 import ResourcesCollection from "../../../model/entity/resource/resourcesCollection";
 import { assertType } from "../../../utils/assertions";
 import AbstractService from "../abstract/abstractService";
-import PassboltResponseEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
+import PassboltResponseEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
 
 const MIGRATE_METADATA_API_SERVICE_RESOURCE_NAME = "metadata/upgrade/resources";
 

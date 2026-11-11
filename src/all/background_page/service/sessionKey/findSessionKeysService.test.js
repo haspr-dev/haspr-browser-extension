@@ -18,12 +18,12 @@ import { defaultAccountDto } from "../../model/entity/account/accountEntity.test
 import PassphraseStorageService from "../session_storage/passphraseStorageService";
 import BuildApiClientOptionsService from "../account/buildApiClientOptionsService";
 import FindSessionKeysService from "./findSessionKeysService";
-import { mockApiResponseError } from "passbolt-styleguide/test/mocks/mockApiResponse";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
-import PassboltServiceUnavailableError from "passbolt-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import { defaultSessionKeysBundlesDtos } from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection.test.data";
-import SessionKeysBundlesCollection from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection";
+import { mockApiResponseError } from "haspr-styleguide/test/mocks/mockApiResponse";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltServiceUnavailableError from "haspr-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import { defaultSessionKeysBundlesDtos } from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection.test.data";
+import SessionKeysBundlesCollection from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection";
 
 describe("FindSessionKeysService", () => {
   let apiClientOptions, account;

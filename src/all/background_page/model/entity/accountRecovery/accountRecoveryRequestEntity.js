@@ -11,10 +11,10 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         3.6.0
  */
-import Entity from "passbolt-styleguide/src/shared/models/entity/abstract/entity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import Entity from "haspr-styleguide/src/shared/models/entity/abstract/entity";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import AccountRecoveryResponsesCollection from "./accountRecoveryResponsesCollection";
-import AccountRecoveryPrivateKeyEntity from "passbolt-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryPrivateKeyEntity";
+import AccountRecoveryPrivateKeyEntity from "haspr-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryPrivateKeyEntity";
 import UserEntity from "../user/userEntity";
 
 const ENTITY_NAME = "AccountRecoveryRequest";

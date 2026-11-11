@@ -11,8 +11,8 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         2.13.0
  */
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
-import EntityV2 from "passbolt-styleguide/src/shared/models/entity/abstract/entityV2";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntityV2 from "haspr-styleguide/src/shared/models/entity/abstract/entityV2";
 
 const ENTITY_NAME = "Tag";
 

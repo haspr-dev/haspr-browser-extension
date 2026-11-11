@@ -12,11 +12,11 @@
  * @since         5.7.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import { defaultSecretRevisionsSettingsDto } from "passbolt-styleguide/src/shared/models/entity/secretRevision/secretRevisionsSettingsEntity.test.data";
-import SecretRevisionsSettingsEntity from "passbolt-styleguide/src/shared/models/entity/secretRevision/secretRevisionsSettingsEntity";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultSecretRevisionsSettingsDto } from "haspr-styleguide/src/shared/models/entity/secretRevision/secretRevisionsSettingsEntity.test.data";
+import SecretRevisionsSettingsEntity from "haspr-styleguide/src/shared/models/entity/secretRevision/secretRevisionsSettingsEntity";
 import SaveSecretRevisionsSettingsController from "./saveSecretRevisionsSettingsController";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 
 describe("SaveSecretRevisionsSettingsController", () => {
   describe("::exec", () => {

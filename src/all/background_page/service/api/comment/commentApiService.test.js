@@ -19,9 +19,9 @@ import CommentApiService from "./commentApiService";
 import AccountEntity from "../../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../../model/entity/account/accountEntity.test.data";
 import BuildApiClientOptionsService from "../../account/buildApiClientOptionsService";
-import { defaultCommentCollectionDto } from "passbolt-styleguide/src/shared/models/entity/comment/commentEntityCollection.test.data";
-import { defaultCommentDto } from "passbolt-styleguide/src/shared/models/entity/comment/commentEntity.test.data";
-import PassboltServiceUnavailableError from "passbolt-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
+import { defaultCommentCollectionDto } from "haspr-styleguide/src/shared/models/entity/comment/commentEntityCollection.test.data";
+import { defaultCommentDto } from "haspr-styleguide/src/shared/models/entity/comment/commentEntity.test.data";
+import PassboltServiceUnavailableError from "haspr-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
 import CommentEntity from "../../../model/entity/comment/commentEntity";
 
 describe("ActionLogService", () => {

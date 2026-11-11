@@ -17,20 +17,20 @@ import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import BuildApiClientOptionsService from "../account/buildApiClientOptionsService";
 import FindMetadataKeysService from "./findMetadataKeysService";
-import { mockApiResponseError } from "passbolt-styleguide/test/mocks/mockApiResponse";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
-import PassboltServiceUnavailableError from "passbolt-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
-import { defaultMetadataKeyDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeyEntity.test.data";
-import MetadataKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { mockApiResponseError } from "haspr-styleguide/test/mocks/mockApiResponse";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltServiceUnavailableError from "haspr-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
+import { defaultMetadataKeyDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeyEntity.test.data";
+import MetadataKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import {
   decryptedMetadataPrivateKeyDto,
   defaultMetadataPrivateKeyDto,
-} from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity.test.data";
 import { v4 as uuidv4 } from "uuid";
-import { defaultMetadataKeysDtos } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection.test.data";
-import CollectionValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/collectionValidationError";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import { defaultMetadataKeysDtos } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection.test.data";
+import CollectionValidationError from "haspr-styleguide/src/shared/models/entity/abstract/collectionValidationError";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 
 describe("FindMetadataKeysApiService", () => {
   let apiClientOptions, account;

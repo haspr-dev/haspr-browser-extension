@@ -12,7 +12,7 @@
  * @since         4.9.0
  */
 
-import { defaultProfileDto } from "passbolt-styleguide/src/shared/models/entity/profile/ProfileEntity.test.data";
+import { defaultProfileDto } from "haspr-styleguide/src/shared/models/entity/profile/ProfileEntity.test.data";
 import { v4 as uuid } from "uuid";
 
 /**

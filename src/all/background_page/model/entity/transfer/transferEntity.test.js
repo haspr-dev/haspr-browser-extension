@@ -12,8 +12,8 @@
  * @since         3.2.0
  */
 import TransferEntity from "./transferEntity";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 
 describe("Transfer entity", () => {
   it("schema must validate", () => {

@@ -11,10 +11,10 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         3.9.0
  */
-import Entity from "passbolt-styleguide/src/shared/models/entity/abstract/entity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
-import SsoSettingsEntity from "passbolt-styleguide/src/shared/models/entity/ssoSettings/SsoSettingsEntity";
+import Entity from "haspr-styleguide/src/shared/models/entity/abstract/entity";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import SsoSettingsEntity from "haspr-styleguide/src/shared/models/entity/ssoSettings/SsoSettingsEntity";
 
 const ENTITY_NAME = "SsoKitClientPartEntity";
 

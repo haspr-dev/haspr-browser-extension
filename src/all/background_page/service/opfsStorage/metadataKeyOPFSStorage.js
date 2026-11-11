@@ -12,12 +12,12 @@
  * @since         6.0.0
  */
 import Log from "../../model/log";
-import MetadataKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeyEntity";
-import MetadataKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
+import MetadataKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeyEntity";
+import MetadataKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
 import { assertType } from "../../utils/assertions";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 import AccountEntity from "../../model/entity/account/accountEntity";
-import OPFSJSONStore from "passbolt-styleguide/src/shared/utils/opfs/OPFSJsonStore";
+import OPFSJSONStore from "haspr-styleguide/src/shared/utils/opfs/OPFSJsonStore";
 
 export const OFFLINE_METADATA_KEYS_OPFS_STORAGE_KEY = "metadata_keys_offline";
 

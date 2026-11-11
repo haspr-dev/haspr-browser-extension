@@ -15,9 +15,9 @@
 import { enableFetchMocks } from "jest-fetch-mock";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import BuildApiClientOptionsService from "../../service/account/buildApiClientOptionsService";
-import UserPassphrasePoliciesEntity from "passbolt-styleguide/src/shared/models/entity/userPassphrasePolicies/userPassphrasePoliciesEntity";
+import UserPassphrasePoliciesEntity from "haspr-styleguide/src/shared/models/entity/userPassphrasePolicies/userPassphrasePoliciesEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultUserPassphrasePoliciesEntityDto } from "passbolt-styleguide/src/shared/models/userPassphrasePolicies/UserPassphrasePoliciesDto.test.data";
+import { defaultUserPassphrasePoliciesEntityDto } from "haspr-styleguide/src/shared/models/userPassphrasePolicies/UserPassphrasePoliciesDto.test.data";
 import { mockApiResponse, mockApiResponseError } from "../../../../../test/mocks/mockApiResponse";
 import FindUserPassphrasePoliciesController from "./findUserPassphrasePoliciesController";
 

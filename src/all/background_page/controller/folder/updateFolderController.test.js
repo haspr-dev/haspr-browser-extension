@@ -13,8 +13,8 @@
  */
 
 import { v4 as uuidv4 } from "uuid";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import { defaultFolderDto } from "passbolt-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultFolderDto } from "haspr-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
 import UpdateFolderController from "./updateFolderController";
 import FolderEntity from "../../model/entity/folder/folderEntity";
 

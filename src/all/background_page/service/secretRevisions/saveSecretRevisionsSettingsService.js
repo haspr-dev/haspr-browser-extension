@@ -13,7 +13,7 @@
  */
 
 import SecretRevisionsSettingsApiService from "../api/secretRevision/secretRevisionsSettingsApiService";
-import SecretRevisionsSettingsEntity from "passbolt-styleguide/src/shared/models/entity/secretRevision/secretRevisionsSettingsEntity";
+import SecretRevisionsSettingsEntity from "haspr-styleguide/src/shared/models/entity/secretRevision/secretRevisionsSettingsEntity";
 import { assertType } from "../../utils/assertions";
 
 export default class SaveSecretRevisionsSettingsService {

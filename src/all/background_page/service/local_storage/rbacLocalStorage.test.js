@@ -12,9 +12,9 @@
  * @since         4.1.0
  */
 import RbacLocalStorage from "./rbacLocalStorage";
-import { defaultRbacWithUiActionData } from "passbolt-styleguide/src/shared/models/entity/rbac/rbacEntity.test.data";
-import RbacEntity from "passbolt-styleguide/src/shared/models/entity/rbac/rbacEntity";
-import RbacsCollection from "passbolt-styleguide/src/shared/models/entity/rbac/rbacsCollection";
+import { defaultRbacWithUiActionData } from "haspr-styleguide/src/shared/models/entity/rbac/rbacEntity.test.data";
+import RbacEntity from "haspr-styleguide/src/shared/models/entity/rbac/rbacEntity";
+import RbacsCollection from "haspr-styleguide/src/shared/models/entity/rbac/rbacsCollection";
 import GetLegacyAccountService from "../account/getLegacyAccountService";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";

@@ -14,10 +14,10 @@
 
 import AccountRecoveryGenerateOrganizationKeyController from "./accountRecoveryGenerateOrganizationKeyController";
 import MockExtension from "../../../../../test/mocks/mockExtension";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import * as openpgp from "openpgp";
-import { anonymousSiteSettings } from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import { anonymousSiteSettings } from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
 import GetOrFindSiteSettingsService from "../../service/siteSettings/getOrFindSiteSettingsService";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";

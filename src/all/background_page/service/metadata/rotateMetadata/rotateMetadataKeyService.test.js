@@ -12,18 +12,18 @@
  * @since         5.6.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import MockExtension from "../../../../../../test/mocks/mockExtension";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import AccountEntity from "../../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../../model/entity/account/accountEntity.test.data";
-import ExternalGpgKeyPairEntity from "passbolt-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
+import ExternalGpgKeyPairEntity from "haspr-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
 import { defaultProgressService } from "../../progress/progressService.test.data";
 
 import RotateMetadataKeyService from "./rotateMetadataKeyService";
 import { v4 as uuidv4 } from "uuid";
-import MetadataKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeyEntity";
-import { defaultMetadataKeyDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeyEntity.test.data";
+import MetadataKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeyEntity";
+import { defaultMetadataKeyDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeyEntity.test.data";
 
 describe("RotateMetadataKeyService", () => {
   let account;

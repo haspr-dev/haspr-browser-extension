@@ -42,7 +42,7 @@ import GetActiveAccountService from "../service/account/getActiveAccountService"
 import { PermissionEvents } from "../event/permissionEvents";
 import { AccountEvents } from "../event/accountEvents";
 import { AppSignOutEvents } from "../event/appSignOutEvents";
-import UserApiService from "passbolt-styleguide/src/shared/services/api/user/userApiService";
+import UserApiService from "haspr-styleguide/src/shared/services/api/user/userApiService";
 import UserEntity from "../model/entity/user/userEntity";
 import GetOrFindActiveSessionService from "../service/activeSession/getOrFindActiveSessionService";
 

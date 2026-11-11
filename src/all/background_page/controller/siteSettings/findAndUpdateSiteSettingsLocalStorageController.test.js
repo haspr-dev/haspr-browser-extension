@@ -11,17 +11,17 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         6.0.0
  */
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultProSiteSettings } from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import { defaultProSiteSettings } from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
 import SiteSettingsLocalStorage from "../../service/local_storage/siteSettingsLocalStorage";
 import SiteSettingsRuntimeCache from "../../service/siteSettings/siteSettingsRuntimeCache";
 import FindAndUpdateSiteSettingsLocalStorageController from "./findAndUpdateSiteSettingsLocalStorageController";
 import UserActiveSessionEntity, {
   USER_ACTIVE_SESSION_ONLINE,
-} from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
+} from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
 import GetOrFindActiveSessionService from "../../service/activeSession/getOrFindActiveSessionService";
 
 beforeEach(() => {

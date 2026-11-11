@@ -12,9 +12,9 @@
  * @since         4.6.0
  */
 import { v4 as uuidv4 } from "uuid";
-import { users } from "passbolt-styleguide/src/shared/models/entity/user/userEntity.test.data";
-import { defaultFolderDto } from "passbolt-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
-import { ownerFolderPermissionDto } from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
+import { users } from "haspr-styleguide/src/shared/models/entity/user/userEntity.test.data";
+import { defaultFolderDto } from "haspr-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
+import { ownerFolderPermissionDto } from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
 
 export const _3FoldersSharedWith3UsersResourcesDto = async () => {
   const folder1Id = uuidv4();

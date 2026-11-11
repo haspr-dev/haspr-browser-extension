@@ -13,7 +13,7 @@
  */
 
 import { v4 as uuidv4 } from "uuid";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 
 // Create account recovery organization public key
 

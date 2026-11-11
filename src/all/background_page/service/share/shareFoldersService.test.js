@@ -13,14 +13,14 @@
  */
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { adminAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import {
   defaultPermissionDto,
   minimumPermissionDto,
   ownerFolderPermissionDto,
-} from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
 import Keyring from "../../model/keyring";
 import { v4 as uuidv4 } from "uuid";
 import ResourcesCollection from "../../model/entity/resource/resourcesCollection";
@@ -28,7 +28,7 @@ import MetadataKeysSessionStorage from "../session_storage/metadataKeysSessionSt
 import PermissionChangesCollection from "../../model/entity/permission/change/permissionChangesCollection";
 import ShareFoldersService from "./shareFoldersService";
 import FoldersCollection from "../../model/entity/folder/foldersCollection";
-import { defaultFolderDto } from "passbolt-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
+import { defaultFolderDto } from "haspr-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
 
 beforeEach(() => {
   MetadataKeysSessionStorage._runtimeCachedData = {};

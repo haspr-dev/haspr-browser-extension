@@ -12,18 +12,18 @@
  * @since         3.6.0
  */
 
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
-import { customEmailValidationProSiteSettings } from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import { customEmailValidationProSiteSettings } from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
 import GenerateGpgKeyPairOptionsEntity from "./generateGpgKeyPairOptionsEntity";
 import { defaultDto, minimalDto } from "./generateGpgKeyPairOptionsEntity.test.data";
 import {
   defaultUserKeyPoliciesSettingsDto,
   rsaUserKeyPoliciesSettingsDto,
-} from "passbolt-styleguide/src/shared/models/entity/userKeyPolicies/UserKeyPoliciesSettingsEntity.test.data";
-import UserKeyPoliciesSettingsEntity from "passbolt-styleguide/src/shared/models/entity/userKeyPolicies/UserKeyPoliciesSettingsEntity";
+} from "haspr-styleguide/src/shared/models/entity/userKeyPolicies/UserKeyPoliciesSettingsEntity.test.data";
+import UserKeyPoliciesSettingsEntity from "haspr-styleguide/src/shared/models/entity/userKeyPolicies/UserKeyPoliciesSettingsEntity";
 import SiteSettingsRuntimeCache from "../../../../service/siteSettings/siteSettingsRuntimeCache";
 
 beforeEach(() => {

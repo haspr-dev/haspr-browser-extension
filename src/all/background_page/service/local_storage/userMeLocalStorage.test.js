@@ -15,9 +15,9 @@
 import UserMeLocalStorage from "./userMeLocalStorage";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultUserDto } from "passbolt-styleguide/src/shared/models/entity/user/userEntity.test.data";
+import { defaultUserDto } from "haspr-styleguide/src/shared/models/entity/user/userEntity.test.data";
 import UserEntity from "../../model/entity/user/userEntity";
-import ProfileEntity from "passbolt-styleguide/src/shared/models/entity/profile/profileEntity";
+import ProfileEntity from "haspr-styleguide/src/shared/models/entity/profile/profileEntity";
 import { v4 as uuidv4 } from "uuid";
 import browser from "../../../common/polyfill/browserPolyfill";
 

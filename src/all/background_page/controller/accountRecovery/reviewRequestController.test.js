@@ -17,9 +17,9 @@ import { enableFetchMocks } from "jest-fetch-mock";
 import ReviewRequestController from "./reviewRequestController";
 import DecryptMessageService from "../../service/crypto/decryptMessageService";
 import InvalidMasterPasswordError from "../../error/invalidMasterPasswordError";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import { mockApiResponse } from "../../../../../test/mocks/mockApiResponse";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import {
   pendingAccountRecoveryRequestDto,
   pendingAccountRecoveryRequestWithInvalidAccountRecoveryPrivateKeyPasswordDto,
@@ -27,7 +27,7 @@ import {
   pendingAccountRecoveryRequestWithoutPrivateKeyPasswordDto,
   pendingAccountRecoveryRequestWithWrongPrivateKeyIdDto,
   pendingAccountRecoveryRequestWithWrongPrivateKeyUserIdDto,
-} from "passbolt-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryRequestEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryRequestEntity.test.data";
 import { adminAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import Keyring from "../../model/keyring";
@@ -39,8 +39,8 @@ import {
 import AccountRecoveryResponseEntity from "../../model/entity/accountRecovery/accountRecoveryResponseEntity";
 import MockExtension from "../../../../../test/mocks/mockExtension";
 import UserLocalStorage from "../../service/local_storage/userLocalStorage";
-import { defaultUserDto } from "passbolt-styleguide/src/shared/models/entity/user/userEntity.test.data";
-import UsersCollection from "passbolt-styleguide/src/shared/models/entity/user/usersCollection";
+import { defaultUserDto } from "haspr-styleguide/src/shared/models/entity/user/userEntity.test.data";
+import UsersCollection from "haspr-styleguide/src/shared/models/entity/user/usersCollection";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 
 jest.mock("../../service/passphrase/getPassphraseService");

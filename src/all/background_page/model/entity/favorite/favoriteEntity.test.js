@@ -12,9 +12,9 @@
  * @since         2.13.0
  */
 import FavoriteEntity from "./favoriteEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import { defaultFavoriteDto } from "passbolt-styleguide/src/shared/models/entity/favorite/favoriteEntity.test.data";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import { defaultFavoriteDto } from "haspr-styleguide/src/shared/models/entity/favorite/favoriteEntity.test.data";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 
 describe("FavoriteEntity", () => {
   describe("FavoriteEntity::getSchema", () => {

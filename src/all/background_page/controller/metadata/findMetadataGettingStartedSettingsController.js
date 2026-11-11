@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.4.0
  */
-import FindMetadataGettingStartedSettingsService from "passbolt-styleguide/src/shared/services/metadata/findMetadataGettingStartedSettingsService";
+import FindMetadataGettingStartedSettingsService from "haspr-styleguide/src/shared/services/metadata/findMetadataGettingStartedSettingsService";
 
 export default class FindMetadataGettingStartedSettingsController {
   /**

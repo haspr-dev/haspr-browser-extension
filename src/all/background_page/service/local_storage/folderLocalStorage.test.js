@@ -12,7 +12,7 @@
  * @since         4.9.4
  */
 import { v4 as uuidv4 } from "uuid";
-import { defaultFolderDto } from "passbolt-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
+import { defaultFolderDto } from "haspr-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
 import FoldersCollection from "../../model/entity/folder/foldersCollection";
 import FolderEntity from "../../model/entity/folder/folderEntity";
 import FolderLocalStorage, { FOLDERS_LOCAL_STORAGE_KEY } from "./folderLocalStorage";

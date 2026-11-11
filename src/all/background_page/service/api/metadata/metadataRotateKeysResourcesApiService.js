@@ -17,7 +17,7 @@ import ResourcesCollection from "../../../model/entity/resource/resourcesCollect
 import { assertType } from "../../../utils/assertions";
 
 const METADATA_ROTATE_KEYS_RESOURCES_API_SERVICE_RESOURCE_NAME = "metadata/rotate-key/resources";
-import PassboltResponseEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
+import PassboltResponseEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
 
 class MetadataRotateKeysResourcesApiService extends AbstractService {
   /**

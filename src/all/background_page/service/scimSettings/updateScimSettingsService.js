@@ -12,10 +12,10 @@
  * @since         5.5.0
  */
 
-import ScimSettingsEntity from "passbolt-styleguide/src/shared/models/entity/scimSettings/scimSettingsEntity";
+import ScimSettingsEntity from "haspr-styleguide/src/shared/models/entity/scimSettings/scimSettingsEntity";
 import ScimSettingsApiService from "../api/scimSettings/scimSettingsApiService";
 import { assertType } from "../../utils/assertions";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 
 class UpdateScimSettingsService {
   /**

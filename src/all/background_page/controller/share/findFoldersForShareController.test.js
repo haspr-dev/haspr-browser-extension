@@ -16,8 +16,8 @@ import FindFoldersForShareController from "./findFoldersForShareController";
 import FindFoldersService from "../../service/folder/findFoldersService";
 import FoldersCollection from "../../model/entity/folder/foldersCollection";
 import FolderApiService from "../../service/api/folder/folderApiService";
-import { defaultFolderDto } from "passbolt-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultFolderDto } from "haspr-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import { enableFetchMocks } from "jest-fetch-mock";
 import { mockApiResponse } from "../../../../../test/mocks/mockApiResponse";
 

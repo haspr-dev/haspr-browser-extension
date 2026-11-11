@@ -12,12 +12,12 @@
  * @since         5.13.0
  */
 import Log from "../../model/log";
-import SecretEntity from "passbolt-styleguide/src/shared/models/entity/secret/secretEntity";
+import SecretEntity from "haspr-styleguide/src/shared/models/entity/secret/secretEntity";
 import { assertType } from "../../utils/assertions";
-import { assertArrayUUID, assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertArrayUUID, assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 import AccountEntity from "../../model/entity/account/accountEntity";
-import OPFSJSONStore from "passbolt-styleguide/src/shared/utils/opfs/OPFSJsonStore";
-import SecretsCollection from "passbolt-styleguide/src/shared/models/entity/secret/secretsCollection";
+import OPFSJSONStore from "haspr-styleguide/src/shared/utils/opfs/OPFSJsonStore";
+import SecretsCollection from "haspr-styleguide/src/shared/models/entity/secret/secretsCollection";
 
 export const OFFLINE_SECRETS_OPFS_STORAGE_KEY = "secrets_offline";
 

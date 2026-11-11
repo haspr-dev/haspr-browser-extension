@@ -12,15 +12,15 @@
  * @since         4.5.0
  */
 import { mockApiResponse, mockApiResponseError } from "../../../../../test/mocks/mockApiResponse";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
-import PassboltServiceUnavailableError from "passbolt-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltServiceUnavailableError from "haspr-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
 import PasswordExpiryResourcesCollection from "../../model/entity/passwordExpiry/passwordExpiryResourcesCollection";
 import { defaultPasswordExpiryCollectionDto } from "../../model/entity/passwordExpiry/passwordExpiryResourceCollection.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import ResourceLocalStorage from "../../service/local_storage/resourceLocalStorage";
 import SetResourcesExpiryDateController from "./setResourcesExpiryDateController";
 import { enableFetchMocks } from "jest-fetch-mock";
-import MockPort from "passbolt-styleguide/src/react-extension/test/mock/MockPort";
+import MockPort from "haspr-styleguide/src/react-extension/test/mock/MockPort";
 
 jest.mock("../../service/progress/progressService");
 jest.mock("../../service/local_storage/resourceLocalStorage");

@@ -12,12 +12,12 @@
  * @since         4.10.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import { v4 as uuidv4 } from "uuid";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import FindSecretService from "./findSecretService";
-import { minimalDto } from "passbolt-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
+import { minimalDto } from "haspr-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
 
 describe("FindSecretService", () => {
   describe("FindSecretService::exec", () => {

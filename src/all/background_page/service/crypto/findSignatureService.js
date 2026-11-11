@@ -14,7 +14,7 @@
 
 import * as openpgp from "openpgp";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
-import ExternalGpgSignatureEntity from "passbolt-styleguide/src/shared/models/entity/gpgkey/externalGpgSignatureEntity";
+import ExternalGpgSignatureEntity from "haspr-styleguide/src/shared/models/entity/gpgkey/externalGpgSignatureEntity";
 import Uint8ArrayConvert from "../../utils/format/uint8ArrayConvert";
 
 class FindSignatureService {

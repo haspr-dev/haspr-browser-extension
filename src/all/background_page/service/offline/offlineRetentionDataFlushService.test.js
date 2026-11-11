@@ -14,16 +14,16 @@
 
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import UserActiveSessionEntity, {
   USER_ACTIVE_SESSION_OFFLINE,
-} from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
-import OfflineSettingsEntity from "passbolt-styleguide/src/shared/models/entity/offline/offlineSettingsEntity";
+} from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
+import OfflineSettingsEntity from "haspr-styleguide/src/shared/models/entity/offline/offlineSettingsEntity";
 import {
   minimalUserActiveSessionDto,
   defaultUserActiveSessionDto,
-} from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
-import { defaultOfflineSettingsDto } from "passbolt-styleguide/src/shared/models/entity/offline/offlineSettingsEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
+import { defaultOfflineSettingsDto } from "haspr-styleguide/src/shared/models/entity/offline/offlineSettingsEntity.test.data";
 import OfflineRetentionDataFlushService from "./offlineRetentionDataFlushService";
 
 describe("OfflineRetentionDataFlushService", () => {

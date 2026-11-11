@@ -14,10 +14,10 @@
 
 import { enableFetchMocks } from "jest-fetch-mock";
 import { mockApiResponse } from "../../../../../../test/mocks/mockApiResponse";
-import { defaultSharedResourcesWithEncryptedMetadataDtos } from "passbolt-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
-import { mockApiResponseError } from "passbolt-styleguide/test/mocks/mockApiResponse";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
-import PassboltServiceUnavailableError from "passbolt-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
+import { defaultSharedResourcesWithEncryptedMetadataDtos } from "haspr-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
+import { mockApiResponseError } from "haspr-styleguide/test/mocks/mockApiResponse";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltServiceUnavailableError from "haspr-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
 import MetadataRotateKeysResourcesApiService from "./metadataRotateKeysResourcesApiService";
 import AccountEntity from "../../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../../model/entity/account/accountEntity.test.data";

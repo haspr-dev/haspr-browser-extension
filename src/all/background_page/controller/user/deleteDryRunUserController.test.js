@@ -14,21 +14,21 @@
 
 import { enableFetchMocks } from "jest-fetch-mock";
 import { mockApiResponse, mockApiResponseError } from "../../../../../test/mocks/mockApiResponse";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import RoleEntity from "passbolt-styleguide/src/shared/models/entity/role/roleEntity";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import RoleEntity from "haspr-styleguide/src/shared/models/entity/role/roleEntity";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import {
   defaultSharedResourcesWithEncryptedMetadataDtos,
   defaultResourcesDtos,
-} from "passbolt-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
-import { defaultDecryptedSharedMetadataKeysDtos } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection.test.data";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+} from "haspr-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
+import { defaultDecryptedSharedMetadataKeysDtos } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection.test.data";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
 import DeleteDryRunUserController from "./deleteDryRunUserController";
 import { v4 as uuidv4 } from "uuid";
 import DeleteDryRunError from "../../error/deleteDryRunError";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import MetadataKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import MetadataKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
 
 beforeEach(() => {
   enableFetchMocks();

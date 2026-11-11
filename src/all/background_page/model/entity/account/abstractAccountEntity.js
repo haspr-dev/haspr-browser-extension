@@ -10,11 +10,11 @@
  * @license       https://opensource.org/licenses/AGPL-3.0 AGPL License
  * @link          https://www.passbolt.com Passbolt(tm)
  */
-import EntityV2 from "passbolt-styleguide/src/shared/models/entity/abstract/entityV2";
-import ProfileEntity from "passbolt-styleguide/src/shared/models/entity/profile/profileEntity";
+import EntityV2 from "haspr-styleguide/src/shared/models/entity/abstract/entityV2";
+import ProfileEntity from "haspr-styleguide/src/shared/models/entity/profile/profileEntity";
 import UserEntity from "../user/userEntity";
 import SecurityTokenEntity from "../securityToken/securityTokenEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import { v5 as uuidv5 } from "uuid";
 
 const ENTITY_NAME = "AbstractAccount";

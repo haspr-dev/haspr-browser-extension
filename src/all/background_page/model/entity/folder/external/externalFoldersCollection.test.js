@@ -10,7 +10,7 @@
  * @license       https://opensource.org/licenses/AGPL-3.0 AGPL License
  * @link          https://www.passbolt.com Passbolt(tm)
  */
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import ExternalFoldersCollection from "./externalFoldersCollection";
 import ExternalFolderEntity from "./externalFolderEntity";
 import { defaultExternalFoldersCollectionDto } from "./externalFoldersCollection.test.data";
@@ -18,7 +18,7 @@ import { v4 as uuid } from "uuid";
 import FolderEntity from "../folderEntity";
 import FoldersCollection from "../foldersCollection";
 import { defaultExternalFolderDto, minimalExternalFolderDto } from "./externalFolderEntity.test.data";
-import { defaultFolderDto } from "passbolt-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
+import { defaultFolderDto } from "haspr-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
 
 describe("ExternalFoldersCollection", () => {
   describe("::getSchema", () => {

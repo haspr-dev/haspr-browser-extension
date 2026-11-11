@@ -10,7 +10,7 @@
  * @license       https://opensource.org/licenses/AGPL-3.0 AGPL License
  * @link          https://www.passbolt.com Passbolt(tm)
  */
-import EntityV2 from "passbolt-styleguide/src/shared/models/entity/abstract/entityV2";
+import EntityV2 from "haspr-styleguide/src/shared/models/entity/abstract/entityV2";
 import NeededSecretsCollection from "../../secret/needed/neededSecretsCollection";
 import GroupUpdateSecretsCollection from "../../secret/groupUpdate/groupUpdateSecretsCollection";
 

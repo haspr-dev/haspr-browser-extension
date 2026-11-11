@@ -10,9 +10,9 @@
  * @license       https://opensource.org/licenses/AGPL-3.0 AGPL License
  * @link          https://www.passbolt.com Passbolt(tm)
  */
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import ImportResourcesFileEntity from "./importResourcesFileEntity";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 import {
   defaultImportResourceFileCSVDto,
   defaultImportResourceFileOptionsDto,
@@ -22,7 +22,7 @@ import FolderEntity from "../folder/folderEntity";
 import {
   defaultFolderDto,
   minimalFolderDto,
-} from "passbolt-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
 import TagEntity from "../tag/tagEntity";
 import { defaultTagDto } from "../tag/tagEntity.test.data";
 import ExternalResourcesCollection from "../resource/external/externalResourcesCollection";
@@ -32,7 +32,7 @@ import {
 } from "../resource/external/externalResourcesCollection.test.data";
 import ExternalFoldersCollection from "../folder/external/externalFoldersCollection";
 import { defaultExternalFoldersCollectionDto } from "../folder/external/externalFoldersCollection.test.data";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 import ImportError from "../../../error/importError";
 
 describe("ImportResourcesFileEntity entity", () => {

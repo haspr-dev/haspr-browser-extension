@@ -14,12 +14,12 @@
 
 import { enableFetchMocks } from "jest-fetch-mock";
 import { mockApiResponse, mockApiResponseError } from "../../../../../../test/mocks/mockApiResponse";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
-import PassboltServiceUnavailableError from "passbolt-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltServiceUnavailableError from "haspr-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
 import ExportPoliciesSettingsApiService from "./exportPoliciesSettingsApiService";
-import PassboltResponseEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
-import { defaultExportPoliciesSettingsDto } from "passbolt-styleguide/src/shared/models/entity/exportSettings/ExportPoliciesSettingsEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import PassboltResponseEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
+import { defaultExportPoliciesSettingsDto } from "haspr-styleguide/src/shared/models/entity/exportSettings/ExportPoliciesSettingsEntity.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 
 describe("ExportPoliciesSettingsApiService", () => {
   let apiClientOptions;

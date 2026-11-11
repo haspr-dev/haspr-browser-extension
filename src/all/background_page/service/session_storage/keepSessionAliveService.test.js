@@ -13,7 +13,7 @@
  */
 
 import MockExtension from "../../../../../test/mocks/mockExtension";
-import UserApiService from "passbolt-styleguide/src/shared/services/api/user/userApiService";
+import UserApiService from "haspr-styleguide/src/shared/services/api/user/userApiService";
 import KeepSessionAliveService from "./keepSessionAliveService";
 import PassphraseStorageService from "./passphraseStorageService";
 

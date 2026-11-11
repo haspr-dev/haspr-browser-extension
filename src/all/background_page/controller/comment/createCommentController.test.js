@@ -14,13 +14,13 @@
 
 import { enableFetchMocks } from "jest-fetch-mock";
 import MockExtension from "../../../../../test/mocks/mockExtension";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import { mockApiResponse } from "../../../../../test/mocks/mockApiResponse";
 import CreateCommentController from "./createCommentController";
 import { v4 as uuidv4 } from "uuid";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 import CommentService from "../../model/comment/commentService";
-import { defaultCommentDto } from "passbolt-styleguide/src/shared/models/entity/comment/commentEntity.test.data";
+import { defaultCommentDto } from "haspr-styleguide/src/shared/models/entity/comment/commentEntity.test.data";
 
 beforeEach(async () => {
   enableFetchMocks();

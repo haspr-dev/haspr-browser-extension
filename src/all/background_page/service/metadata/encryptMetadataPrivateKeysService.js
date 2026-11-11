@@ -12,10 +12,10 @@
  * @since         4.11.0
  */
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
-import MetadataPrivateKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity";
-import MetadataPrivateKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeysCollection";
+import MetadataPrivateKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity";
+import MetadataPrivateKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeysCollection";
 import { assertType } from "../../utils/assertions";
-import MetadataKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeyEntity";
+import MetadataKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeyEntity";
 import EncryptMessageService from "../crypto/encryptMessageService";
 import Keyring from "../../model/keyring";
 

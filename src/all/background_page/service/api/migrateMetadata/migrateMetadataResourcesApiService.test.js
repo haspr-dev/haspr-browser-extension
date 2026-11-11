@@ -17,12 +17,12 @@ import { mockApiResponseWithPagination } from "../../../../../../test/mocks/mock
 import AccountEntity from "../../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../../model/entity/account/accountEntity.test.data";
 import BuildApiClientOptionsService from "../../account/buildApiClientOptionsService";
-import { mockApiResponseError } from "passbolt-styleguide/test/mocks/mockApiResponse";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
-import PassboltServiceUnavailableError from "passbolt-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
-import { defaultResourceDtosCollection } from "passbolt-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
+import { mockApiResponseError } from "haspr-styleguide/test/mocks/mockApiResponse";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltServiceUnavailableError from "haspr-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
+import { defaultResourceDtosCollection } from "haspr-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
 import MigrateMetadataResourcesApiService from "./migrateMetadataResourcesApiService";
-import PassboltResponseEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
+import PassboltResponseEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
 import ResourcesCollection from "../../../model/entity/resource/resourcesCollection";
 
 describe("migrateMetadataResourcesApiService", () => {

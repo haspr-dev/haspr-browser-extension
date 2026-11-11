@@ -15,13 +15,13 @@
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import BuildApiClientOptionsService from "../account/buildApiClientOptionsService";
-import MetadataPrivateKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity";
+import MetadataPrivateKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity";
 import UpdateMetadataKeyPrivateService from "./updateMetadataKeyPrivateService";
 import { enableFetchMocks } from "jest-fetch-mock";
 import {
   decryptedMetadataPrivateKeyDto,
   defaultMetadataPrivateKeyDto,
-} from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity.test.data";
 import MetadataPrivateKeyApiService from "../api/metadata/metadataPrivateKeyApiService";
 
 describe("UpdateMetadataKeyPrivateService", () => {

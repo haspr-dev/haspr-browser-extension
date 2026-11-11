@@ -12,7 +12,7 @@
  * @since         4.2.0
  */
 import ResourceGridUserSettingLocalStorage from "../../service/local_storage/ressourceGridSettingLocalStorage";
-import GridUserSettingEntity from "passbolt-styleguide/src/shared/models/entity/gridUserSetting/gridUserSettingEntity";
+import GridUserSettingEntity from "haspr-styleguide/src/shared/models/entity/gridUserSetting/gridUserSettingEntity";
 
 class SetResourceGridUserSettingController {
   /**

@@ -11,11 +11,11 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.4.0
  */
-import UserApiService from "passbolt-styleguide/src/shared/services/api/user/userApiService";
+import UserApiService from "haspr-styleguide/src/shared/services/api/user/userApiService";
 import { assertType } from "../../utils/assertions";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 import DeleteDryRunError from "../../error/deleteDryRunError";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
 import UserDeleteTransferEntity from "../../model/entity/user/transfer/userDeleteTransferEntity";
 import UserLocalStorage from "../local_storage/userLocalStorage";
 

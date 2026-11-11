@@ -12,8 +12,8 @@
  * @since         4.10.0
  */
 import AccountEntity from "../../model/entity/account/accountEntity";
-import MetadataKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
-import MetadataPrivateKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity";
+import MetadataKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
+import MetadataPrivateKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity";
 
 export const METADATA_KEYS_SESSION_STORAGE_KEY = "metadata_keys";
 

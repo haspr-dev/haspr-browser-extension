@@ -1,5 +1,5 @@
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 import MfaPolicyEntity from "./mfaPolicyEntity";
 import { defaultMfaPolicy } from "./mfaPolicyEntity.data";
 

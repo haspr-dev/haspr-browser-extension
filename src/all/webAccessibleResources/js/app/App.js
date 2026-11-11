@@ -12,7 +12,7 @@
  * @since         3.0.0
  */
 import React from "react";
-import ExtApp from "passbolt-styleguide/src/react-extension/ExtApp";
+import ExtApp from "haspr-styleguide/src/react-extension/ExtApp";
 import Port from "../lib/port";
 import MessageService from "../../../contentScripts/js/service/messageService";
 import MessageEventHandler from "../../../contentScripts/js/message/messageEventHandler";

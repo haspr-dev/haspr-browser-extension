@@ -11,8 +11,8 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         3.9.0
  */
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import SsoLoginUrlEntity from "./ssoLoginUrlEntity";
 
 describe("Sso Login URL Entity", () => {

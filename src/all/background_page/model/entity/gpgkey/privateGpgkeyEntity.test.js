@@ -12,9 +12,9 @@
  * @since         3.6.0
  */
 import PrivateGpgkeyEntity from "./privateGpgkeyEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 
 const validDto = {
   armored_key: pgpKeys.ada.private,

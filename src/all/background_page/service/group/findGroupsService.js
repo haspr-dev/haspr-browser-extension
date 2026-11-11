@@ -12,9 +12,9 @@
  * @since         5.7.0
  */
 
-import GroupsCollection from "passbolt-styleguide/src/shared/models/entity/group/groupsCollection";
+import GroupsCollection from "haspr-styleguide/src/shared/models/entity/group/groupsCollection";
 import { assertBoolean, assertType } from "../../utils/assertions";
-import { assertArrayUUID } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertArrayUUID } from "haspr-styleguide/src/shared/utils/assertions";
 import GroupApiService from "../api/group/groupApiService";
 import User from "../../model/user";
 import ExecuteConcurrentlyService from "../execute/executeConcurrentlyService";

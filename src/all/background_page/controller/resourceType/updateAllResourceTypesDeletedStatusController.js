@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.12.0
  */
-import ResourceTypesCollection from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
+import ResourceTypesCollection from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
 import UpdateResourceTypesService from "../../service/resourceType/updateResourceTypesService";
 
 export default class UpdateAllResourceTypesDeletedStatusController {

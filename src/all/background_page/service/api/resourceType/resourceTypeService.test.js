@@ -18,10 +18,10 @@ import {
   resourceTypesCollectionDto,
   resourceTypesV4CollectionDto,
   resourceTypesV5CollectionDto,
-} from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
+} from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
 import ResourceTypeService from "./resourceTypeService";
-import ResourceTypesCollection from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import ResourceTypesCollection from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import { v4 as uuidv4 } from "uuid";
 
 describe("ResourceType service", () => {

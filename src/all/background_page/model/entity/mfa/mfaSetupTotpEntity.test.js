@@ -12,8 +12,8 @@
  * @since         4.4.0
  */
 
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 import { defaultVerifyProviderData } from "./mfaVerifyProviderEntity.test.data";
 import MfaSetupTotpEntity from "./mfaSetupTotpEntity";
 import { defaultSetupTotpData } from "./mfaSetupTotpEntity.test.data";

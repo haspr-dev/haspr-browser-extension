@@ -13,8 +13,8 @@
  */
 import PermissionChangesCollection from "../../model/entity/permission/change/permissionChangesCollection";
 import PermissionChangeEntity from "../../model/entity/permission/change/permissionChangeEntity";
-import PermissionEntity from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity";
-import PermissionsCollection from "passbolt-styleguide/src/shared/models/entity/permission/permissionsCollection";
+import PermissionEntity from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity";
+import PermissionsCollection from "haspr-styleguide/src/shared/models/entity/permission/permissionsCollection";
 
 /**
  * Calculates the permission changes a move or a share applies.

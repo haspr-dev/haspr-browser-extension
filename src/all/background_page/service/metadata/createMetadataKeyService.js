@@ -12,7 +12,7 @@
  * @since         4.11.0
  */
 import MetadataKeysApiService from "../api/metadata/metadataKeysApiService";
-import MetadataKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeyEntity";
+import MetadataKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeyEntity";
 import GetGpgKeyInfoService from "../crypto/getGpgKeyInfoService";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import { assertString, assertType } from "../../utils/assertions";
@@ -20,7 +20,7 @@ import FindUsersService from "../user/findUsersService";
 import EncryptMetadataPrivateKeysService from "./encryptMetadataPrivateKeysService";
 import GetOrFindMetadataSettingsService from "./getOrFindMetadataSettingsService";
 import DecryptPrivateKeyService from "../crypto/decryptPrivateKeyService";
-import ExternalGpgKeyPairEntity from "passbolt-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
+import ExternalGpgKeyPairEntity from "haspr-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
 import Keyring from "../../model/keyring";
 import MetadataKeysSessionStorage from "../session_storage/metadataKeysSessionStorage";
 

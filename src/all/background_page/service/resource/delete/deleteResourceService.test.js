@@ -12,10 +12,10 @@
  * @since         5.4.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AccountEntity from "../../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../../model/entity/account/accountEntity.test.data";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
 import DeleteResourceService from "./deleteResourceService";
 import ResourceLocalStorage from "../../local_storage/resourceLocalStorage";
 import ProgressService from "../../progress/progressService";

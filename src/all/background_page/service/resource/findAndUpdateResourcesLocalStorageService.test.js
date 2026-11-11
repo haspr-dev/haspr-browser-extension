@@ -13,44 +13,44 @@
  */
 
 import ResourceService from "../api/resource/resourceService";
-import { ApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions";
+import { ApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions";
 import FindAndUpdateResourcesLocalStorage from "./findAndUpdateResourcesLocalStorageService";
 import ResourcesCollection from "../../model/entity/resource/resourcesCollection";
 import ResourceLocalStorage from "../local_storage/resourceLocalStorage";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import { multipleResourceDtos, singleResourceDtos } from "./findAndUpdateResourcesLocalStorageService.test.data";
-import { resourceTypesCollectionDto } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
+import { resourceTypesCollectionDto } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
 import ResourceTypeService from "../api/resourceType/resourceTypeService";
 import FindResourcesService from "./findResourcesService";
 import {
   defaultResourceDto,
   resourceLegacyDto,
-} from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
 import ResourceEntity from "../../model/entity/resource/resourceEntity";
 import {
   multipleResourceIncludingUnsupportedResourceTypesDtos,
   multipleResourceWithMetadataEncrypted,
 } from "./findResourcesService.test.data";
-import { metadata } from "passbolt-styleguide/test/fixture/encryptedMetadata/metadata";
+import { metadata } from "haspr-styleguide/test/fixture/encryptedMetadata/metadata";
 import DecryptMessageService from "../crypto/decryptMessageService";
-import { defaultDecryptedSharedMetadataKeysDtos } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection.test.data";
-import MetadataKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
+import { defaultDecryptedSharedMetadataKeysDtos } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection.test.data";
+import MetadataKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
 import PassphraseStorageService from "../session_storage/passphraseStorageService";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import GetDecryptedUserPrivateKeyService from "../account/getDecryptedUserPrivateKeyService";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import { v4 as uuidv4 } from "uuid";
 import OfflineResourcesOPFSStorage from "../opfsStorage/offlineResourcesOPFSStorage";
 import OfflineSecretsOPFSStorage from "../opfsStorage/offlineSecretsOPFSStorage";
 import CanUseOfflineStorageService from "../offline/canUseOfflineStorageService";
-import { readSecret as readSecretDto } from "passbolt-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
-import { mockPassboltResponse } from "passbolt-styleguide/test/mocks/mockApiResponse";
-import UserActiveSessionEntity from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
-import { defaultUserActiveSessionDto } from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
+import { readSecret as readSecretDto } from "haspr-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
+import { mockPassboltResponse } from "haspr-styleguide/test/mocks/mockApiResponse";
+import UserActiveSessionEntity from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
+import { defaultUserActiveSessionDto } from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
 import GetOrFindActiveSessionService from "../activeSession/getOrFindActiveSessionService";
-import { defaultOfflineItemDto } from "passbolt-styleguide/src/shared/models/entity/offline/offlineItemEntity.test.data";
-import SecretsCollection from "passbolt-styleguide/src/shared/models/entity/secret/secretsCollection";
+import { defaultOfflineItemDto } from "haspr-styleguide/src/shared/models/entity/offline/offlineItemEntity.test.data";
+import SecretsCollection from "haspr-styleguide/src/shared/models/entity/secret/secretsCollection";
 
 jest.useFakeTimers();
 

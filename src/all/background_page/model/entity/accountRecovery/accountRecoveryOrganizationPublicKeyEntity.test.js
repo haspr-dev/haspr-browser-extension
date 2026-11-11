@@ -12,7 +12,7 @@
  * @since         3.6.0
  */
 
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import AccountRecoveryOrganizationPublicKeyEntity from "./accountRecoveryOrganizationPublicKeyEntity";
 import {
   alternativeAccountRecoveryOrganizationPublicKeyDto,
@@ -22,7 +22,7 @@ import {
   defaultAccountRecoveryOrganizationPublicKeyDto,
   revokedAccountRecoveryOrganizationPublicKeyDto,
 } from "./accountRecoveryOrganizationPublicKeyEntity.test.data";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 
 describe("AccountRecoveryOrganizationPublicKey entity", () => {
   describe("AccountRecoveryOrganizationPublicKeyEntity::getSchema", () => {

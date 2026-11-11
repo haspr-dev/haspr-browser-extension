@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         2.13.0
  */
-import UserEntity from "passbolt-styleguide/src/shared/models/entity/user/userEntity";
+import UserEntity from "haspr-styleguide/src/shared/models/entity/user/userEntity";
 import AppEmailValidatorService from "../../../service/validator/appEmailValidatorService";
 
 /**

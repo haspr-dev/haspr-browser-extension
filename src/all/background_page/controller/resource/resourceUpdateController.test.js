@@ -12,23 +12,23 @@
  * @since         4.9.4
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import ResourceUpdateController from "./resourceUpdateController";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import {
   defaultResourceDto,
   defaultResourceV4Dto,
-} from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+} from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import { enableFetchMocks } from "jest-fetch-mock";
 import { mockApiResponse } from "../../../../../test/mocks/mockApiResponse";
 import EncryptMessageService from "../../service/crypto/encryptMessageService";
 import ResourceTypeService from "../../service/api/resourceType/resourceTypeService";
-import { resourceTypesCollectionDto } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
+import { resourceTypesCollectionDto } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
 import PermissionService from "../../service/api/permission/permissionService";
-import { anonymousSiteSettings } from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import { anonymousSiteSettings } from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
 import GetOrFindSiteSettingsService from "../../service/siteSettings/getOrFindSiteSettingsService";
 
 jest.mock("../../service/passphrase/getPassphraseService");

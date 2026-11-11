@@ -14,9 +14,9 @@
 
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultOfflineSettingsDto } from "passbolt-styleguide/src/shared/models/entity/offline/offlineSettingsEntity.test.data";
+import { defaultOfflineSettingsDto } from "haspr-styleguide/src/shared/models/entity/offline/offlineSettingsEntity.test.data";
 import OfflineSettingsLocalStorage, { OFFLINE_SETTINGS } from "./offlineSettingsLocalStorage";
-import OfflineSettingsEntity from "passbolt-styleguide/src/shared/models/entity/offline/offlineSettingsEntity";
+import OfflineSettingsEntity from "haspr-styleguide/src/shared/models/entity/offline/offlineSettingsEntity";
 
 beforeEach(() => {
   jest.clearAllMocks();

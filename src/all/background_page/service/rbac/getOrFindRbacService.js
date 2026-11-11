@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.8.0
  */
-import RbacsCollection from "passbolt-styleguide/src/shared/models/entity/rbac/rbacsCollection";
+import RbacsCollection from "haspr-styleguide/src/shared/models/entity/rbac/rbacsCollection";
 import RbacsLocalStorage from "../../service/local_storage/rbacLocalStorage";
 import FindAndUpdateRbacLocalStorageService from "./findAndUpdateRbacsLocalStorageService";
 import GetOrFindActiveSessionService from "../activeSession/getOrFindActiveSessionService";

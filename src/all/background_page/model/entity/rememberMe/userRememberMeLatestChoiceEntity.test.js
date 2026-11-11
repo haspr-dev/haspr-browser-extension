@@ -11,10 +11,10 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.2.0
  */
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import UserRememberMeLatestChoiceEntity from "./userRememberMeLatestChoiceEntity";
 import { defaultRememberMeLatestChoiceDto } from "./userRememberMeLatestChoiceEntity.test.data";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 
 describe("UserRememberMeLatestChoiceEntity", () => {
   it("schema must validate", () => {

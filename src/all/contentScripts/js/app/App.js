@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  */
 import React from "react";
-import ExtBootstrapApp from "passbolt-styleguide/src/react-extension/ExtBootstrapApp";
+import ExtBootstrapApp from "haspr-styleguide/src/react-extension/ExtBootstrapApp";
 import Port from "../../../webAccessibleResources/js/lib/port";
 import MessageService from "../service/messageService";
 import MessageEventHandler from "../message/messageEventHandler";

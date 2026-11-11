@@ -11,13 +11,13 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.5.0
  */
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import ExternalTotpEntity from "./externalTotpEntity";
 import { defaultTotpDto } from "./totpDto.test.data";
 import ExternalResourceEntity from "../resource/external/externalResourceEntity";
 import { lowerCaseAlgorithmSetupTotpData } from "../mfa/mfaSetupTotpEntity.test.data";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 import { defaultExternalResourceDto } from "../resource/external/externalResourceEntity.test.data";
 
 describe("Totp entity", () => {

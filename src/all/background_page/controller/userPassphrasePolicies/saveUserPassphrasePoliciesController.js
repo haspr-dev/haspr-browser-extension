@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.3.0
  */
-import UserPassphrasePoliciesEntity from "passbolt-styleguide/src/shared/models/entity/userPassphrasePolicies/userPassphrasePoliciesEntity";
+import UserPassphrasePoliciesEntity from "haspr-styleguide/src/shared/models/entity/userPassphrasePolicies/userPassphrasePoliciesEntity";
 import UserPassphrasePoliciesModel from "../../model/userPassphrasePolicies/userPassphrasePoliciesModel";
 
 class SaveUserPassphrasePoliciesController {

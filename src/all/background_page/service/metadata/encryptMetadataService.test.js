@@ -12,36 +12,36 @@
  * @since         4.10.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import DecryptMetadataService from "./decryptMetadataService";
-import MetadataKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
+import MetadataKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
 import {
   defaultDecryptedSharedMetadataKeysDtos,
   defaultMinimalMetadataKeysDtos,
-} from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection.test.data";
+} from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection.test.data";
 import PassphraseStorageService from "../session_storage/passphraseStorageService";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
-import { defaultResourceMetadataDto } from "passbolt-styleguide/src/shared/models/entity/resource/metadata/resourceMetadataEntity.test.data";
-import UserPassphraseRequiredError from "passbolt-styleguide/src/shared/error/userPassphraseRequiredError";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { defaultResourceMetadataDto } from "haspr-styleguide/src/shared/models/entity/resource/metadata/resourceMetadataEntity.test.data";
+import UserPassphraseRequiredError from "haspr-styleguide/src/shared/error/userPassphraseRequiredError";
 import ResourceEntity, {
   METADATA_KEY_TYPE_METADATA_KEY,
   METADATA_KEY_TYPE_USER_KEY,
 } from "../../model/entity/resource/resourceEntity";
 import EncryptMetadataService from "./encryptMetadataService";
-import { TEST_RESOURCE_TYPE_V5_DEFAULT } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
+import { TEST_RESOURCE_TYPE_V5_DEFAULT } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
 import GetDecryptedUserPrivateKeyService from "../account/getDecryptedUserPrivateKeyService";
 import DecryptPrivateKeyService from "../crypto/decryptPrivateKeyService";
-import { defaultMetadataKeysSettingsDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity.test.data";
+import { defaultMetadataKeysSettingsDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity.test.data";
 import ResourcesCollection from "../../model/entity/resource/resourcesCollection";
-import ResourceTypesCollection from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
-import { resourceTypesCollectionDto } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
+import ResourceTypesCollection from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
+import { resourceTypesCollectionDto } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import Keyring from "../../model/keyring";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
-import CollectionValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/collectionValidationError";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import CollectionValidationError from "haspr-styleguide/src/shared/models/entity/abstract/collectionValidationError";
 
 beforeEach(() => {
   jest.clearAllMocks();

@@ -14,18 +14,18 @@
 
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import GetOrFindMetadataSettingsService from "./getOrFindMetadataSettingsService";
 import {
   defaultMetadataTypesSettingsV4Dto,
   defaultMetadataTypesSettingsV50FreshDto,
-} from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity.test.data";
-import { defaultCeSiteSettings } from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
-import MetadataTypesSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
-import { defaultMetadataKeysSettingsDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity.test.data";
-import MetadataKeysSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity";
+} from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity.test.data";
+import { defaultCeSiteSettings } from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import MetadataTypesSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
+import { defaultMetadataKeysSettingsDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity.test.data";
+import MetadataKeysSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity";
 import GetOrFindSiteSettingsService from "../siteSettings/getOrFindSiteSettingsService";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
 
 beforeEach(() => {
   jest.clearAllMocks();

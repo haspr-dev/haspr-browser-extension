@@ -11,8 +11,8 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.8.0
  */
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 import ExportResourcesFileEntity from "./exportResourcesFileEntity";
 import {
   defaultEmptyOptions,
@@ -21,7 +21,7 @@ import {
   defaultPasswordCredentialOptions,
   kdbxWithKeyExportResourceFileDto,
 } from "./exportResourcesFileEntity.test.data";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 import ExternalResourcesCollection from "../resource/external/externalResourcesCollection";
 import ExternalFoldersCollection from "../folder/external/externalFoldersCollection";
 import { defaultExternalResourceCollectionDto } from "../resource/external/externalResourcesCollection.test.data";

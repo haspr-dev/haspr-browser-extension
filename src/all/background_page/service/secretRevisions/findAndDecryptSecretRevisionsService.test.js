@@ -13,14 +13,14 @@
  */
 
 import MockExtension from "../../../../../test/mocks/mockExtension";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import ResourceSecretRevisionsCollection from "passbolt-styleguide/src/shared/models/entity/secretRevision/resourceSecretRevisionsCollection";
-import ResourceTypesCollection from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
-import { resourceTypesCollectionDto } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
-import { defaultResourceSecretRevisionsDtos } from "passbolt-styleguide/src/shared/models/entity/secretRevision/resourceSecretRevisionsCollection.test.data";
-import { minimalDto } from "passbolt-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
-import { defaultSecretDataV5DefaultTotpEntityDto } from "passbolt-styleguide/src/shared/models/entity/secretData/secretDataV5DefaultTotpEntity.test.data";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import ResourceSecretRevisionsCollection from "haspr-styleguide/src/shared/models/entity/secretRevision/resourceSecretRevisionsCollection";
+import ResourceTypesCollection from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
+import { resourceTypesCollectionDto } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
+import { defaultResourceSecretRevisionsDtos } from "haspr-styleguide/src/shared/models/entity/secretRevision/resourceSecretRevisionsCollection.test.data";
+import { minimalDto } from "haspr-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
+import { defaultSecretDataV5DefaultTotpEntityDto } from "haspr-styleguide/src/shared/models/entity/secretData/secretDataV5DefaultTotpEntity.test.data";
 import FindAndDecryptSecretRevisionsService from "./findAndDecryptSecretRevisionsService";
 import { v4 as uuidv4 } from "uuid";
 import DecryptMessageService from "../crypto/decryptMessageService";

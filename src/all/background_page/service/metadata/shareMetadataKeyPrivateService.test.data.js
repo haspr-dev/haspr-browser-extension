@@ -11,11 +11,11 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.1.1
  */
-import { defaultUserDto } from "passbolt-styleguide/src/shared/models/entity/user/userEntity.test.data";
+import { defaultUserDto } from "haspr-styleguide/src/shared/models/entity/user/userEntity.test.data";
 import { v4 as uuidv4 } from "uuid";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import { decryptedMetadataPrivateKeyDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity.test.data";
-import { defaultMetadataKeyDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeyEntity.test.data";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import { decryptedMetadataPrivateKeyDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity.test.data";
+import { defaultMetadataKeyDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeyEntity.test.data";
 
 export const usersWithMissingMetadataKeysDto = (data = {}) => {
   const user1 = defaultUserDto({

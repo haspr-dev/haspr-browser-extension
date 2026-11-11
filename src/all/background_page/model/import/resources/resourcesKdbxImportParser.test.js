@@ -17,23 +17,23 @@ import fs from "fs";
 import * as kdbxweb from "kdbxweb";
 import ResourcesKdbxImportParser from "./resourcesKdbxImportParser";
 import ImportResourcesFileEntity from "../../entity/import/importResourcesFileEntity";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 import ImportError from "../../../error/importError";
-import ResourceTypesCollection from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
-import { resourceTypesCollectionDto } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
+import ResourceTypesCollection from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
+import { resourceTypesCollectionDto } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
 import {
   TEST_RESOURCE_TYPE_PASSWORD_AND_DESCRIPTION,
   TEST_RESOURCE_TYPE_PASSWORD_DESCRIPTION_TOTP,
-} from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
 import { defaultTotpDto } from "../../entity/totp/totpDto.test.data";
-import MetadataTypesSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
+import MetadataTypesSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
 import {
   defaultMetadataTypesSettingsV4Dto,
   defaultMetadataTypesSettingsV6Dto,
-} from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity.test.data";
 import IconEntity, {
   ICON_TYPE_KEEPASS_ICON_SET,
-} from "passbolt-styleguide/src/shared/models/entity/resource/metadata/IconEntity";
+} from "haspr-styleguide/src/shared/models/entity/resource/metadata/IconEntity";
 
 describe("ResourcesKdbxImportParser", () => {
   let resourceTypesCollection, metadataTypesSettings;

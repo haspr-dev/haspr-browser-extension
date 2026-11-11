@@ -13,8 +13,8 @@
  */
 import GroupUserTransfersCollection from "../../groupUser/transfer/groupUserTransfersCollection";
 import PermissionTransfersCollection from "../../permission/transfer/permissionTransfersCollection";
-import EntityV2 from "passbolt-styleguide/src/shared/models/entity/abstract/entityV2";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntityV2 from "haspr-styleguide/src/shared/models/entity/abstract/entityV2";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 
 class UserDeleteTransferEntity extends EntityV2 {
   /**

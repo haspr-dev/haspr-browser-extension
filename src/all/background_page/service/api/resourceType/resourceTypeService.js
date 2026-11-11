@@ -11,9 +11,9 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  */
 import AbstractService from "../abstract/abstractService";
-import PassboltResponseEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
-import ResourceTypesCollection from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import PassboltResponseEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
+import ResourceTypesCollection from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 
 const RESOURCE_TYPES_SERVICE_RESOURCE_NAME = "resource-types";
 

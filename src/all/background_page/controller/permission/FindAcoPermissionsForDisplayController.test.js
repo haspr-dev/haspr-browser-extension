@@ -14,13 +14,13 @@
 
 import { v4 as uuidv4 } from "uuid";
 import FindAcoPermissionsForDisplayController from "./FindAcoPermissionsForDisplayController";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import PermissionEntity from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity";
-import { defaultFolderDto } from "passbolt-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
-import { defaultPermissionsDtos } from "passbolt-styleguide/src/shared/models/entity/permission/permissionCollection.test.data";
-import PermissionsCollection from "passbolt-styleguide/src/shared/models/entity/permission/permissionsCollection";
+import PermissionEntity from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity";
+import { defaultFolderDto } from "haspr-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
+import { defaultPermissionsDtos } from "haspr-styleguide/src/shared/models/entity/permission/permissionCollection.test.data";
+import PermissionsCollection from "haspr-styleguide/src/shared/models/entity/permission/permissionsCollection";
 import FolderApiService from "../../service/api/folder/folderApiService";
 
 describe("FindAcoPermissionsForDisplayController", () => {

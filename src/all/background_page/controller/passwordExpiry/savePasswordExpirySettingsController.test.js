@@ -17,19 +17,19 @@ import AccountEntity from "../../model/entity/account/accountEntity";
 import BuildApiClientOptionsService from "../../service/account/buildApiClientOptionsService";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import { mockApiResponse, mockApiResponseError } from "../../../../../test/mocks/mockApiResponse";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
-import PassboltServiceUnavailableError from "passbolt-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltServiceUnavailableError from "haspr-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
 import SavePasswordExpirySettingsController from "./savePasswordExpirySettingsController";
-import PasswordExpirySettingsEntity from "passbolt-styleguide/src/shared/models/entity/passwordExpiry/passwordExpirySettingsEntity";
+import PasswordExpirySettingsEntity from "haspr-styleguide/src/shared/models/entity/passwordExpiry/passwordExpirySettingsEntity";
 import {
   defaultPasswordExpiryProSettingsDto,
   defaultPasswordExpirySettingsDto,
   defaultPasswordExpirySettingsDtoFromApi,
-} from "passbolt-styleguide/src/shared/models/entity/passwordExpiry/passwordExpirySettingsEntity.test.data";
-import PasswordExpiryProSettingsEntity from "passbolt-styleguide/src/shared/models/entity/passwordExpiryPro/passwordExpiryProSettingsEntity";
-import { defaultCeSiteSettings } from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/passwordExpiry/passwordExpirySettingsEntity.test.data";
+import PasswordExpiryProSettingsEntity from "haspr-styleguide/src/shared/models/entity/passwordExpiryPro/passwordExpiryProSettingsEntity";
+import { defaultCeSiteSettings } from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
 import GetOrFindSiteSettingsService from "../../service/siteSettings/getOrFindSiteSettingsService";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
 
 describe("SavePasswordExpirySettingsController", () => {
   let account, apiClientOptions;

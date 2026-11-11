@@ -13,10 +13,10 @@
  */
 import { enableFetchMocks } from "jest-fetch-mock";
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import CollectionValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/collectionValidationError";
-import { defaultResourcesDtos } from "passbolt-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
-import { defaultPassboltResponseEntity } from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import CollectionValidationError from "haspr-styleguide/src/shared/models/entity/abstract/collectionValidationError";
+import { defaultResourcesDtos } from "haspr-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
+import { defaultPassboltResponseEntity } from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity.test.data";
 
 import DeleteTagService from "./deleteTagService";
 import TagEntity from "../../model/entity/tag/tagEntity";

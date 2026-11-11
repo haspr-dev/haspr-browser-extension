@@ -12,8 +12,8 @@
  * @since         5.13.0
  */
 import CalculatePermissionsChangesService from "./calculatePermissionsChangesService";
-import PermissionEntity from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity";
-import PermissionsCollection from "passbolt-styleguide/src/shared/models/entity/permission/permissionsCollection";
+import PermissionEntity from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity";
+import PermissionsCollection from "haspr-styleguide/src/shared/models/entity/permission/permissionsCollection";
 import {
   ownerFolderPermissionDto,
   ownerPermissionDto,
@@ -21,7 +21,7 @@ import {
   readPermissionDto,
   updateFolderPermissionDto,
   updatePermissionDto,
-} from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
 import { v4 as uuidv4 } from "uuid";
 import PermissionChangesCollection from "../../model/entity/permission/change/permissionChangesCollection";
 import {

@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.7.0
  */
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import ThemeEntity from "./themeEntity";
 import ThemesCollection from "./themesCollection";
 import { defaultThemeDto, midgarThemeDto } from "./themeEntity.test.data";

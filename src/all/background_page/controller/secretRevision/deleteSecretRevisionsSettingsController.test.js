@@ -12,7 +12,7 @@
  * @since         5.7.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import DeleteSecretRevisionsSettingsController from "./deleteSecretRevisionsSettingsController";
 import { v4 as uuidv4 } from "uuid";
 

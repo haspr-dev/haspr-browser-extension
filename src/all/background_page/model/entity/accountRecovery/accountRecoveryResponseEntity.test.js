@@ -12,11 +12,11 @@
  * @since         3.6.0
  */
 
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 import AccountRecoveryResponseEntity from "./accountRecoveryResponseEntity";
-import { AccountRecoveryRequestEntityTestData } from "passbolt-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryResponseEntity.test.data";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { AccountRecoveryRequestEntityTestData } from "haspr-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryResponseEntity.test.data";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 
 describe("AccountRecoveryResponse entity", () => {
   it("schema must validate", () => {

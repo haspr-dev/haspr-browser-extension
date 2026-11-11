@@ -12,7 +12,7 @@
  * @since         5.10.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import GetStartedWithDuoController from "./GetStartedWithDuoController";
 
 describe("GetStartedWithDuoController", () => {

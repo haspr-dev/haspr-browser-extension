@@ -12,7 +12,7 @@
  * @since         3.11.0
  */
 
-import EntityV2 from "passbolt-styleguide/src/shared/models/entity/abstract/entityV2";
+import EntityV2 from "haspr-styleguide/src/shared/models/entity/abstract/entityV2";
 
 class MfaPolicyEntity extends EntityV2 {
   /**

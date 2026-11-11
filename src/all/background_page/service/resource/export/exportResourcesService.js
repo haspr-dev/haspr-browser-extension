@@ -12,7 +12,7 @@
  * @since         4.10.1
  */
 
-import CustomFieldEntity from "passbolt-styleguide/src/shared/models/entity/customField/customFieldEntity";
+import CustomFieldEntity from "haspr-styleguide/src/shared/models/entity/customField/customFieldEntity";
 import ExternalFoldersCollection from "../../../model/entity/folder/external/externalFoldersCollection";
 import ExternalResourcesCollection from "../../../model/entity/resource/external/externalResourcesCollection";
 import ExternalTotpEntity from "../../../model/entity/totp/externalTotpEntity";
@@ -23,7 +23,7 @@ import DecryptPrivateKeyService from "../../crypto/decryptPrivateKeyService";
 import DecryptMetadataService from "../../metadata/decryptMetadataService";
 import DecryptAndParseResourceSecretService from "../../secret/decryptAndParseResourceSecretService";
 import FindResourcesService from "../findResourcesService";
-import CustomFieldsCollection from "passbolt-styleguide/src/shared/models/entity/customField/customFieldsCollection";
+import CustomFieldsCollection from "haspr-styleguide/src/shared/models/entity/customField/customFieldsCollection";
 import GetOrFindResourceTypesService from "../../resourceType/getOrFindResourceTypesService";
 
 /**

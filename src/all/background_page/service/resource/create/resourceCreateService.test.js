@@ -12,7 +12,7 @@
  * @since         4.10.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AccountEntity from "../../../model/entity/account/accountEntity";
 import ResourceCreateService from "./resourceCreateService";
 import { defaultAccountDto } from "../../../model/entity/account/accountEntity.test.data";
@@ -21,8 +21,8 @@ import {
   resourceLegacyDto,
   resourceStandaloneTotpDto,
   resourceWithTotpDto,
-} from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+} from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import { v4 as uuidv4 } from "uuid";
 import ResourceEntity from "../../../model/entity/resource/resourceEntity";
 import ResourceLocalStorage from "../../local_storage/resourceLocalStorage";
@@ -32,29 +32,29 @@ import ResourceService from "../../api/resource/resourceService";
 import DecryptMessageService from "../../crypto/decryptMessageService";
 import { OpenpgpAssertion } from "../../../utils/openpgp/openpgpAssertions";
 import ResourceTypeService from "../../api/resourceType/resourceTypeService";
-import { resourceTypesCollectionDto } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
+import { resourceTypesCollectionDto } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
 import {
   TEST_RESOURCE_TYPE_V5_DEFAULT,
   TEST_RESOURCE_TYPE_V5_DEFAULT_TOTP,
   TEST_RESOURCE_TYPE_V5_TOTP,
-} from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
 import {
   plaintextSecretPasswordAndDescriptionDto,
   plaintextSecretPasswordDescriptionTotpDto,
   plaintextSecretPasswordStringDto,
   plaintextSecretTotpDto,
-} from "passbolt-styleguide/src/shared/models/entity/plaintextSecret/plaintextSecretEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/plaintextSecret/plaintextSecretEntity.test.data";
 import FindFoldersService from "../../folder/findFoldersService";
 import ShareApiService from "../../api/share/shareApiService";
 import ResourceSecretsCollection from "../../../model/entity/secret/resource/resourceSecretsCollection";
 import DecryptMetadataService from "../../metadata/decryptMetadataService";
 import GetDecryptedUserPrivateKeyService from "../../account/getDecryptedUserPrivateKeyService";
-import { defaultMetadataKeysSettingsDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity.test.data";
-import { mockPassboltResponse } from "passbolt-styleguide/test/mocks/mockApiResponse";
+import { defaultMetadataKeysSettingsDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity.test.data";
+import { mockPassboltResponse } from "haspr-styleguide/test/mocks/mockApiResponse";
 import CanUseOfflineStorageService from "../../offline/canUseOfflineStorageService";
 import GetOrFindActiveSessionService from "../../activeSession/getOrFindActiveSessionService";
-import UserActiveSessionEntity from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
-import { defaultUserActiveSessionDto } from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
+import UserActiveSessionEntity from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
+import { defaultUserActiveSessionDto } from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
 
 jest.mock("../../../service/progress/progressService");
 

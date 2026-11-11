@@ -11,11 +11,11 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  */
 import AccountRecoveryOrganizationPolicyEntity from "../entity/accountRecovery/accountRecoveryOrganizationPolicyEntity";
-import UserApiService from "passbolt-styleguide/src/shared/services/api/user/userApiService";
+import UserApiService from "haspr-styleguide/src/shared/services/api/user/userApiService";
 import SetupService from "../../service/api/setup/setupService";
 import UserEntity from "../entity/user/userEntity";
 import Validator from "validator";
-import UserPassphrasePoliciesEntity from "passbolt-styleguide/src/shared/models/entity/userPassphrasePolicies/userPassphrasePoliciesEntity";
+import UserPassphrasePoliciesEntity from "haspr-styleguide/src/shared/models/entity/userPassphrasePolicies/userPassphrasePoliciesEntity";
 
 class SetupModel {
   /**

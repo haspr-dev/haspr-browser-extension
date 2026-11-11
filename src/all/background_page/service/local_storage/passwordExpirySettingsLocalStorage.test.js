@@ -15,8 +15,8 @@ import GetLegacyAccountService from "../account/getLegacyAccountService";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import PasswordExpirySettingsLocalStorage from "./passwordExpirySettingsLocalStorage";
-import { defaultPasswordExpirySettingsDtoFromApi } from "passbolt-styleguide/src/shared/models/entity/passwordExpiry/passwordExpirySettingsEntity.test.data";
-import PasswordExpirySettingsEntity from "passbolt-styleguide/src/shared/models/entity/passwordExpiry/passwordExpirySettingsEntity";
+import { defaultPasswordExpirySettingsDtoFromApi } from "haspr-styleguide/src/shared/models/entity/passwordExpiry/passwordExpirySettingsEntity.test.data";
+import PasswordExpirySettingsEntity from "haspr-styleguide/src/shared/models/entity/passwordExpiry/passwordExpirySettingsEntity";
 
 describe("PasswordExpirySettingsLocalStorage", () => {
   // mock data

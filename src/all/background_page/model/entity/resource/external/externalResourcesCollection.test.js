@@ -10,7 +10,7 @@
  * @license       https://opensource.org/licenses/AGPL-3.0 AGPL License
  * @link          https://www.passbolt.com Passbolt(tm)
  */
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import ExternalResourcesCollection from "./externalResourcesCollection";
 import {
   buildDefineNumberOfExternalResourcesCollectionDto,
@@ -20,10 +20,10 @@ import {
 import ResourcesCollection from "../resourcesCollection";
 import ExternalResourceEntity from "./externalResourceEntity";
 import { v4 as uuid } from "uuid";
-import CollectionValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/collectionValidationError";
+import CollectionValidationError from "haspr-styleguide/src/shared/models/entity/abstract/collectionValidationError";
 import ExternalFoldersCollection from "../../folder/external/externalFoldersCollection";
 import { defaultExternalFoldersCollectionDto } from "../../folder/external/externalFoldersCollection.test.data";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
 import { defaultResourcesSecretsDtos } from "../../secret/resource/resourceSecretsCollection.test.data";
 import ExternalFolderEntity from "../../folder/external/externalFolderEntity";
 

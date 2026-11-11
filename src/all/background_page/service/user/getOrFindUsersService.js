@@ -11,10 +11,10 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.13.0
  */
-import UsersCollection from "passbolt-styleguide/src/shared/models/entity/user/usersCollection";
+import UsersCollection from "haspr-styleguide/src/shared/models/entity/user/usersCollection";
 import UserLocalStorage from "../local_storage/userLocalStorage";
 import FindAndUpdateUsersLocalStorageService from "./findAndUpdateUsersLocalStorageService";
-import { assertArrayUUID } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertArrayUUID } from "haspr-styleguide/src/shared/utils/assertions";
 
 /**
  * The service aims to get users from the local storage if it is set, or retrieve them from the API and

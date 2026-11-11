@@ -13,15 +13,15 @@
  */
 
 import { v4 as uuidv4 } from "uuid";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
-import { resourceTypesCollectionDto } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
-import { defaultDecryptedSharedMetadataKeysDtos } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection.test.data";
-import MetadataKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
-import ResourceTypesCollection from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
-import UserPassphraseRequiredError from "passbolt-styleguide/src/shared/error/userPassphraseRequiredError";
-import { metadata } from "passbolt-styleguide/test/fixture/encryptedMetadata/metadata";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { resourceTypesCollectionDto } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
+import { defaultDecryptedSharedMetadataKeysDtos } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection.test.data";
+import MetadataKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
+import ResourceTypesCollection from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
+import UserPassphraseRequiredError from "haspr-styleguide/src/shared/error/userPassphraseRequiredError";
+import { metadata } from "haspr-styleguide/test/fixture/encryptedMetadata/metadata";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import ResourcesCollection from "../../model/entity/resource/resourcesCollection";

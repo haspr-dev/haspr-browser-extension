@@ -12,8 +12,8 @@
  * @since         3.6.0
  */
 import AccountRecoveryRequestsCollection from "./accountRecoveryRequestsCollection";
-import EntityCollectionError from "passbolt-styleguide/src/shared/models/entity/abstract/entityCollectionError";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityCollectionError from "haspr-styleguide/src/shared/models/entity/abstract/entityCollectionError";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 
 describe("AccountRecoveryRequest Collection", () => {
   it("schema must validate", () => {

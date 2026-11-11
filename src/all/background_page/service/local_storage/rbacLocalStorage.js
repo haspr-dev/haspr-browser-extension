@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.1.0
  */
-import RbacsCollection from "passbolt-styleguide/src/shared/models/entity/rbac/rbacsCollection";
+import RbacsCollection from "haspr-styleguide/src/shared/models/entity/rbac/rbacsCollection";
 import AbstractLocalStorage from "./abstractLocalStorage";
 
 export const RBACS_LOCAL_STORAGE_KEY = "rbac";

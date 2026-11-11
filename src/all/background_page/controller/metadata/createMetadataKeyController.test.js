@@ -14,12 +14,12 @@
 
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import CreateMetadataKeyController from "./createMetadataKeyController";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import MetadataKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeyEntity";
-import { defaultMetadataKeyDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeyEntity.test.data";
-import ExternalGpgKeyPairEntity from "passbolt-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import MetadataKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeyEntity";
+import { defaultMetadataKeyDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeyEntity.test.data";
+import ExternalGpgKeyPairEntity from "haspr-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
 
 describe("CreateMetadataKeyController", () => {
   describe("::exec", () => {

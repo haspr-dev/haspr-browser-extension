@@ -11,9 +11,9 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.17.0
  */
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 import WebauthnRegistrationResponseEntity from "./webauthnRegistrationResponseEntity";
 import { defaultWebauthnRegistrationResponseDto } from "./webauthnRegistrationResponseEntity.test.data";
 

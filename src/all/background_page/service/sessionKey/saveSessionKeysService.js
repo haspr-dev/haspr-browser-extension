@@ -12,14 +12,14 @@
  * @since         4.10.1
  */
 import PassphraseStorageService from "../session_storage/passphraseStorageService";
-import SessionKeysBundleEntity from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleEntity";
+import SessionKeysBundleEntity from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleEntity";
 import { assertBoolean, assertString, assertType } from "../../utils/assertions";
 import SessionKeysBundlesApiService from "../api/sessionKey/sessionKeysBundlesApiService";
 import EncryptSessionKeysBundlesService from "./encryptSessionKeysBundlesService";
-import SessionKeysCollection from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysCollection";
+import SessionKeysCollection from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysCollection";
 import GetOrFindSessionKeysService from "./getOrFindSessionKeysService";
 import SessionKeysBundlesSessionStorageService from "../sessionStorage/sessionKeysBundlesSessionStorageService";
-import SessionKeysBundleDataEntity from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleDataEntity";
+import SessionKeysBundleDataEntity from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleDataEntity";
 
 class SaveSessionKeysService {
   /**

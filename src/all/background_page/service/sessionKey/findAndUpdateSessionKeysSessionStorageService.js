@@ -12,7 +12,7 @@
  * @since         4.10.1
  */
 import FindSessionKeysService from "./findSessionKeysService";
-import SessionKeysBundlesCollection from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection";
+import SessionKeysBundlesCollection from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection";
 import SessionKeysBundlesSessionStorageStorageService from "../sessionStorage/sessionKeysBundlesSessionStorageService";
 
 const FIND_AND_UPDATE_SESSION_KEYS_SS_LOCK_PREFIX = "FIND_AND_UPDATE_SESSION_KEYS_SS_LOCK-";

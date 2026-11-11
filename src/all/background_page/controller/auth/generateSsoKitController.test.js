@@ -15,8 +15,8 @@ import { enableFetchMocks } from "jest-fetch-mock";
 import { v4 as uuid } from "uuid";
 import "../../../../../test/mocks/mockSsoDataStorage";
 import { mockApiResponse } from "../../../../../test/mocks/mockApiResponse";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import GenerateSsoKitService from "../../service/sso/generateSsoKitService";
 import SsoDataStorage from "../../service/indexedDB_storage/ssoDataStorage";
 import { clientSsoKit } from "../../model/entity/sso/ssoKitClientPart.test.data";
@@ -24,8 +24,8 @@ import SsoKitClientPartEntity from "../../model/entity/sso/ssoKitClientPartEntit
 import SsoKitServerPartEntity from "../../model/entity/sso/ssoKitServerPartEntity";
 import GenerateSsoKitController from "./generateSsoKitController";
 import { generateSsoKitServerData } from "../../model/entity/sso/ssoKitServerPart.test.data";
-import AzureSsoSettingsEntity from "passbolt-styleguide/src/shared/models/entity/ssoSettings/AzureSsoSettingsEntity";
-import GoogleSsoSettingsEntity from "passbolt-styleguide/src/shared/models/entity/ssoSettings/GoogleSsoSettingsEntity";
+import AzureSsoSettingsEntity from "haspr-styleguide/src/shared/models/entity/ssoSettings/AzureSsoSettingsEntity";
+import GoogleSsoSettingsEntity from "haspr-styleguide/src/shared/models/entity/ssoSettings/GoogleSsoSettingsEntity";
 
 jest.mock("../../service/passphrase/getPassphraseService");
 

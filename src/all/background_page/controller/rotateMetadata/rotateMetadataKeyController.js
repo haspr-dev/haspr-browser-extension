@@ -15,9 +15,9 @@
 import GetPassphraseService from "../../service/passphrase/getPassphraseService";
 import ProgressService from "../../service/progress/progressService";
 import i18n from "../../sdk/i18n";
-import ExternalGpgKeyPairEntity from "passbolt-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
+import ExternalGpgKeyPairEntity from "haspr-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
 import RotateMetadataKeyService from "../../service/metadata/rotateMetadata/rotateMetadataKeyService";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 
 export default class RotateMetadataKeyController {
   /**

@@ -17,7 +17,7 @@ import {
   resourceLegacyDto,
   resourceStandaloneTotpDto,
   resourceWithTotpDto,
-} from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
 
 /**
  * Build an array of resources containing only a single resource.

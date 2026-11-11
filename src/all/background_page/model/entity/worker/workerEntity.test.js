@@ -12,9 +12,9 @@
  * @since         4.0.0
  */
 import WorkerEntity from "./workerEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import { readWorker } from "./workerEntity.test.data";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 
 describe("Worker entity", () => {
   jest.useFakeTimers();

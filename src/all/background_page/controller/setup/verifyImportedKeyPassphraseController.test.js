@@ -15,7 +15,7 @@ import VerifyImportedKeyPassphraseController from "./verifyImportedKeyPassphrase
 import InvalidMasterPasswordError from "../../error/invalidMasterPasswordError";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import AccountTemporarySessionStorageService from "../../service/sessionStorage/accountTemporarySessionStorageService";
 
 describe("VerifyImportedKeyPassphraseController", () => {

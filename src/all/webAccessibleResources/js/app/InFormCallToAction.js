@@ -13,7 +13,7 @@
  */
 import React from "react";
 import { createRoot } from "react-dom/client";
-import ExtInFormCallToAction from "passbolt-styleguide/src/react-web-integration/ExtInFormCallToAction";
+import ExtInFormCallToAction from "haspr-styleguide/src/react-web-integration/ExtInFormCallToAction";
 import Port from "../lib/port";
 
 async function main() {

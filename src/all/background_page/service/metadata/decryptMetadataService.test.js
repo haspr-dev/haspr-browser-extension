@@ -12,32 +12,32 @@
  * @since         4.10.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import {
   defaultSharedResourcesWithEncryptedMetadataDtos,
   defaultPrivateResourcesWithEncryptedMetadataDtos,
   defaultResourceDtosCollection,
-} from "passbolt-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
+} from "haspr-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import ResourcesCollection from "../../model/entity/resource/resourcesCollection";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import DecryptMetadataService from "./decryptMetadataService";
-import MetadataKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
-import { defaultDecryptedSharedMetadataKeysDtos } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection.test.data";
+import MetadataKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
+import { defaultDecryptedSharedMetadataKeysDtos } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection.test.data";
 import PassphraseStorageService from "../session_storage/passphraseStorageService";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import UserPassphraseRequiredError from "passbolt-styleguide/src/shared/error/userPassphraseRequiredError";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import UserPassphraseRequiredError from "haspr-styleguide/src/shared/error/userPassphraseRequiredError";
 import DecryptMessageService from "../crypto/decryptMessageService";
 import {
   privateResourcesSessionKeys,
   sharedResourcesSessionKeys,
-} from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysCollection.test.data";
-import SessionKeysCollection from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysCollection";
-import { metadata } from "passbolt-styleguide/test/fixture/encryptedMetadata/metadata";
-import { defaultSessionKeyDto } from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeyEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysCollection.test.data";
+import SessionKeysCollection from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysCollection";
+import { metadata } from "haspr-styleguide/test/fixture/encryptedMetadata/metadata";
+import { defaultSessionKeyDto } from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeyEntity.test.data";
 import ResourceEntity from "../../model/entity/resource/resourceEntity";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 import EncryptMessageService from "../crypto/encryptMessageService";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import GetSessionKeyService from "../crypto/getSessionKeyService";

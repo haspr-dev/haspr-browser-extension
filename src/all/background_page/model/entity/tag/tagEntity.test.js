@@ -12,8 +12,8 @@
  * @since         2.13.0
  */
 import TagEntity from "./tagEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 import { defaultTagDto, minimalTagDto } from "./tagEntity.test.data";
 
 describe("TagEntity", () => {

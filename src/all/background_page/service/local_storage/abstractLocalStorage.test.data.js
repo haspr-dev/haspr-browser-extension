@@ -12,7 +12,7 @@
  * @since         6.0.0
  */
 import AbstractLocalStorage from "./abstractLocalStorage";
-import EntityV2 from "passbolt-styleguide/src/shared/models/entity/abstract/entityV2";
+import EntityV2 from "haspr-styleguide/src/shared/models/entity/abstract/entityV2";
 
 export class TestLocalStorage extends AbstractLocalStorage {
   get key() {

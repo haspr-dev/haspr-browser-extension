@@ -13,9 +13,9 @@
  */
 
 import FindExportPoliciesSettingsController from "./findExportPoliciesSettingsController";
-import ExportPoliciesSettingsEntity from "passbolt-styleguide/src/shared/models/entity/exportSettings/ExportPoliciesSettingsEntity";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import { defaultExportPoliciesSettingsDto } from "passbolt-styleguide/src/shared/models/entity/exportSettings/ExportPoliciesSettingsEntity.test.data";
+import ExportPoliciesSettingsEntity from "haspr-styleguide/src/shared/models/entity/exportSettings/ExportPoliciesSettingsEntity";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultExportPoliciesSettingsDto } from "haspr-styleguide/src/shared/models/entity/exportSettings/ExportPoliciesSettingsEntity.test.data";
 
 describe("FindExportPoliciesSettingsController", () => {
   let apiClientOptions, controller;

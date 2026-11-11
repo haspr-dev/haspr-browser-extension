@@ -12,11 +12,11 @@
  * @since         3.6.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import StartSetupController from "./startSetupController";
 import { enableFetchMocks } from "jest-fetch-mock";
 import { mockApiResponse } from "../../../../../test/mocks/mockApiResponse";
-import { defaultUserDto } from "passbolt-styleguide/src/shared/models/entity/user/userEntity.test.data";
+import { defaultUserDto } from "haspr-styleguide/src/shared/models/entity/user/userEntity.test.data";
 import { defaultVerifyDto } from "../../model/entity/auth/auth.test.data";
 import GetGpgKeyInfoService from "../../service/crypto/getGpgKeyInfoService";
 import UserEntity from "../../model/entity/user/userEntity";
@@ -25,8 +25,8 @@ import AccountSetupEntity from "../../model/entity/account/accountSetupEntity";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import WorkerService from "../../service/worker/workerService";
 import AccountRecoveryOrganizationPolicyEntity from "../../model/entity/accountRecovery/accountRecoveryOrganizationPolicyEntity";
-import UserPassphrasePoliciesEntity from "passbolt-styleguide/src/shared/models/entity/userPassphrasePolicies/userPassphrasePoliciesEntity";
-import { defaultUserPassphrasePoliciesEntityDto } from "passbolt-styleguide/src/shared/models/userPassphrasePolicies/UserPassphrasePoliciesDto.test.data";
+import UserPassphrasePoliciesEntity from "haspr-styleguide/src/shared/models/entity/userPassphrasePolicies/userPassphrasePoliciesEntity";
+import { defaultUserPassphrasePoliciesEntityDto } from "haspr-styleguide/src/shared/models/userPassphrasePolicies/UserPassphrasePoliciesDto.test.data";
 import { enabledAccountRecoveryOrganizationPolicyDto } from "../../model/entity/accountRecovery/accountRecoveryOrganizationPolicyEntity.test.data";
 import { v4 as uuidv4 } from "uuid";
 import AccountTemporarySessionStorageService from "../../service/sessionStorage/accountTemporarySessionStorageService";

@@ -11,11 +11,11 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         3.6.0
  */
-import EntityCollection from "passbolt-styleguide/src/shared/models/entity/abstract/entityCollection";
+import EntityCollection from "haspr-styleguide/src/shared/models/entity/abstract/entityCollection";
 import AccountRecoveryResponseEntity from "./accountRecoveryResponseEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import EntityCollectionError from "passbolt-styleguide/src/shared/models/entity/abstract/entityCollectionError";
-import deduplicateObjects from "passbolt-styleguide/src/shared/utils/deduplicateObjects";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityCollectionError from "haspr-styleguide/src/shared/models/entity/abstract/entityCollectionError";
+import deduplicateObjects from "haspr-styleguide/src/shared/utils/deduplicateObjects";
 
 const ENTITY_NAME = "AccountRecoveryResponse";
 const RULE_UNIQUE_ID = "unique_id";

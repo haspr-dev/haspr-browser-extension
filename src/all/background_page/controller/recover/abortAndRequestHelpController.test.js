@@ -13,7 +13,7 @@
  */
 
 import { enableFetchMocks } from "jest-fetch-mock";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import { initialAccountRecoverDto } from "../../model/entity/account/accountRecoverEntity.test.data";
 import AbortAndRequestHelp from "./abortAndRequestHelpController";
 import { mockApiResponse } from "../../../../../test/mocks/mockApiResponse";

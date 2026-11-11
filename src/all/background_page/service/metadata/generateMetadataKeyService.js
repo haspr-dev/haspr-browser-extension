@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.11.0
  */
-import ExternalGpgKeyPairEntity from "passbolt-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
+import ExternalGpgKeyPairEntity from "haspr-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
 import * as openpgp from "openpgp";
 import { assertString } from "../../utils/assertions";
 import DecryptPrivateKeyService from "../crypto/decryptPrivateKeyService";

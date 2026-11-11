@@ -13,7 +13,7 @@
  */
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import FindAllForActionLogController from "./findAllForActionLogController";
 import { defaultActionLogsCollection } from "../../model/entity/actionLog/actionLogsCollection.test.data";
 import ActionLogsCollection from "../../model/entity/actionLog/actionLogsCollection";

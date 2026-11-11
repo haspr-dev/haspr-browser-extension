@@ -20,25 +20,25 @@ import {
   RESOURCE_TYPE_V5_DEFAULT_TOTP_SLUG,
   RESOURCE_TYPE_V5_TOTP_SLUG,
   RESOURCE_TYPE_V5_STANDALONE_PIN_CODE_SLUG,
-} from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeSchemasDefinition";
+} from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeSchemasDefinition";
 import ResourcesTypeImportParser from "./resourcesTypeImportParser";
 import {
   resourceTypesCollectionDto,
   resourceTypesCollectionWithoutPassword,
   resourceTypesCollectionWithoutTOTP,
-} from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
+} from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
 import { defaultExternalResourceImportMinimalDto } from "../../entity/resource/external/externalResourceEntity.test.data";
-import ResourceTypesCollection from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
-import MetadataTypesSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
+import ResourceTypesCollection from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
+import MetadataTypesSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
 import {
   defaultMetadataTypesSettingsV4Dto,
   defaultMetadataTypesSettingsV50FreshDto,
-} from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity.test.data";
 import { defaultTotpDto } from "../../entity/totp/totpDto.test.data";
 import {
   resourceTypeTotpDto,
   resourceTypeV5TotpDto,
-} from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
 
 describe("ResourcesTypeImportParser", () => {
   describe("External resource dto with password field", () => {

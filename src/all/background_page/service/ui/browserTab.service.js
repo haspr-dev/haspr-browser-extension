@@ -12,7 +12,7 @@
  * @since         3.4.0
  */
 
-import { assertNumber } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertNumber } from "haspr-styleguide/src/shared/utils/assertions";
 import { assertString } from "../../utils/assertions";
 import Validator from "validator";
 

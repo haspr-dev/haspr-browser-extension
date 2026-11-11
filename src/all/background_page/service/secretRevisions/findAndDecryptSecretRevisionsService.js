@@ -13,7 +13,7 @@
  */
 
 import { assertString } from "../../utils/assertions";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 import GetDecryptedUserPrivateKeyService from "../account/getDecryptedUserPrivateKeyService";
 import DecryptSecretsService from "../crypto/decryptSecretsService";
 import FindSecretRevisionsService from "./findSecretRevisionsService";

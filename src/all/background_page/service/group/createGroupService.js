@@ -14,7 +14,7 @@
 
 import GroupApiService from "../api/group/groupApiService";
 import GroupLocalStorage from "../local_storage/groupLocalStorage";
-import GroupEntity from "passbolt-styleguide/src/shared/models/entity/group/groupEntity";
+import GroupEntity from "haspr-styleguide/src/shared/models/entity/group/groupEntity";
 import { assertType } from "../../utils/assertions";
 
 export default class CreateGroupService {

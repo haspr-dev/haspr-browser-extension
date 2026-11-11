@@ -15,14 +15,14 @@
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import MoveFolderController from "./moveFolderController";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import { v4 as uuidv4 } from "uuid";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import MockPort from "passbolt-styleguide/src/react-extension/test/mock/MockPort";
-import { anonymousSiteSettings } from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import MockPort from "haspr-styleguide/src/react-extension/test/mock/MockPort";
+import { anonymousSiteSettings } from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
 import GetOrFindSiteSettingsService from "../../service/siteSettings/getOrFindSiteSettingsService";
-import PermissionsCollection from "passbolt-styleguide/src/shared/models/entity/permission/permissionsCollection";
+import PermissionsCollection from "haspr-styleguide/src/shared/models/entity/permission/permissionsCollection";
 
 describe("MoveFolderController", () => {
   beforeEach(() => {

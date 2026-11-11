@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.9.4
  */
-import UserPassphraseRequiredError from "passbolt-styleguide/src/shared/error/userPassphraseRequiredError";
+import UserPassphraseRequiredError from "haspr-styleguide/src/shared/error/userPassphraseRequiredError";
 import FindAndUpdateResourcesLocalStorage from "../../service/resource/findAndUpdateResourcesLocalStorageService";
 import GetPassphraseService from "../../service/passphrase/getPassphraseService";
 import PassphraseStorageService from "../../service/session_storage/passphraseStorageService";

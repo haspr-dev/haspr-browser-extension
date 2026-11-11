@@ -14,15 +14,15 @@
 
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import {
   defaultCeSiteSettings,
   offlinePluginEnabledSiteSettings,
-} from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
-import { defaultOfflineSettingsDto } from "passbolt-styleguide/src/shared/models/entity/offline/offlineSettingsEntity.test.data";
-import OfflineSettingsEntity from "passbolt-styleguide/src/shared/models/entity/offline/offlineSettingsEntity";
+} from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import { defaultOfflineSettingsDto } from "haspr-styleguide/src/shared/models/entity/offline/offlineSettingsEntity.test.data";
+import OfflineSettingsEntity from "haspr-styleguide/src/shared/models/entity/offline/offlineSettingsEntity";
 import FindAndUpdateOfflineSettingsLocalStorageService from "./findAndUpdateOfflineSettingsLocalStorageService";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
 
 beforeEach(() => {
   jest.clearAllMocks();

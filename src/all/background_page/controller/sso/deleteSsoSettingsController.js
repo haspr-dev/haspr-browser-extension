@@ -12,7 +12,7 @@
  * @since         3.9.0
  */
 import SsoSettingsModel from "../../model/sso/ssoSettingsModel";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 
 class DeleteSsoSettingsController {
   /**

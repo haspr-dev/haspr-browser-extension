@@ -12,7 +12,7 @@
  * @since         3.8.0
  */
 import Log from "../../model/log";
-import UserPassphraseRequiredError from "passbolt-styleguide/src/shared/error/userPassphraseRequiredError";
+import UserPassphraseRequiredError from "haspr-styleguide/src/shared/error/userPassphraseRequiredError";
 
 const PASSPHRASE_FLUSH_ALARM = "PassphraseStorageFlush";
 const PASSPHRASE_STORAGE_KEY = "passphrase";

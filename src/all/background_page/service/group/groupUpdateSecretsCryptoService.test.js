@@ -12,8 +12,8 @@
  * @since         5.13.0
  */
 import { v4 as uuidv4 } from "uuid";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import { plaintextSecretPasswordAndDescriptionDto } from "passbolt-styleguide/src/shared/models/entity/plaintextSecret/plaintextSecretEntity.test.data";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import { plaintextSecretPasswordAndDescriptionDto } from "haspr-styleguide/src/shared/models/entity/plaintextSecret/plaintextSecretEntity.test.data";
 import GroupUpdateSecretsCryptoService from "./groupUpdateSecretsCryptoService";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import EncryptMessageService from "../crypto/encryptMessageService";

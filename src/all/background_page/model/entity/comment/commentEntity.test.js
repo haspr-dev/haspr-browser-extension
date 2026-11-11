@@ -12,12 +12,12 @@
  * @since         3.0.0
  */
 import CommentEntity from "./commentEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 import {
   defaultCommentDto,
   minimumCommentDto,
-} from "passbolt-styleguide/src/shared/models/entity/comment/commentEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/comment/commentEntity.test.data";
 
 describe("Comment entity", () => {
   describe("::getSchema", () => {

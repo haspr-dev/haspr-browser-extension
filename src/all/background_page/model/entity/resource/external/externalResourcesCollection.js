@@ -13,7 +13,7 @@
 import ResourcesCollection from "../resourcesCollection";
 import ExternalFoldersCollection from "../../folder/external/externalFoldersCollection";
 import ExternalResourceEntity from "./externalResourceEntity";
-import EntityV2Collection from "passbolt-styleguide/src/shared/models/entity/abstract/entityV2Collection";
+import EntityV2Collection from "haspr-styleguide/src/shared/models/entity/abstract/entityV2Collection";
 import { assertType } from "../../../../utils/assertions";
 
 class ExternalResourcesCollection extends EntityV2Collection {

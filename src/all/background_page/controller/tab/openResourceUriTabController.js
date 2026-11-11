@@ -12,7 +12,7 @@
  * @since         5.11.0
  */
 
-import sanitizeUrl, { urlProtocols } from "passbolt-styleguide/src/react-extension/lib/Sanitize/sanitizeUrl";
+import sanitizeUrl, { urlProtocols } from "haspr-styleguide/src/react-extension/lib/Sanitize/sanitizeUrl";
 import BrowserTabService from "../../service/ui/browserTab.service";
 
 export default class OpenResourceUriTabController {

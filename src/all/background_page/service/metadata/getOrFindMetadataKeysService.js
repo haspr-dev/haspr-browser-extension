@@ -14,7 +14,7 @@
 
 import FindAndUpdateMetadataKeysSessionStorageService from "./findAndUpdateMetadataKeysSessionStorageService";
 import MetadataKeysSessionStorage from "../session_storage/metadataKeysSessionStorage";
-import MetadataKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
+import MetadataKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
 
 /**
  * The service aims to get metadata keys from the local storage, or to retrieve them from the API and store them in the session storage.

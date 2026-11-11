@@ -12,10 +12,10 @@
  * @since         5.15.0
  */
 import PermissionChangeEntity from "./permissionChangeEntity";
-import PermissionEntity from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+import PermissionEntity from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 import {
   minimumPermissionChangeDto,
   defaultPermissionChangeDto,
@@ -24,7 +24,7 @@ import {
 import {
   minimumPermissionDto,
   defaultPermissionDto,
-} from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
 
 describe("PermissionChangeEntity", () => {
   describe("::getSchema", () => {

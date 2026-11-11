@@ -12,12 +12,12 @@
  * @since         5.5.0
  */
 
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 import MetadataKeysApiService from "../api/metadata/metadataKeysApiService";
 import RevokeGpgKeyService from "../crypto/revokeGpgKeyService";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import GetOrFindMetadataKeysService from "./getOrFindMetadataKeysService";
-import MetadataKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeyEntity";
+import MetadataKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeyEntity";
 
 /**
  * The service aims to update a metadata key.

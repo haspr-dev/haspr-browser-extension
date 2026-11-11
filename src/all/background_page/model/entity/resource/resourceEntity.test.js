@@ -12,21 +12,21 @@
  * @since         2.13.0
  */
 import ResourceEntity, { METADATA_KEY_TYPE_METADATA_KEY, METADATA_KEY_TYPE_USER_KEY } from "./resourceEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 import {
   defaultResourceDto,
   defaultResourceV4Dto,
-} from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
-import { TEST_RESOURCE_TYPE_PASSWORD_AND_DESCRIPTION } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
-import { defaultResourceMetadataDto } from "passbolt-styleguide/src/shared/models/entity/resource/metadata/resourceMetadataEntity.test.data";
-import ResourceMetadataEntity from "passbolt-styleguide/src/shared/models/entity/resource/metadata/resourceMetadataEntity";
+} from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { TEST_RESOURCE_TYPE_PASSWORD_AND_DESCRIPTION } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
+import { defaultResourceMetadataDto } from "haspr-styleguide/src/shared/models/entity/resource/metadata/resourceMetadataEntity.test.data";
+import ResourceMetadataEntity from "haspr-styleguide/src/shared/models/entity/resource/metadata/resourceMetadataEntity";
 import { v4 as uuidv4 } from "uuid";
-import { metadata } from "passbolt-styleguide/test/fixture/encryptedMetadata/metadata";
-import PermissionEntity from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity";
-import { defaultOfflineItemDto } from "passbolt-styleguide/src/shared/models/entity/offline/offlineItemEntity.test.data";
-import OfflineItemEntity from "passbolt-styleguide/src/shared/models/entity/offline/offlineItemEntity";
+import { metadata } from "haspr-styleguide/test/fixture/encryptedMetadata/metadata";
+import PermissionEntity from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity";
+import { defaultOfflineItemDto } from "haspr-styleguide/src/shared/models/entity/offline/offlineItemEntity.test.data";
+import OfflineItemEntity from "haspr-styleguide/src/shared/models/entity/offline/offlineItemEntity";
 
 describe("Resource entity", () => {
   describe("ResourceEntity::getSchema", () => {

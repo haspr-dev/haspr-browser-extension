@@ -14,17 +14,17 @@
 
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import SaveSessionKeysService from "./saveSessionKeysService";
-import { sharedResourcesSessionKeys } from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysCollection.test.data";
-import SessionKeysCollection from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysCollection";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import UserPassphraseRequiredError from "passbolt-styleguide/src/shared/error/userPassphraseRequiredError";
-import SessionKeysBundlesCollection from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection";
+import { sharedResourcesSessionKeys } from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysCollection.test.data";
+import SessionKeysCollection from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysCollection";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import UserPassphraseRequiredError from "haspr-styleguide/src/shared/error/userPassphraseRequiredError";
+import SessionKeysBundlesCollection from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection";
 import {
   decryptedSessionKeysBundleDto,
   defaultSessionKeysBundleDto,
-} from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleEntity.test.data";
 
 beforeEach(() => {
   jest.clearAllMocks();

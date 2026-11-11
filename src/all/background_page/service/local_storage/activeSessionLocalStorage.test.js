@@ -14,9 +14,9 @@
 
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultUserActiveSessionDto } from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
+import { defaultUserActiveSessionDto } from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
 import ActiveSessionLocalStorage from "./activeSessionLocalStorage";
-import UserActiveSessionEntity from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
+import UserActiveSessionEntity from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
 
 beforeEach(() => {
   jest.clearAllMocks();

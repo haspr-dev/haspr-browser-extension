@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         3.6.0
  */
-import { ApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions";
+import { ApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions";
 
 class BuildApiClientOptionsService {
   /**

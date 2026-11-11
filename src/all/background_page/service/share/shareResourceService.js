@@ -26,7 +26,7 @@ import {
   assertString,
   assertType,
 } from "../../utils/assertions";
-import { assertArrayUUID } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertArrayUUID } from "haspr-styleguide/src/shared/utils/assertions";
 import DecryptPrivateKeyService from "../crypto/decryptPrivateKeyService";
 import PermissionChangesCollection from "../../model/entity/permission/change/permissionChangesCollection";
 import ResourceService from "../api/resource/resourceService";
@@ -34,10 +34,10 @@ import ResourceLocalStorage from "../local_storage/resourceLocalStorage";
 import EncryptMetadataService from "../metadata/encryptMetadataService";
 import GetOrFindResourcesService from "../resource/getOrFindResourcesService";
 import FindResourcesService from "../resource/findResourcesService";
-import { RESOURCE_TYPE_VERSION_5 } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
+import { RESOURCE_TYPE_VERSION_5 } from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
 import ExecuteConcurrentlyService from "../execute/executeConcurrentlyService";
 import NeededSecretsCollection from "../../model/entity/secret/needed/neededSecretsCollection";
-import SecretsCollection from "passbolt-styleguide/src/shared/models/entity/secret/secretsCollection";
+import SecretsCollection from "haspr-styleguide/src/shared/models/entity/secret/secretsCollection";
 import GetOrFindResourceTypesService from "../resourceType/getOrFindResourceTypesService";
 
 export const PROGRESS_STEPS_SHARE_RESOURCES_SHARE_ALL = 8;

@@ -13,8 +13,8 @@
  */
 
 import SecretRevisionsSettingsApiService from "../api/secretRevision/secretRevisionsSettingsApiService";
-import SecretRevisionsSettingsEntity from "passbolt-styleguide/src/shared/models/entity/secretRevision/secretRevisionsSettingsEntity";
-import Logger from "passbolt-styleguide/src/shared/utils/logger";
+import SecretRevisionsSettingsEntity from "haspr-styleguide/src/shared/models/entity/secretRevision/secretRevisionsSettingsEntity";
+import Logger from "haspr-styleguide/src/shared/utils/logger";
 
 export default class FindSecretRevisionsSettingsService {
   /**

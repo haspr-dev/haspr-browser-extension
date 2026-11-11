@@ -12,9 +12,9 @@
  * @since         5.1.1
  */
 import GetOrFindSiteSettingsService from "../siteSettings/getOrFindSiteSettingsService";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 import UserKeyPoliciesSettingsApiService from "../api/userKeyPolicies/userKeyPoliciesSettingsApiService";
-import UserKeyPoliciesSettingsEntity from "passbolt-styleguide/src/shared/models/entity/userKeyPolicies/UserKeyPoliciesSettingsEntity";
+import UserKeyPoliciesSettingsEntity from "haspr-styleguide/src/shared/models/entity/userKeyPolicies/UserKeyPoliciesSettingsEntity";
 
 /**
  * The service aims to find the user key policies settings from the API.

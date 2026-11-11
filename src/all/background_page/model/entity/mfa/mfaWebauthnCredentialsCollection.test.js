@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.17.0
  */
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import MfaWebauthnCredentialEntity from "./mfaWebauthnCredentialEntity";
 import MfaWebauthnCredentialsCollection from "./mfaWebauthnCredentialsCollection";
 import { defaultMfaWebauthnCredentialDto } from "./mfaWebauthnCredentialEntity.test.data";

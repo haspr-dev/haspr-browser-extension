@@ -15,12 +15,12 @@ import { enableFetchMocks } from "jest-fetch-mock";
 import { v4 as uuidv4 } from "uuid";
 import { mockApiResponse, mockApiResponseError } from "../../../../../../test/mocks/mockApiResponse";
 import GroupApiService from "./groupApiService";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import { defaultGroupDto } from "passbolt-styleguide/src/shared/models/entity/group/groupEntity.test.data";
-import PassboltResponseEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
-import PassboltServiceUnavailableError from "passbolt-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
-import { defaultPermissionTransferDto } from "passbolt-styleguide/src/shared/models/entity/permission/permissionTransferEntity.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultGroupDto } from "haspr-styleguide/src/shared/models/entity/group/groupEntity.test.data";
+import PassboltResponseEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltServiceUnavailableError from "haspr-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
+import { defaultPermissionTransferDto } from "haspr-styleguide/src/shared/models/entity/permission/permissionTransferEntity.test.data";
 
 beforeEach(() => {
   jest.clearAllMocks();

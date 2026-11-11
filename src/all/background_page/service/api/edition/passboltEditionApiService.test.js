@@ -14,10 +14,10 @@
 
 import { enableFetchMocks } from "jest-fetch-mock";
 
-import PassboltBadResponseError from "passbolt-styleguide/src/shared/lib/Error/PassboltBadResponseError";
-import SubscriptionEntity from "passbolt-styleguide/src/shared/models/entity/subscription/subscriptionEntity";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import { mockSubscriptionUpdated } from "passbolt-styleguide/src/react-extension/components/Administration/DisplaySubscriptionKey/DisplaySubscriptionKey.test.data";
+import PassboltBadResponseError from "haspr-styleguide/src/shared/lib/Error/PassboltBadResponseError";
+import SubscriptionEntity from "haspr-styleguide/src/shared/models/entity/subscription/subscriptionEntity";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { mockSubscriptionUpdated } from "haspr-styleguide/src/react-extension/components/Administration/DisplaySubscriptionKey/DisplaySubscriptionKey.test.data";
 
 import { mockApiResponse } from "../../../../../../test/mocks/mockApiResponse";
 import PassboltEditionApiService, { PASSBOLT_EDITION_API_SERVICE_RESOURCE_NAME } from "./passboltEditionApiService";

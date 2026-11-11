@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.11.0
  */
-import MetadataTypesSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
+import MetadataTypesSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
 import SaveMetadataSettingsService from "../../service/metadata/saveMetadataSettingsService";
 
 class SaveMetadataTypesSettingsController {

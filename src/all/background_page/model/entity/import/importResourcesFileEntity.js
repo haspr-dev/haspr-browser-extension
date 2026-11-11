@@ -10,12 +10,12 @@
  * @license       https://opensource.org/licenses/AGPL-3.0 AGPL License
  * @link          https://www.passbolt.com Passbolt(tm)
  */
-import EntityV2 from "passbolt-styleguide/src/shared/models/entity/abstract/entityV2";
+import EntityV2 from "haspr-styleguide/src/shared/models/entity/abstract/entityV2";
 import ExternalFoldersCollection from "../folder/external/externalFoldersCollection";
 import FolderEntity from "../folder/folderEntity";
 import ExternalResourcesCollection from "../resource/external/externalResourcesCollection";
 import TagEntity from "../tag/tagEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import { assertType } from "../../../utils/assertions";
 
 const FILE_TYPE_KDBX = "kdbx";

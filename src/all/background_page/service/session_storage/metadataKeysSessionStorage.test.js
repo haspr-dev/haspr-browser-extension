@@ -18,13 +18,13 @@ import { defaultAccountDto } from "../../model/entity/account/accountEntity.test
 import {
   defaultDecryptedSharedMetadataKeysDtos,
   defaultMetadataKeysDtos,
-} from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection.test.data";
-import MetadataKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
-import MetadataPrivateKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity";
+} from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection.test.data";
+import MetadataKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
+import MetadataPrivateKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity";
 import {
   defaultMetadataPrivateKeyDto,
   decryptedMetadataPrivateKeyDto,
-} from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity.test.data";
 
 beforeEach(() => {
   jest.clearAllMocks();

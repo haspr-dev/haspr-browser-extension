@@ -12,14 +12,14 @@
  * @since         5.13.0
  */
 
-import RoleEntity from "passbolt-styleguide/src/shared/models/entity/role/roleEntity";
-import { defaultUsersDtos } from "passbolt-styleguide/src/shared/models/entity/user/usersCollection.test.data";
+import RoleEntity from "haspr-styleguide/src/shared/models/entity/role/roleEntity";
+import { defaultUsersDtos } from "haspr-styleguide/src/shared/models/entity/user/usersCollection.test.data";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import FindAndUpdateUsersLocalStorageService from "./findAndUpdateUsersLocalStorageService";
 import FindUsersService from "./findUsersService";
-import UsersCollection from "passbolt-styleguide/src/shared/models/entity/user/usersCollection";
+import UsersCollection from "haspr-styleguide/src/shared/models/entity/user/usersCollection";
 import UserLocalStorage from "../local_storage/userLocalStorage";
 import GetOrFindSiteSettingsService from "../siteSettings/getOrFindSiteSettingsService";
 

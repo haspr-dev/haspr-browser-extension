@@ -11,9 +11,9 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.9.0
  */
-import EntityV2 from "passbolt-styleguide/src/shared/models/entity/abstract/entityV2";
-import GroupEntity from "passbolt-styleguide/src/shared/models/entity/group/groupEntity";
-import UserEntity from "passbolt-styleguide/src/shared/models/entity/user/userEntity";
+import EntityV2 from "haspr-styleguide/src/shared/models/entity/abstract/entityV2";
+import GroupEntity from "haspr-styleguide/src/shared/models/entity/group/groupEntity";
+import UserEntity from "haspr-styleguide/src/shared/models/entity/user/userEntity";
 
 const ENTITY_NAME = "UserAndGroupSearchResult";
 

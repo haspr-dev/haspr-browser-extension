@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         6.0.0
  */
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
 import SiteSettingsLocalStorage from "../local_storage/siteSettingsLocalStorage";
 import FindSiteSettingsService from "./findSiteSettingsService";
 import SiteSettingsRuntimeCache from "./siteSettingsRuntimeCache";

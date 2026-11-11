@@ -12,20 +12,20 @@
  * @since         6.0.0
  */
 
-import { defaultUserDto } from "passbolt-styleguide/src/shared/models/entity/user/userEntity.test.data";
+import { defaultUserDto } from "haspr-styleguide/src/shared/models/entity/user/userEntity.test.data";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import UserMeLocalStorage from "../local_storage/userMeLocalStorage";
 import GetOrFindMeService from "./getOrFindMeService";
 import UserEntity from "../../model/entity/user/userEntity";
 import GetOrFindSiteSettingsService from "../siteSettings/getOrFindSiteSettingsService";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
-import { defaultCeSiteSettings } from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import { defaultCeSiteSettings } from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
 import UserActiveSessionEntity, {
   USER_ACTIVE_SESSION_OFFLINE,
-} from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
-import { defaultUserActiveSessionDto } from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
+import { defaultUserActiveSessionDto } from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
 import LocalStorageMetadataEntity from "../../model/entity/localStorage/localStorageMetadataEntity";
 import GetOrFindActiveSessionService from "../activeSession/getOrFindActiveSessionService";
 

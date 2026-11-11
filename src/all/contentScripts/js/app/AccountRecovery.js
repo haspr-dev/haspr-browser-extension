@@ -14,7 +14,7 @@
 
 import React from "react";
 import { createRoot } from "react-dom/client";
-import ExtBootstrapAccountRecovery from "passbolt-styleguide/src/react-extension/ExtBootstrapAccountRecovery";
+import ExtBootstrapAccountRecovery from "haspr-styleguide/src/react-extension/ExtBootstrapAccountRecovery";
 import Port from "../../../webAccessibleResources/js/lib/port";
 import MessageService from "../service/messageService";
 import MessageEventHandler from "../message/messageEventHandler";

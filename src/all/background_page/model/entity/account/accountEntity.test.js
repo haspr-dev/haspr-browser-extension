@@ -12,10 +12,10 @@
  * @since         3.12.0
  */
 
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 import AccountEntity from "./accountEntity";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 import { defaultAccountDto } from "./accountEntity.test.data";
 
 describe("AccountEntity", () => {

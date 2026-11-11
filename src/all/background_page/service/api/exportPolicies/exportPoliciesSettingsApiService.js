@@ -13,8 +13,8 @@
  */
 
 import AbstractService from "../abstract/abstractService";
-import ExportPoliciesSettingsEntity from "passbolt-styleguide/src/shared/models/entity/exportSettings/ExportPoliciesSettingsEntity";
-import PassboltResponseEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
+import ExportPoliciesSettingsEntity from "haspr-styleguide/src/shared/models/entity/exportSettings/ExportPoliciesSettingsEntity";
+import PassboltResponseEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
 
 const EXPORT_POLICIES_SETTINGS_RESOURCE_NAME = "export-policies/settings";
 

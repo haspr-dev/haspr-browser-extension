@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         6.0.0
  */
-import Logger from "passbolt-styleguide/src/shared/utils/logger";
+import Logger from "haspr-styleguide/src/shared/utils/logger";
 
 import TagsCollection from "../../model/entity/tag/tagsCollection";
 import TagApiService from "../api/tag/tagApiService";

@@ -16,7 +16,7 @@ import FolderApiService from "../api/folder/folderApiService";
 import FolderLocalStorage from "../local_storage/folderLocalStorage";
 import FoldersCollection from "../../model/entity/folder/foldersCollection";
 import { assertBoolean } from "../../utils/assertions";
-import { assertArrayUUID, assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertArrayUUID, assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 import FolderEntity from "../../model/entity/folder/folderEntity";
 import splitBySize from "../../utils/array/splitBySize";
 import ExecuteConcurrentlyService from "../execute/executeConcurrentlyService";

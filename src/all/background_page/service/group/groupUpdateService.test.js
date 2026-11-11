@@ -12,27 +12,27 @@
  * @since         4.10.1
  */
 import GroupUpdateService from "./groupUpdateService";
-import GroupEntity from "passbolt-styleguide/src/shared/models/entity/group/groupEntity";
+import GroupEntity from "haspr-styleguide/src/shared/models/entity/group/groupEntity";
 import GroupUpdateEntity from "../../model/entity/group/update/groupUpdateEntity";
 import GroupUpdateDryRunResultEntity from "../../model/entity/group/update/groupUpdateDryRunResultEntity";
 import EncryptMessageService from "../crypto/encryptMessageService";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import Keyring from "../../model/keyring";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultGroupDto } from "passbolt-styleguide/src/shared/models/entity/group/groupEntity.test.data";
-import { createGroupUser } from "passbolt-styleguide/src/shared/models/entity/groupUser/groupUserEntity.test.data";
+import { defaultGroupDto } from "haspr-styleguide/src/shared/models/entity/group/groupEntity.test.data";
+import { createGroupUser } from "haspr-styleguide/src/shared/models/entity/groupUser/groupUserEntity.test.data";
 import { defaultResourcesSecretsDtos } from "../../model/entity/secret/groupUpdate/groupUpdateSecretsCollection.test.data";
 import DecryptMessageService from "../crypto/decryptMessageService";
-import GroupUserEntity from "passbolt-styleguide/src/shared/models/entity/groupUser/groupUserEntity";
-import { plaintextSecretPasswordAndDescriptionDto } from "passbolt-styleguide/src/shared/models/entity/plaintextSecret/plaintextSecretEntity.test.data";
+import GroupUserEntity from "haspr-styleguide/src/shared/models/entity/groupUser/groupUserEntity";
+import { plaintextSecretPasswordAndDescriptionDto } from "haspr-styleguide/src/shared/models/entity/plaintextSecret/plaintextSecretEntity.test.data";
 import GroupLocalStorage from "../local_storage/groupLocalStorage";
 import { defaultProgressService } from "../progress/progressService.test.data";
 import { RequestAddUsersToGroupOffscreenService } from "../../../../chrome-mv3/serviceWorker/service/addUsersToGroup/requestAddUsersToGroupOffscreenService";
 import GroupUpdateSecretsCollection from "../../model/entity/secret/groupUpdate/groupUpdateSecretsCollection";
-import SecretEntity from "passbolt-styleguide/src/shared/models/entity/secret/secretEntity";
+import SecretEntity from "haspr-styleguide/src/shared/models/entity/secret/secretEntity";
 
 beforeEach(() => {
   jest.resetAllMocks();

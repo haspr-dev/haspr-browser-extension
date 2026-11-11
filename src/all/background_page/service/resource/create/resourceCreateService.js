@@ -25,8 +25,8 @@ import EncryptMetadataKeysService from "../../metadata/encryptMetadataService";
 import PermissionChangesCollection from "../../../model/entity/permission/change/permissionChangesCollection";
 import ShareResourceService, { PROGRESS_STEPS_SHARE_RESOURCES_SHARE_ALL } from "../../share/shareResourceService";
 import GetOrFindResourceTypesService from "../../resourceType/getOrFindResourceTypesService";
-import PermissionsCollection from "passbolt-styleguide/src/shared/models/entity/permission/permissionsCollection";
-import PermissionEntity from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity";
+import PermissionsCollection from "haspr-styleguide/src/shared/models/entity/permission/permissionsCollection";
+import PermissionEntity from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity";
 
 class ResourceCreateService {
   /**

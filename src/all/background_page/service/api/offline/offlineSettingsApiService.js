@@ -11,10 +11,10 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.13.0
  */
-import OfflineSettingsEntity from "passbolt-styleguide/src/shared/models/entity/offline/offlineSettingsEntity";
+import OfflineSettingsEntity from "haspr-styleguide/src/shared/models/entity/offline/offlineSettingsEntity";
 import { assertType } from "../../../utils/assertions";
 import AbstractService from "../abstract/abstractService";
-import PassboltResponseEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
+import PassboltResponseEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
 
 const OFFLINE_SETTINGS_RESOURCE_NAME = "offline/settings";
 

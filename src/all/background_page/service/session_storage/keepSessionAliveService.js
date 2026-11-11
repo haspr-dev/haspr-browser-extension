@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.7.0
  */
-import UserApiService from "passbolt-styleguide/src/shared/services/api/user/userApiService";
+import UserApiService from "haspr-styleguide/src/shared/services/api/user/userApiService";
 import PassphraseStorageService from "./passphraseStorageService";
 import GetActiveAccountService from "../account/getActiveAccountService";
 import BuildApiClientOptionsService from "../account/buildApiClientOptionsService";

@@ -11,17 +11,17 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         2.13.0
  */
-import { defaultFolderDto } from "passbolt-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
-import { defaultFoldersCollectionDto } from "passbolt-styleguide/src/shared/models/entity/folder/foldersCollection.test.data";
+import { defaultFolderDto } from "haspr-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
+import { defaultFoldersCollectionDto } from "haspr-styleguide/src/shared/models/entity/folder/foldersCollection.test.data";
 import FoldersCollection from "./foldersCollection";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import {
   ownerPermissionDto,
   readPermissionDto,
   updatePermissionDto,
-} from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
 import { v4 as uuidv4 } from "uuid";
-import PermissionEntity from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity";
+import PermissionEntity from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity";
 import { folderWithOwnershipDto } from "./foldersCollection.test.data";
 
 describe("Folders collection entity", () => {

@@ -13,13 +13,13 @@
  */
 
 import CreateScimSettingsController from "./createScimSettingsController";
-import ScimSettingsEntity from "passbolt-styleguide/src/shared/models/entity/scimSettings/scimSettingsEntity";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import ScimSettingsEntity from "haspr-styleguide/src/shared/models/entity/scimSettings/scimSettingsEntity";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import {
   defaultScimSettingsDto,
   scimSettingsWithoutSecretTokenDto,
 } from "../../service/api/scimSettings/scimSettingsApiService.test.data";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 
 describe("CreateScimSettingsController", () => {
   let apiClientOptions, controller;

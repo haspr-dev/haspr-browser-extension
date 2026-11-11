@@ -14,9 +14,9 @@
 import { enableFetchMocks } from "jest-fetch-mock";
 import Keyring from "../../model/keyring";
 import ValidateOrganizationPublicKeyService from "./validateOrganizationPublicKeyService";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import { mockApiResponse } from "../../../../../test/mocks/mockApiResponse";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import { dummyData } from "./validateOrganizationPublicKeyService.test.data";
 
 beforeAll(() => {

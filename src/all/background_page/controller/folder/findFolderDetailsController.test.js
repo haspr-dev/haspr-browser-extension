@@ -12,8 +12,8 @@
  * @since         4.9.4
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import { defaultFolderDto } from "passbolt-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultFolderDto } from "haspr-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
 import FindFolderDetailsController from "./findFolderDetailsController";
 import FolderEntity from "../../model/entity/folder/folderEntity";
 import FolderApiService from "../../service/api/folder/folderApiService";

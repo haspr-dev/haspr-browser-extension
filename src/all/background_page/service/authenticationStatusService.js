@@ -14,7 +14,7 @@
 import MfaAuthenticationRequiredError from "../error/mfaAuthenticationRequiredError";
 import NotFoundError from "../error/notFoundError";
 import PassboltBadResponseError from "../error/passboltBadResponseError";
-import AbstractService from "passbolt-styleguide/src/shared/services/api/abstract/abstractService";
+import AbstractService from "haspr-styleguide/src/shared/services/api/abstract/abstractService";
 
 const AUTH_RESOURCE_NAME = "/auth";
 export const MFA_VERIFY_ERROR_REGEXP = /mfa\/verify\/error\.json$/;

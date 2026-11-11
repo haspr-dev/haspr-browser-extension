@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since        3.4.0
  */
-import { BrowserIntegrationBootstrap } from "passbolt-styleguide/src/react-web-integration/BrowserIntegrationBootstrap.js";
+import { BrowserIntegrationBootstrap } from "haspr-styleguide/src/react-web-integration/BrowserIntegrationBootstrap.js";
 import Port from "../../../webAccessibleResources/js/lib/port";
 import MessageService from "../service/messageService";
 import ConnectPortController from "../controller/connectPortController";

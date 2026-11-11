@@ -15,23 +15,23 @@ import "../../../../../test/mocks/mockSsoDataStorage";
 import { enableFetchMocks } from "jest-fetch-mock";
 import User from "../../model/user";
 import Keyring from "../../model/keyring";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import RecoverAccountController from "./recoverAccountController";
 import AccountAccountRecoveryEntity from "../../model/entity/account/accountAccountRecoveryEntity";
 import { defaultAccountAccountRecoveryDto } from "../../model/entity/account/accountAccountRecoveryEntity.test.data";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import { mockApiResponse } from "../../../../../test/mocks/mockApiResponse";
 import {
   approvedAccountRecoveryRequestDto,
   approvedAccountRecoveryRequestWithoutPrivateKeyDto,
   approvedAccountRecoveryRequestWithoutResponsesDto,
-} from "passbolt-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryRequestEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryRequestEntity.test.data";
 import InvalidMasterPasswordError from "../../error/invalidMasterPasswordError";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import SsoDataStorage from "../../service/indexedDB_storage/ssoDataStorage";
 import GenerateSsoKitService from "../../service/sso/generateSsoKitService";
-import { anonymousSiteSettings } from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import { anonymousSiteSettings } from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
 import GetOrFindSiteSettingsService from "../../service/siteSettings/getOrFindSiteSettingsService";
 import AccountTemporarySessionStorageService from "../../service/sessionStorage/accountTemporarySessionStorageService";
 import ToolbarService from "../../service/toolbar/toolbarService";

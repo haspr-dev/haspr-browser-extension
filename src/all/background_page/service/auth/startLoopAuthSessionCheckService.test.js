@@ -18,7 +18,7 @@ import { defaultAccountDto } from "../../model/entity/account/accountEntity.test
 import GetActiveAccountService from "../account/getActiveAccountService";
 import UserActiveSessionEntity, {
   USER_ACTIVE_SESSION_ONLINE,
-} from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
+} from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
 import FindAndUpdateActiveSessionLocalStorageService from "../activeSession/findAndUpdateActiveSessionLocalStorageService";
 
 jest.useFakeTimers();

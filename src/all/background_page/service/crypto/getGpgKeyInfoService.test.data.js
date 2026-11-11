@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         3.6.0
  */
-const { pgpKeys } = require("passbolt-styleguide/test/fixture/pgpKeys/keys");
+const { pgpKeys } = require("haspr-styleguide/test/fixture/pgpKeys/keys");
 
 const getKeyDto = (key) => ({
   armored_key: key.public,

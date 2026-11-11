@@ -14,20 +14,20 @@
 import { v4 as uuidv4 } from "uuid";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { adminAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import MockPort from "passbolt-styleguide/src/react-extension/test/mock/MockPort";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import MockPort from "haspr-styleguide/src/react-extension/test/mock/MockPort";
 import {
   defaultPermissionDto,
   minimumPermissionDto,
-} from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
 import ShareOneFolderController from "./shareOneFolderController";
 import PermissionChangesCollection from "../../model/entity/permission/change/permissionChangesCollection";
 import FoldersCollection from "../../model/entity/folder/foldersCollection";
-import { defaultFolderDto } from "passbolt-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
-import { anonymousSiteSettings } from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import { defaultFolderDto } from "haspr-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
+import { anonymousSiteSettings } from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
 import GetOrFindSiteSettingsService from "../../service/siteSettings/getOrFindSiteSettingsService";
-const { pgpKeys } = require("passbolt-styleguide/test/fixture/pgpKeys/keys");
+const { pgpKeys } = require("haspr-styleguide/test/fixture/pgpKeys/keys");
 
 describe("ShareOneFolderController", () => {
   beforeEach(() => {

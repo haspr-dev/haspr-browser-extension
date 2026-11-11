@@ -14,20 +14,20 @@
 import GenerateSetupKeyPairController from "./generateSetupKeyPairController";
 import GetGpgKeyInfoService from "../../service/crypto/getGpgKeyInfoService";
 import DecryptPrivateKeyService from "../../service/crypto/decryptPrivateKeyService";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 import { startAccountSetupDto } from "../../model/entity/account/accountSetupEntity.test.data";
 import AccountSetupEntity from "../../model/entity/account/accountSetupEntity";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import MockExtension from "../../../../../test/mocks/mockExtension";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AccountTemporarySessionStorageService from "../../service/sessionStorage/accountTemporarySessionStorageService";
 import { v4 as uuidv4 } from "uuid";
 import AccountTemporaryEntity from "../../model/entity/account/accountTemporaryEntity";
-import UserKeyPoliciesSettingsEntity from "passbolt-styleguide/src/shared/models/entity/userKeyPolicies/UserKeyPoliciesSettingsEntity";
-import { defaultUserKeyPoliciesSettingsDto } from "passbolt-styleguide/src/shared/models/entity/userKeyPolicies/UserKeyPoliciesSettingsEntity.test.data";
+import UserKeyPoliciesSettingsEntity from "haspr-styleguide/src/shared/models/entity/userKeyPolicies/UserKeyPoliciesSettingsEntity";
+import { defaultUserKeyPoliciesSettingsDto } from "haspr-styleguide/src/shared/models/entity/userKeyPolicies/UserKeyPoliciesSettingsEntity.test.data";
 import FindUserKeyPoliciesSettingsService from "../../service/userKeyPolicies/findUserKeyPoliciesSettingsService";
-import { anonymousSiteSettings } from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import { anonymousSiteSettings } from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
 import GetOrFindSiteSettingsService from "../../service/siteSettings/getOrFindSiteSettingsService";
 
 describe("GenerateSetupKeyPairController", () => {

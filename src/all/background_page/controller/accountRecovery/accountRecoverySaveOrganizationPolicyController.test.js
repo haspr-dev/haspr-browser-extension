@@ -15,10 +15,10 @@
 import { v4 as uuidv4 } from "uuid";
 import { enableFetchMocks } from "jest-fetch-mock";
 import AccountRecoverySaveOrganizationPolicyController from "./accountRecoverySaveOrganizationPolicyController";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 import AccountRecoveryOrganizationPolicyEntity from "../../model/entity/accountRecovery/accountRecoveryOrganizationPolicyEntity";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import { mockApiResponse } from "../../../../../test/mocks/mockApiResponse";
 import MockExtension from "../../../../../test/mocks/mockExtension";
 import DecryptMessageService from "../../service/crypto/decryptMessageService";
@@ -34,7 +34,7 @@ import {
   bettyAccountRecoveryPrivateKeyPasswordDto,
   defaultAccountRecoveryPrivateKeyPasswordDto,
   secretSubstitutionAttackAccountRecoveryPrivateKeyPasswordDto,
-} from "passbolt-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryPrivateKeyPasswordEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryPrivateKeyPasswordEntity.test.data";
 import AccountRecoveryPrivateKeyPasswordDecryptedDataEntity from "../../model/entity/accountRecovery/accountRecoveryPrivateKeyPasswordDecryptedDataEntity";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { adminAccountDto } from "../../model/entity/account/accountEntity.test.data";

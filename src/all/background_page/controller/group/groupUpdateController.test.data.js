@@ -12,11 +12,11 @@
  * @since         3.6.0
  */
 import { v4 as uuidv4 } from "uuid";
-import { users } from "passbolt-styleguide/src/shared/models/entity/user/userEntity.test.data";
-import { defaultGroupDto } from "passbolt-styleguide/src/shared/models/entity/group/groupEntity.test.data";
-import { createGroupUser } from "passbolt-styleguide/src/shared/models/entity/groupUser/groupUserEntity.test.data.js";
+import { users } from "haspr-styleguide/src/shared/models/entity/user/userEntity.test.data";
+import { defaultGroupDto } from "haspr-styleguide/src/shared/models/entity/group/groupEntity.test.data";
+import { createGroupUser } from "haspr-styleguide/src/shared/models/entity/groupUser/groupUserEntity.test.data.js";
 import EncryptMessageService from "../../service/crypto/encryptMessageService";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import { defaultDryRunResponse } from "../../model/entity/group/update/groupUpdateDryRunResultEntity.test.data";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 

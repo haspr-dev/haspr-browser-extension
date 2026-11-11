@@ -11,10 +11,10 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         3.6.0
  */
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import AccountRecoveryRequestEntity from "./accountRecoveryRequestEntity";
-import { pendingAccountRecoveryRequestDto } from "passbolt-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryRequestEntity.test.data";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+import { pendingAccountRecoveryRequestDto } from "haspr-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryRequestEntity.test.data";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 
 describe("AccountRecoveryRequest entity", () => {
   describe("AccountRecoveryRequestEntity::getSchema", () => {

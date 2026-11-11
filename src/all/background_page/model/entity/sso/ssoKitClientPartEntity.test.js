@@ -12,8 +12,8 @@
  * @since         3.9.0
  */
 import SsoKitClientPartEntity from "./ssoKitClientPartEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 import { v4 as uuid } from "uuid";
 import { clientSsoKit } from "./ssoKitClientPart.test.data";
 import GenerateSsoIvService from "../../../service/crypto/generateSsoIvService";

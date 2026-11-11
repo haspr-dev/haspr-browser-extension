@@ -14,11 +14,11 @@
 import { v4 as uuidv4 } from "uuid";
 import { enableFetchMocks } from "jest-fetch-mock";
 
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
-import CollectionValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/collectionValidationError";
-import { defaultPassboltResponseEntity } from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity.test.data";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import CollectionValidationError from "haspr-styleguide/src/shared/models/entity/abstract/collectionValidationError";
+import { defaultPassboltResponseEntity } from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity.test.data";
 
 import ResourceLocalStorage from "../local_storage/resourceLocalStorage";
 import { defaultTagsDtos } from "../../model/entity/tag/tagsCollection.test.data";
@@ -26,7 +26,7 @@ import TagsCollection from "../../model/entity/tag/tagsCollection";
 import UpdateResourceTagsService from "./updateResourceTagsService";
 import ResourceEntity from "../../model/entity/resource/resourceEntity";
 import ResourcesCollection from "../../model/entity/resource/resourcesCollection";
-import { FAIL_ARRAY_SCENARIOS } from "passbolt-styleguide/test/assert/assertEntityProperty";
+import { FAIL_ARRAY_SCENARIOS } from "haspr-styleguide/test/assert/assertEntityProperty";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 

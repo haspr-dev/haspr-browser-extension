@@ -14,8 +14,8 @@
 
 import { enableFetchMocks } from "jest-fetch-mock";
 import { mockApiResponse } from "../../../../../test/mocks/mockApiResponse";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import { pendingAccountRecoveryRequestDto } from "passbolt-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryRequestEntity.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { pendingAccountRecoveryRequestDto } from "haspr-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryRequestEntity.test.data";
 import AccountRecoveryGetRequestController from "./accountRecoveryGetRequestController";
 import AccountRecoveryRequestEntity from "../../model/entity/accountRecovery/accountRecoveryRequestEntity";
 

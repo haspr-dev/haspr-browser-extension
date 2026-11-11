@@ -14,27 +14,27 @@
 
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import SaveMetadataSettingsService from "./saveMetadataSettingsService";
-import MetadataTypesSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
+import MetadataTypesSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
 import {
   defaultMetadataTypesSettingsV4Dto,
   defaultMetadataTypesSettingsV50FreshDto,
-} from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity.test.data";
-import { defaultMetadataKeysSettingsDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity.test.data";
-import MetadataKeysSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity";
-import UsersCollection from "passbolt-styleguide/src/shared/models/entity/user/usersCollection";
+} from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity.test.data";
+import { defaultMetadataKeysSettingsDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity.test.data";
+import MetadataKeysSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity";
+import UsersCollection from "haspr-styleguide/src/shared/models/entity/user/usersCollection";
 import {
   defaultMetadataKeyDto,
   metadataKeyWithSignedMetadataPrivateKeyDataDto,
-} from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeyEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeyEntity.test.data";
 import { v4 as uuidv4 } from "uuid";
-import { decryptedMetadataPrivateKeyDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity.test.data";
-import ShareMetadataPrivateKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/shareMetadataPrivateKeysCollection";
-import { defaultUserDto } from "passbolt-styleguide/src/shared/models/entity/user/userEntity.test.data";
-import MetadataKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import RoleEntity from "passbolt-styleguide/src/shared/models/entity/role/roleEntity";
+import { decryptedMetadataPrivateKeyDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity.test.data";
+import ShareMetadataPrivateKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/shareMetadataPrivateKeysCollection";
+import { defaultUserDto } from "haspr-styleguide/src/shared/models/entity/user/userEntity.test.data";
+import MetadataKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import RoleEntity from "haspr-styleguide/src/shared/models/entity/role/roleEntity";
 import Keyring from "../../model/keyring";
 
 beforeEach(() => {

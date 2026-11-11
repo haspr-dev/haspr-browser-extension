@@ -13,9 +13,9 @@
  */
 
 import InvalidMasterPasswordError from "../../error/invalidMasterPasswordError";
-import ExternalGpgKeyEntity from "passbolt-styleguide/src/shared/models/entity/gpgkey/externalGpgKeyEntity";
+import ExternalGpgKeyEntity from "haspr-styleguide/src/shared/models/entity/gpgkey/externalGpgKeyEntity";
 import CheckPassphraseController from "./checkPassphraseController";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import Keyring from "../../model/keyring";
 
 const mockFindPrivate = jest.spyOn(Keyring.prototype, "findPrivate");

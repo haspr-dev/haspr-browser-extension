@@ -14,7 +14,7 @@
 
 import OfflineSettingsApiService from "../api/offline/offlineSettingsApiService";
 import OfflineSettingsLocalStorage from "../local_storage/offlineSettingsLocalStorage";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 
 class DisableOfflineSettingsService {
   /**

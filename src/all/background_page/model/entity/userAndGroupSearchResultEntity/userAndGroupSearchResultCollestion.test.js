@@ -13,7 +13,7 @@
  */
 import UserAndGroupSearchResultsCollection from "./userAndGroupSearchResultCollection";
 import UserAndGroupSearchResultEntity from "./userAndGroupSearchResultEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import { defaultGroupSearchResultDto, defaultUserSearchResultDto } from "./userAndGroupSearchResultEntity.test.data";
 import { defaultUserAndGroupSearchResultsDtos } from "./userAndGroupSearchResultCollection.test.data";
 

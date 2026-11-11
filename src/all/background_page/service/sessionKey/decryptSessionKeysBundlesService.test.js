@@ -12,17 +12,17 @@
  * @since         4.10.1
  */
 
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import DecryptSessionKeysBundlesService from "./decryptSessionKeysBundlesService";
-import SessionKeysBundleEntity from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleEntity";
-import SessionKeysBundleDataEntity from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleDataEntity";
-import UserPassphraseRequiredError from "passbolt-styleguide/src/shared/error/userPassphraseRequiredError";
+import SessionKeysBundleEntity from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleEntity";
+import SessionKeysBundleDataEntity from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleDataEntity";
+import UserPassphraseRequiredError from "haspr-styleguide/src/shared/error/userPassphraseRequiredError";
 import PassphraseStorageService from "../session_storage/passphraseStorageService";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultSessionKeysBundleDto } from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleEntity.test.data";
-import { defaultSessionKeysBundlesDtos } from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection.test.data";
-import SessionKeysBundlesCollection from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection";
+import { defaultSessionKeysBundleDto } from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleEntity.test.data";
+import { defaultSessionKeysBundlesDtos } from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection.test.data";
+import SessionKeysBundlesCollection from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection";
 
 beforeEach(() => {
   jest.clearAllMocks();

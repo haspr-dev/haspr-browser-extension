@@ -14,12 +14,12 @@
 
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import FindAndUpdateSessionKeysSessionStorageService from "./findAndUpdateSessionKeysSessionStorageService";
-import { defaultSessionKeysBundlesDtos } from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection.test.data";
-import SessionKeysBundlesCollection from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection";
+import { defaultSessionKeysBundlesDtos } from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection.test.data";
+import SessionKeysBundlesCollection from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection";
 import PassphraseStorageService from "../session_storage/passphraseStorageService";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 
 beforeEach(() => {
   jest.clearAllMocks();

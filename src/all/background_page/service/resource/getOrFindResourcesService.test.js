@@ -13,28 +13,28 @@
  */
 
 import ResourceService from "../api/resource/resourceService";
-import { ApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions";
+import { ApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions";
 import ResourcesCollection from "../../model/entity/resource/resourcesCollection";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import ResourceTypeService from "../api/resourceType/resourceTypeService";
-import { resourceTypesCollectionDto } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
+import { resourceTypesCollectionDto } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
 import ResourceLocalStorage from "../local_storage/resourceLocalStorage";
 import GetOrFindResourcesService from "./getOrFindResourcesService";
 import FindAndUpdateResourcesLocalStorage from "./findAndUpdateResourcesLocalStorageService";
 import { multipleResourceDtos } from "./getOrFindResourcesService.test.data";
-import { resourceAllTypesDtosCollection } from "passbolt-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
+import { resourceAllTypesDtosCollection } from "haspr-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
 import {
   defaultResourceDto,
   resourceStandaloneTotpDto,
   resourceWithTotpDto,
-} from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
-import { defaultResourceMetadataDto } from "passbolt-styleguide/src/shared/models/entity/resource/metadata/resourceMetadataEntity.test.data";
-import { mockPassboltResponse } from "passbolt-styleguide/test/mocks/mockApiResponse";
+} from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { defaultResourceMetadataDto } from "haspr-styleguide/src/shared/models/entity/resource/metadata/resourceMetadataEntity.test.data";
+import { mockPassboltResponse } from "haspr-styleguide/test/mocks/mockApiResponse";
 import CanUseOfflineStorageService from "../offline/canUseOfflineStorageService";
 import GetOrFindActiveSessionService from "../activeSession/getOrFindActiveSessionService";
-import UserActiveSessionEntity from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
-import { defaultUserActiveSessionDto } from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
+import UserActiveSessionEntity from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
+import { defaultUserActiveSessionDto } from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
 
 jest.useFakeTimers();
 

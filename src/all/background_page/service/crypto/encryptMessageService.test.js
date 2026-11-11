@@ -12,7 +12,7 @@
  * @since         3.6.0
  */
 
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import DecryptMessageService from "./decryptMessageService";
 import EncryptMessageService from "./encryptMessageService";

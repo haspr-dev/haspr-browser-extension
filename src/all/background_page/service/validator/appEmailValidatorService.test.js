@@ -13,13 +13,13 @@
  */
 
 import AppEmailValidatorService from "./appEmailValidatorService";
-import IsEmailValidator from "passbolt-styleguide/src/shared/lib/Validator/IsEmailValidator";
+import IsEmailValidator from "haspr-styleguide/src/shared/lib/Validator/IsEmailValidator";
 import {
   customEmailValidationProSiteSettings,
   defaultProSiteSettings,
-} from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
-import IsRegexValidator from "passbolt-styleguide/src/shared/lib/Validator/IsRegexValidator";
+} from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import IsRegexValidator from "haspr-styleguide/src/shared/lib/Validator/IsRegexValidator";
 import SiteSettingsRuntimeCache from "../siteSettings/siteSettingsRuntimeCache";
 
 describe("AppEmailValidatorService", () => {

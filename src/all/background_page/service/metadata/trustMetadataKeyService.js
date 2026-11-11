@@ -17,8 +17,8 @@ import EncryptMetadataPrivateKeysService from "./encryptMetadataPrivateKeysServi
 import UpdateMetadataKeyPrivateService from "./updateMetadataKeyPrivateService";
 import MetadataKeysSessionStorage from "../session_storage/metadataKeysSessionStorage";
 import { assertString, assertType } from "../../utils/assertions";
-import MetadataTrustedKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTrustedKeyEntity";
-import MetadataPrivateKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity";
+import MetadataTrustedKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataTrustedKeyEntity";
+import MetadataPrivateKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity";
 import DecryptPrivateKeyService from "../crypto/decryptPrivateKeyService";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 

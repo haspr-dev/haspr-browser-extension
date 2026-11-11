@@ -12,13 +12,13 @@
  * @since         4.9.4
  */
 
-import { ApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions";
+import { ApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions";
 import FindFoldersService from "./findFoldersService";
-import { defaultFolderDto } from "passbolt-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
+import { defaultFolderDto } from "haspr-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
 import FolderLocalStorage from "../local_storage/folderLocalStorage";
 import FolderApiService from "../api/folder/folderApiService";
 import FoldersCollection from "../../model/entity/folder/foldersCollection";
-import { defaultPermissionDto } from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity.test.data.js";
+import { defaultPermissionDto } from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity.test.data.js";
 import { v4 as uuidv4 } from "uuid";
 import FolderEntity from "../../model/entity/folder/folderEntity";
 

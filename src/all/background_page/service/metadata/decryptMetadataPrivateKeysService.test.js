@@ -13,22 +13,22 @@
  */
 
 import EncryptMessageService from "../crypto/encryptMessageService";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import {
   decryptedMetadataPrivateKeyDto,
   defaultMetadataPrivateKeyDto,
-} from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity.test.data";
 import DecryptMetadataPrivateKeysService from "./decryptMetadataPrivateKeysService";
-import MetadataPrivateKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity";
-import UserPassphraseRequiredError from "passbolt-styleguide/src/shared/error/userPassphraseRequiredError";
+import MetadataPrivateKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity";
+import UserPassphraseRequiredError from "haspr-styleguide/src/shared/error/userPassphraseRequiredError";
 import PassphraseStorageService from "../session_storage/passphraseStorageService";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import MetadataPrivateKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeysCollection";
-import { defaultMetadataKeyDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeyEntity.test.data";
-import MetadataKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
-import MetadataPrivateKeyDataEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyDataEntity";
+import MetadataPrivateKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeysCollection";
+import { defaultMetadataKeyDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeyEntity.test.data";
+import MetadataKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
+import MetadataPrivateKeyDataEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyDataEntity";
 
 beforeEach(() => {
   jest.clearAllMocks();

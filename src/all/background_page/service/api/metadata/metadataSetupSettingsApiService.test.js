@@ -14,9 +14,9 @@
 import { enableFetchMocks } from "jest-fetch-mock";
 import { mockApiResponse } from "../../../../../../test/mocks/mockApiResponse";
 import MetadataSetupSettingsApiService from "./metadataSetupSettingsApiService";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import { enableMetadataSetupSettingsDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataSetupSettingsEntity.test.data";
-import PassboltResponseEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { enableMetadataSetupSettingsDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataSetupSettingsEntity.test.data";
+import PassboltResponseEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
 
 beforeEach(() => {
   jest.resetAllMocks();

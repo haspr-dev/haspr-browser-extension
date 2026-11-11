@@ -17,8 +17,8 @@ import GenerateGpgKeyPairOptionsEntity from "../../model/entity/gpgkey/generate/
 import DecryptPrivateKeyService from "../../service/crypto/decryptPrivateKeyService";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import { defaultDto } from "../../model/entity/gpgkey/generate/generateGpgKeyPairOptionsEntity.test.data";
-import { customEmailValidationProSiteSettings } from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import { customEmailValidationProSiteSettings } from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
 import SiteSettingsRuntimeCache from "../siteSettings/siteSettingsRuntimeCache";
 
 describe("GenerateGpgKeyPair service", () => {

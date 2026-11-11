@@ -19,12 +19,12 @@ import {
 } from "../../model/entity/account/accountRecoverEntity.test.data";
 import AccountRecoverEntity from "../../model/entity/account/accountRecoverEntity";
 import MockExtension from "../../../../../test/mocks/mockExtension";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AccountTemporarySessionStorageService from "../../service/sessionStorage/accountTemporarySessionStorageService";
 import GetOrFindActiveSessionService from "../../service/activeSession/getOrFindActiveSessionService";
 import UserActiveSessionEntity, {
   USER_ACTIVE_SESSION_ONLINE,
-} from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
+} from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
 
 describe("GenerateRecoverAccountRecoveryRequestKeyController", () => {
   beforeEach(() => {

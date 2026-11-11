@@ -42,10 +42,10 @@ import GetActiveAccountService from "../service/account/getActiveAccountService"
 import { PermissionEvents } from "../event/permissionEvents";
 import { AccountEvents } from "../event/accountEvents";
 import { AppSignOutEvents } from "../event/appSignOutEvents";
-import UserActiveSessionEntity from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
-import { defaultUserActiveSessionDto } from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
-import UserApiService from "passbolt-styleguide/src/shared/services/api/user/userApiService";
-import { defaultAdminUserDto } from "passbolt-styleguide/src/shared/models/entity/user/userEntity.test.data";
+import UserActiveSessionEntity from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
+import { defaultUserActiveSessionDto } from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
+import UserApiService from "haspr-styleguide/src/shared/services/api/user/userApiService";
+import { defaultAdminUserDto } from "haspr-styleguide/src/shared/models/entity/user/userEntity.test.data";
 import AccountEntity from "../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../model/entity/account/accountEntity.test.data";
 import GetOrFindActiveSessionService from "../service/activeSession/getOrFindActiveSessionService";

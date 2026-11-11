@@ -14,8 +14,8 @@
 import { v4 as uuidv4 } from "uuid";
 import FolderEntity from "../../model/entity/folder/folderEntity";
 import ResourceEntity from "../../model/entity/resource/resourceEntity";
-import { defaultFolderDto } from "passbolt-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { defaultFolderDto } from "haspr-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
 
 /**
  * Build a FolderEntity whose ACL is the given `permissions` list.

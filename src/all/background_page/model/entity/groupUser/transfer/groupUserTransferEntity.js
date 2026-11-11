@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         3.0.0
  */
-import EntityV2 from "passbolt-styleguide/src/shared/models/entity/abstract/entityV2";
+import EntityV2 from "haspr-styleguide/src/shared/models/entity/abstract/entityV2";
 
 class GroupUserTransferEntity extends EntityV2 {
   /**

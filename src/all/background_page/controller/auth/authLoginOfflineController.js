@@ -14,7 +14,7 @@
 import Keyring from "../../model/keyring";
 import CheckPassphraseService from "../../service/crypto/checkPassphraseService";
 import PostLoginOfflineService from "../../service/auth/postLoginOfflineService";
-import { assertNumber } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertNumber } from "haspr-styleguide/src/shared/utils/assertions";
 import { assertPassphrase } from "../../utils/assertions";
 
 /**

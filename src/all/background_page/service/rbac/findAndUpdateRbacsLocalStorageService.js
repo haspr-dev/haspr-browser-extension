@@ -12,7 +12,7 @@
  * @since         5.8.0
  */
 import RbacsLocalStorage from "../local_storage/rbacLocalStorage";
-import RbacsCollection from "passbolt-styleguide/src/shared/models/entity/rbac/rbacsCollection";
+import RbacsCollection from "haspr-styleguide/src/shared/models/entity/rbac/rbacsCollection";
 import FindRbacService from "./findRbacService";
 
 const FIND_AND_UPDATE_RBAC_LS_LOCK_PREFIX = "FIND_AND_UPDATE_RBAC_LS_LOCK-";

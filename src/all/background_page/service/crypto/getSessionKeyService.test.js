@@ -16,9 +16,9 @@ import GetSessionKeyService from "./getSessionKeyService";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import EncryptMessageService from "./encryptMessageService";
 import DecryptMessageService from "./decryptMessageService";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import SessionKeyEntity from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeyEntity";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import SessionKeyEntity from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeyEntity";
 
 describe("GetSessionKeyService", () => {
   describe("::getFromGpgMessage", () => {

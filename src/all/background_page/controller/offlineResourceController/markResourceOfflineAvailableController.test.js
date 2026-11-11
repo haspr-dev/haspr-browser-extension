@@ -12,11 +12,11 @@
  * @since         5.13.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import MarkResourceOfflineAvailableController from "./markResourceOfflineAvailableController";
 import { v4 as uuidv4 } from "uuid";
-import { defaultOfflineItemDto } from "passbolt-styleguide/src/shared/models/entity/offline/offlineItemEntity.test.data";
-import OfflineItemEntity from "passbolt-styleguide/src/shared/models/entity/offline/offlineItemEntity";
+import { defaultOfflineItemDto } from "haspr-styleguide/src/shared/models/entity/offline/offlineItemEntity.test.data";
+import OfflineItemEntity from "haspr-styleguide/src/shared/models/entity/offline/offlineItemEntity";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 

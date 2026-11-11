@@ -12,12 +12,12 @@
  * @since         5.1.1
  */
 
-import RoleEntity from "passbolt-styleguide/src/shared/models/entity/role/roleEntity";
+import RoleEntity from "haspr-styleguide/src/shared/models/entity/role/roleEntity";
 import GetOrFindUsersService from "../user/getOrFindUsersService";
 import { assertString } from "../../utils/assertions";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 import MetadataPrivateKeyApiService from "../api/metadata/metadataPrivateKeyApiService";
-import ShareMetadataPrivateKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/shareMetadataPrivateKeysCollection";
+import ShareMetadataPrivateKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/shareMetadataPrivateKeysCollection";
 import GetOrFindMetadataKeysService from "./getOrFindMetadataKeysService";
 import EncryptMetadataPrivateKeysService from "./encryptMetadataPrivateKeysService";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";

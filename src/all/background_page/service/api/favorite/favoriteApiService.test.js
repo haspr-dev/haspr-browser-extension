@@ -19,7 +19,7 @@ import { defaultAccountDto } from "../../../model/entity/account/accountEntity.t
 import FavoriteApiService from "./favoriteApiService";
 import BuildApiClientOptionsService from "../../account/buildApiClientOptionsService";
 import { v4 as uuidv4 } from "uuid";
-import { defaultFavoriteDto } from "passbolt-styleguide/src/shared/models/entity/favorite/favoriteEntity.test.data";
+import { defaultFavoriteDto } from "haspr-styleguide/src/shared/models/entity/favorite/favoriteEntity.test.data";
 
 describe("FavoriteApiService", () => {
   let apiClientOptions, account;

@@ -20,7 +20,7 @@ import CsvKdbxRowParser from "./csvRowParser/csvKdbxRowParser";
 import CsvLastPassRowParser from "./csvRowParser/csvLastPassRowParser";
 
 import ImportResourcesFileEntity from "../../entity/import/importResourcesFileEntity";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 import ImportError from "../../../error/importError";
 import BinaryConvert from "../../../utils/format/binaryConvert";
 import CsvChromiumRowParser from "./csvRowParser/csvChromiumRowParser";
@@ -30,16 +30,16 @@ import CsvDashlaneRowParser from "./csvRowParser/csvDashlaneRowParser";
 import CsvMozillaPlatformRowParser from "./csvRowParser/csvMozillaPlatformRowParser";
 import CsvNordpassRowParser from "./csvRowParser/csvNordpassRowParser";
 import CsvLogMeOnceRowParser from "./csvRowParser/csvLogMeOnceRowParser";
-import ResourceTypesCollection from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
+import ResourceTypesCollection from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
 import {
   resourceTypesCollectionDto,
   resourceTypesCollectionWithoutNoteDto,
-} from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
+} from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
 import {
   defaultMetadataTypesSettingsV4Dto,
   defaultMetadataTypesSettingsV50FreshDto,
-} from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity.test.data";
-import MetadataTypesSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
+} from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity.test.data";
+import MetadataTypesSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
 
 describe("ResourcesCsvImportParser", () => {
   let resourceTypesCollection;

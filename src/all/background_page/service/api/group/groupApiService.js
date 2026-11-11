@@ -12,7 +12,7 @@
  * @since         3.0.0
  */
 import AbstractService from "../abstract/abstractService";
-import PassboltResponseEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
+import PassboltResponseEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
 
 const GROUP_API_SERVICE_RESOURCE_NAME = "groups";
 

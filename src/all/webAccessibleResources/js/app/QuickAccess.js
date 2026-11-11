@@ -13,7 +13,7 @@
  */
 import React from "react";
 import { createRoot } from "react-dom/client";
-import ExtQuickAccess from "passbolt-styleguide/src/react-quickaccess/ExtQuickAccess";
+import ExtQuickAccess from "haspr-styleguide/src/react-quickaccess/ExtQuickAccess";
 import Port from "../lib/port";
 
 async function main() {

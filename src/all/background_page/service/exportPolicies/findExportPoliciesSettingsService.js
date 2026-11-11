@@ -13,7 +13,7 @@
  */
 
 import ExportPoliciesSettingsApiService from "../api/exportPolicies/exportPoliciesSettingsApiService";
-import ExportPoliciesSettingsEntity from "passbolt-styleguide/src/shared/models/entity/exportSettings/ExportPoliciesSettingsEntity";
+import ExportPoliciesSettingsEntity from "haspr-styleguide/src/shared/models/entity/exportSettings/ExportPoliciesSettingsEntity";
 
 /**
  * The service aims to find export policies settings.

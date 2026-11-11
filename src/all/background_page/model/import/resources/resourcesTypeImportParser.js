@@ -20,7 +20,7 @@ import {
   RESOURCE_TYPE_V5_DEFAULT_TOTP_SLUG,
   RESOURCE_TYPE_V5_PASSWORD_STRING_SLUG,
   RESOURCE_TYPE_V5_STANDALONE_PIN_CODE_SLUG,
-} from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeSchemasDefinition";
+} from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeSchemasDefinition";
 
 class ResourcesTypeImportParser {
   /**

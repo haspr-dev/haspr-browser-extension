@@ -17,7 +17,7 @@ import FolderLocalStorage from "../local_storage/folderLocalStorage";
 import FindAndUpdateFoldersLocalStorageService from "./findAndUpdateFoldersLocalStorageService";
 import FindAndUpdateResourcesLocalStorageService from "../resource/findAndUpdateResourcesLocalStorageService";
 import { assertBoolean } from "../../utils/assertions";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 
 /**
  * The service aims to delete a folder

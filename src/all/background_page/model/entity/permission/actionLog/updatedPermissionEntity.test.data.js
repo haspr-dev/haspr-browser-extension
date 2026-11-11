@@ -11,8 +11,8 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.4.0
  */
-import { defaultUserDto } from "passbolt-styleguide/src/shared/models/entity/user/userEntity.test.data";
-import PermissionEntity from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity";
+import { defaultUserDto } from "haspr-styleguide/src/shared/models/entity/user/userEntity.test.data";
+import PermissionEntity from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity";
 import { v4 as uuidv4 } from "uuid";
 
 export const defaultUpdatePermissionDto = (data) => ({

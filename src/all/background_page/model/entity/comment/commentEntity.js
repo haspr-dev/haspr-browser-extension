@@ -12,7 +12,7 @@
  * @since         3.0.0
  */
 import UserEntity from "../user/userEntity";
-import EntityV2 from "passbolt-styleguide/src/shared/models/entity/abstract/entityV2";
+import EntityV2 from "haspr-styleguide/src/shared/models/entity/abstract/entityV2";
 
 const COMMENT_CONTENT_MAX_LENGTH = 255;
 const FOREIGN_MODEL_RESOURCE = "Resource";

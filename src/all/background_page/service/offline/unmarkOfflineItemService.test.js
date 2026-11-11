@@ -13,10 +13,10 @@
  */
 
 import { enableFetchMocks } from "jest-fetch-mock";
-import { mockApiResponse, mockApiResponseError } from "passbolt-styleguide/test/mocks/mockApiResponse";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
-import PassboltServiceUnavailableError from "passbolt-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
+import { mockApiResponse, mockApiResponseError } from "haspr-styleguide/test/mocks/mockApiResponse";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltServiceUnavailableError from "haspr-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
 import { v4 as uuidv4 } from "uuid";
 import UnmarkOfflineItemService from "./unmarkOfflineItemService";
 import AccountEntity from "../../model/entity/account/accountEntity";
@@ -24,8 +24,8 @@ import { defaultAccountDto } from "../../model/entity/account/accountEntity.test
 import OfflineResourcesOPFSStorage from "../opfsStorage/offlineResourcesOPFSStorage";
 import OfflineSecretsOPFSStorage from "../opfsStorage/offlineSecretsOPFSStorage";
 import ResourceLocalStorage from "../local_storage/resourceLocalStorage";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
-import { defaultOfflineItemDto } from "passbolt-styleguide/src/shared/models/entity/offline/offlineItemEntity.test.data";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { defaultOfflineItemDto } from "haspr-styleguide/src/shared/models/entity/offline/offlineItemEntity.test.data";
 
 describe("UnmarkOfflineItemService", () => {
   let apiClientOptions, account;

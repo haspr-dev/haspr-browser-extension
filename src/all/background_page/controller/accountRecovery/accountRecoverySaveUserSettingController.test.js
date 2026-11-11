@@ -15,21 +15,21 @@
 import { enableFetchMocks } from "jest-fetch-mock";
 import User from "../../model/user";
 import AccountRecoverySaveUserSettingsController from "./accountRecoverySaveUserSettingController";
-import AccountRecoveryUserSettingEntity from "passbolt-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryUserSettingEntity";
+import AccountRecoveryUserSettingEntity from "haspr-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryUserSettingEntity";
 import {
   createAcceptedAccountRecoveryUserSettingDto,
   createRejectedAccountRecoveryUserSettingDto,
-} from "passbolt-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryUserSettingEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryUserSettingEntity.test.data";
 import {
   enabledAccountRecoveryOrganizationPolicyDto,
   disabledAccountRecoveryOrganizationPolicyDto,
 } from "../../model/entity/accountRecovery/accountRecoveryOrganizationPolicyEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import MockExtension from "../../../../../test/mocks/mockExtension";
 import { mockApiResponse } from "../../../../../test/mocks/mockApiResponse";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 
 jest.mock("../../service/passphrase/getPassphraseService");
 

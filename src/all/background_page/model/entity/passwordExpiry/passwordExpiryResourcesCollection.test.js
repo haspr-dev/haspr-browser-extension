@@ -12,8 +12,8 @@
  * @since 4.5.0
  */
 import PasswordExpiryResourcesCollection from "./passwordExpiryResourcesCollection";
-import EntityCollectionError from "passbolt-styleguide/src/shared/models/entity/abstract/entityCollectionError";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityCollectionError from "haspr-styleguide/src/shared/models/entity/abstract/entityCollectionError";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import {
   defaultPasswordExpiryResourceDto,
   defaultPasswordExpiryResourceDtoFromApi,

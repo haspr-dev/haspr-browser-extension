@@ -13,7 +13,7 @@
  */
 
 import MetadataSetupSettingsApiService from "../api/metadata/metadataSetupSettingsApiService";
-import MetadataSetupSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataSetupSettingsEntity";
+import MetadataSetupSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataSetupSettingsEntity";
 
 /**
  * The service aims to find metadata setup settings.

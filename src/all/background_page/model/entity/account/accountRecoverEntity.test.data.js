@@ -13,11 +13,11 @@
  */
 
 import { v4 as uuidv4 } from "uuid";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import { defaultSecurityTokenDto } from "../securityToken/SecurityTokenEntity.test.data";
 import AccountRecoverEntity from "./accountRecoverEntity";
-import { defaultUserDto } from "passbolt-styleguide/src/shared/models/entity/user/userEntity.test.data";
-import AccountRecoveryUserSettingEntity from "passbolt-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryUserSettingEntity";
+import { defaultUserDto } from "haspr-styleguide/src/shared/models/entity/user/userEntity.test.data";
+import AccountRecoveryUserSettingEntity from "haspr-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryUserSettingEntity";
 
 export const initialAccountRecoverDto = (data = {}) => ({
   type: AccountRecoverEntity.TYPE_ACCOUNT_RECOVER,

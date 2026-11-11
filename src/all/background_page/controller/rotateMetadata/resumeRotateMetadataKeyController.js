@@ -15,7 +15,7 @@
 import GetPassphraseService from "../../service/passphrase/getPassphraseService";
 import ProgressService from "../../service/progress/progressService";
 import i18n from "../../sdk/i18n";
-import MetadataKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeyEntity";
+import MetadataKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeyEntity";
 import RotateMetadataKeyService from "../../service/metadata/rotateMetadata/rotateMetadataKeyService";
 
 export default class ResumeRotateMetadataKeyController {

@@ -12,14 +12,14 @@
  * @since         4.9.4
  */
 
-import { ApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions";
+import { ApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import FindAndUpdateFoldersLocalStorageService from "./findAndUpdateFoldersLocalStorageService";
 import FolderApiService from "../api/folder/folderApiService";
 import FindFoldersService from "./findFoldersService";
 import FolderLocalStorage from "../local_storage/folderLocalStorage";
-import { defaultFolderDto } from "passbolt-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
+import { defaultFolderDto } from "haspr-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
 import FoldersCollection from "../../model/entity/folder/foldersCollection";
 
 jest.useFakeTimers();

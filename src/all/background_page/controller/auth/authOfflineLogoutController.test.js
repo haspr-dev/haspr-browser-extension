@@ -12,7 +12,7 @@
  * @since         5.16.0
  */
 import { v4 as uuid } from "uuid";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AuthOfflineLogoutController from "./authOfflineLogoutController";
 import PostLogoutService from "../../service/auth/postLogoutService";
 import FindAndUpdateActiveSessionLocalStorageService from "../../service/activeSession/findAndUpdateActiveSessionLocalStorageService";

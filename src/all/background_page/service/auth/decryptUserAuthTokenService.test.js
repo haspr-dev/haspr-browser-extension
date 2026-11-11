@@ -13,7 +13,7 @@
  */
 
 import DecryptUserAuthTokenService from "./decryptUserAuthTokenService";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import {
   bettyAuthToken,
   bettyEncryptedAuthToken,

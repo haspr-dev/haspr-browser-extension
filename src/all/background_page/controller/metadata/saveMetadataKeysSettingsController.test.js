@@ -15,11 +15,11 @@
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import SaveMetadataKeysController from "./saveMetadataKeysSettingsController";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import { defaultMetadataKeysSettingsDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity.test.data";
-import MetadataKeysSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import RoleEntity from "passbolt-styleguide/src/shared/models/entity/role/roleEntity";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultMetadataKeysSettingsDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity.test.data";
+import MetadataKeysSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import RoleEntity from "haspr-styleguide/src/shared/models/entity/role/roleEntity";
 
 describe("SaveMetadataKeysController", () => {
   describe("::exec", () => {

@@ -13,7 +13,7 @@
  */
 import DownloadOrganizationGeneratedKey from "./downloadOrganizationGenerateKeyController";
 import FileService from "../../service/file/fileService";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 
 beforeEach(() => {
   jest.useFakeTimers(); //avoid shift of a few seconds crashing the tests.

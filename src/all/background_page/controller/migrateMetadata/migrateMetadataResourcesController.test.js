@@ -12,14 +12,14 @@
  * @since         4.12.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import { defaultPassboltResponsePaginationHeaderDto } from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponsePaginationHeaderEntity.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultPassboltResponsePaginationHeaderDto } from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponsePaginationHeaderEntity.test.data";
 import MigrateMetadataResourcesController from "./migrateMetadataResourcesController";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultMigrateMetadataDto } from "passbolt-styleguide/src/shared/models/entity/metadata/migrateMetadataEntity.test.data";
-import MigrateMetadataEntity from "passbolt-styleguide/src/shared/models/entity/metadata/migrateMetadataEntity";
-import MockPort from "passbolt-styleguide/src/react-extension/test/mock/MockPort";
+import { defaultMigrateMetadataDto } from "haspr-styleguide/src/shared/models/entity/metadata/migrateMetadataEntity.test.data";
+import MigrateMetadataEntity from "haspr-styleguide/src/shared/models/entity/metadata/migrateMetadataEntity";
+import MockPort from "haspr-styleguide/src/react-extension/test/mock/MockPort";
 import Keyring from "../../model/keyring";
 
 describe("MigrateMetadataResourcesController", () => {

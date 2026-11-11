@@ -12,13 +12,13 @@
  * @since         5.7.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import FavoriteResourceController from "./favoriteResourceController";
 import FavoriteResourceService from "../../service/favorite/favoriteResourceService";
-import { defaultFavoriteDto } from "passbolt-styleguide/src/shared/models/entity/favorite/favoriteEntity.test.data";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { defaultFavoriteDto } from "haspr-styleguide/src/shared/models/entity/favorite/favoriteEntity.test.data";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
 import FavoriteEntity from "../../model/entity/favorite/favoriteEntity";
 
 describe("FavoriteResourceController", () => {

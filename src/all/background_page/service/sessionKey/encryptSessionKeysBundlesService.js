@@ -12,7 +12,7 @@
  * @since         4.10.1
  */
 import PassphraseStorageService from "../session_storage/passphraseStorageService";
-import SessionKeysBundleEntity from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleEntity";
+import SessionKeysBundleEntity from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleEntity";
 import { assertString, assertType } from "../../utils/assertions";
 import DecryptPrivateKeyService from "../crypto/decryptPrivateKeyService";
 import EncryptMessageService from "../crypto/encryptMessageService";

@@ -20,13 +20,13 @@ import Pagemod from "./pagemod";
 import { PortEvents } from "../event/portEvents";
 import { AppBootstrapEvents } from "../event/appBootstrapEvents";
 import GetActiveAccountService from "../service/account/getActiveAccountService";
-import UserActiveSessionEntity from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
+import UserActiveSessionEntity from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
 import AccountEntity from "../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../model/entity/account/accountEntity.test.data";
 import {
   defaultUserActiveSessionDto,
   offlineUserActiveSessionDto,
-} from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
 import FindAndUpdateActiveSessionLocalStorageService from "../service/activeSession/findAndUpdateActiveSessionLocalStorageService";
 import PassboltBadResponseError from "../error/passboltBadResponseError";
 import AuthenticationStatusService from "../service/authenticationStatusService";

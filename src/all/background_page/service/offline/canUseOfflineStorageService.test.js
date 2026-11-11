@@ -12,28 +12,28 @@
  * @since         6.0.0
  */
 
-import RbacsCollection from "passbolt-styleguide/src/shared/models/entity/rbac/rbacsCollection";
+import RbacsCollection from "haspr-styleguide/src/shared/models/entity/rbac/rbacsCollection";
 import {
   defaultRbacWithActionData,
   denyRbacWithActionData,
-} from "passbolt-styleguide/src/shared/models/entity/rbac/rbacEntity.test.data";
-import { defaultActionData } from "passbolt-styleguide/src/shared/models/entity/rbac/actionEntity.test.data";
-import { actions } from "passbolt-styleguide/src/shared/services/rbacs/actionEnumeration";
-import { defaultOfflineSettingsDto } from "passbolt-styleguide/src/shared/models/entity/offline/offlineSettingsEntity.test.data";
-import OfflineSettingsEntity from "passbolt-styleguide/src/shared/models/entity/offline/offlineSettingsEntity";
+} from "haspr-styleguide/src/shared/models/entity/rbac/rbacEntity.test.data";
+import { defaultActionData } from "haspr-styleguide/src/shared/models/entity/rbac/actionEntity.test.data";
+import { actions } from "haspr-styleguide/src/shared/services/rbacs/actionEnumeration";
+import { defaultOfflineSettingsDto } from "haspr-styleguide/src/shared/models/entity/offline/offlineSettingsEntity.test.data";
+import OfflineSettingsEntity from "haspr-styleguide/src/shared/models/entity/offline/offlineSettingsEntity";
 import {
   defaultAdminUserDto,
   defaultUserDto,
-} from "passbolt-styleguide/src/shared/models/entity/user/userEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+} from "haspr-styleguide/src/shared/models/entity/user/userEntity.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import UserEntity from "../../model/entity/user/userEntity";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
 import {
   defaultCeSiteSettings,
   offlinePluginEnabledSiteSettings,
-} from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
 import OfflineSettingsLocalStorage from "../local_storage/offlineSettingsLocalStorage";
 import SiteSettingsLocalStorage from "../local_storage/siteSettingsLocalStorage";
 import UserMeLocalStorage from "../local_storage/userMeLocalStorage";

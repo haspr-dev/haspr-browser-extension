@@ -11,10 +11,10 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         3.0.0
  */
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import GroupDeleteTransferEntity from "./groupDeleteTransferEntity";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
-import { defaultGroupTransferDto } from "passbolt-styleguide/src/shared/models/entity/group/groupTransfer.test.data";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
+import { defaultGroupTransferDto } from "haspr-styleguide/src/shared/models/entity/group/groupTransfer.test.data";
 
 describe("Group delete transfer entity", () => {
   describe("::getSchema", () => {

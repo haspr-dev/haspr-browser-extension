@@ -14,10 +14,10 @@
 
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultMetadataTrustedKeyDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTrustedKeyEntity.test.data";
+import { defaultMetadataTrustedKeyDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataTrustedKeyEntity.test.data";
 import GetMetadataTrustedKeyService from "./getMetadataTrustedKeyService";
 import TrustedMetadataKeyLocalStorage from "../local_storage/trustedMetadataKeyLocalStorage";
-import MetadataTrustedKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTrustedKeyEntity";
+import MetadataTrustedKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataTrustedKeyEntity";
 
 beforeEach(() => {
   jest.clearAllMocks();

@@ -16,7 +16,7 @@ import ResourcesCollection from "../../model/entity/resource/resourcesCollection
 import ResourceEntity from "../../model/entity/resource/resourceEntity";
 import Lock from "../../utils/lock";
 import { assertType } from "../../utils/assertions";
-import { assertArrayUUID, assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertArrayUUID, assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 import PasswordExpiryResourceEntity from "../../model/entity/passwordExpiry/passwordExpiryResourceEntity";
 
 const lock = new Lock();

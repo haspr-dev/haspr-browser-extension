@@ -12,11 +12,11 @@
  * @since         4.12.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import FindMetadataMigrateResourcesService from "./findMetadataMigrateResourcesService";
-import PassboltResponsePaginationHeaderEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponsePaginationHeaderEntity";
-import PassboltResponseEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
-import { defaultPassboltResponseDto } from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity.test.data";
+import PassboltResponsePaginationHeaderEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponsePaginationHeaderEntity";
+import PassboltResponseEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
+import { defaultPassboltResponseDto } from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity.test.data";
 
 beforeEach(() => {
   jest.clearAllMocks();

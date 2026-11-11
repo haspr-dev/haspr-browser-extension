@@ -21,9 +21,9 @@ import {
   plaintextSecretStandaloneTotpSchema,
   plaintextSecretStringSchema,
   plaintextSecretTotpDto,
-} from "passbolt-styleguide/src/shared/models/entity/plaintextSecret/plaintextSecretEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/plaintextSecret/plaintextSecretEntity.test.data";
 import PlaintextEntity from "./plaintextEntity";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 
 describe("PlaintextEntity", () => {
   describe("::getSchema", () => {

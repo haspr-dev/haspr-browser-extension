@@ -11,8 +11,8 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.8.0
  */
-import RolesCollection from "passbolt-styleguide/src/shared/models/entity/role/rolesCollection";
-import RoleApiService from "passbolt-styleguide/src/shared/services/api/role/roleApiService";
+import RolesCollection from "haspr-styleguide/src/shared/models/entity/role/rolesCollection";
+import RoleApiService from "haspr-styleguide/src/shared/services/api/role/roleApiService";
 
 /**
  * The service aims to find roles from the API.

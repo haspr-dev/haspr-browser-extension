@@ -12,11 +12,11 @@
  * @since         3.0.0
  */
 import UserDeleteTransferEntity from "./userDeleteTransferEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
-import { defaultUserDeleteTransferDto } from "passbolt-styleguide/src/shared/models/entity/user/userDeleteTransferEntity.test.data";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
-import CollectionValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/collectionValidationError";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
+import { defaultUserDeleteTransferDto } from "haspr-styleguide/src/shared/models/entity/user/userDeleteTransferEntity.test.data";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import CollectionValidationError from "haspr-styleguide/src/shared/models/entity/abstract/collectionValidationError";
 
 describe("User delete transfer entity", () => {
   describe("::getSchema", () => {

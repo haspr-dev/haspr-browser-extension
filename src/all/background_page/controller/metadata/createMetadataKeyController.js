@@ -14,7 +14,7 @@
 
 import GetPassphraseService from "../../service/passphrase/getPassphraseService";
 import CreateMetadataKeyService from "../../service/metadata/createMetadataKeyService";
-import ExternalGpgKeyPairEntity from "passbolt-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
+import ExternalGpgKeyPairEntity from "haspr-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
 
 class CreateMetadataKeyController {
   /**

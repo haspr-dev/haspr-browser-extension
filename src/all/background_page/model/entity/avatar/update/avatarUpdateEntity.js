@@ -11,8 +11,8 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         2.13.0
  */
-import Entity from "passbolt-styleguide/src/shared/models/entity/abstract/entity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import Entity from "haspr-styleguide/src/shared/models/entity/abstract/entity";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import Base64Utils from "../../../../utils/format/base64";
 
 const ENTITY_NAME = "AvatarUpdate";

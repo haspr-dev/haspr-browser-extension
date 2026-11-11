@@ -12,7 +12,7 @@
  * @since         5.5.0
  */
 
-import ScimSettingsEntity from "passbolt-styleguide/src/shared/models/entity/scimSettings/scimSettingsEntity";
+import ScimSettingsEntity from "haspr-styleguide/src/shared/models/entity/scimSettings/scimSettingsEntity";
 import EnableScimSettingsService from "../../service/scimSettings/enableScimSettingsService";
 
 class CreateScimSettingsController {

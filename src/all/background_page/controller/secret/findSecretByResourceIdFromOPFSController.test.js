@@ -12,15 +12,15 @@
  * @since         6.0.0
  */
 import { v4 as uuidv4 } from "uuid";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import { readSecret } from "passbolt-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
-import SecretsCollection from "passbolt-styleguide/src/shared/models/entity/secret/secretsCollection";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
-import ResourceTypesCollection from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
-import { resourceTypesCollectionDto } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
-import { TEST_RESOURCE_TYPE_V5_DEFAULT } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
-import { plaintextSecretPasswordAndDescriptionDto } from "passbolt-styleguide/src/shared/models/entity/plaintextSecret/plaintextSecretEntity.test.data";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { readSecret } from "haspr-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
+import SecretsCollection from "haspr-styleguide/src/shared/models/entity/secret/secretsCollection";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import ResourceTypesCollection from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
+import { resourceTypesCollectionDto } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
+import { TEST_RESOURCE_TYPE_V5_DEFAULT } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
+import { plaintextSecretPasswordAndDescriptionDto } from "haspr-styleguide/src/shared/models/entity/plaintextSecret/plaintextSecretEntity.test.data";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import MockExtension from "../../../../../test/mocks/mockExtension";
 import FindSecretByResourceIdFromOPFSController from "./findSecretByResourceIdFromOPFSController";
 import AccountEntity from "../../model/entity/account/accountEntity";

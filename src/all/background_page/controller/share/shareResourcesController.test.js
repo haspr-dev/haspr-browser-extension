@@ -16,22 +16,22 @@ import Keyring from "../../model/keyring";
 import ShareResourcesController from "./shareResourcesController";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { adminAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import ResourceTypesCollection from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
-import { resourceTypesCollectionDto } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
+import ResourceTypesCollection from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
+import { resourceTypesCollectionDto } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
 import ResourcesCollection from "../../model/entity/resource/resourcesCollection";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import MockPort from "passbolt-styleguide/src/react-extension/test/mock/MockPort";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import MockPort from "haspr-styleguide/src/react-extension/test/mock/MockPort";
 import { v4 as uuidv4 } from "uuid";
-import { minimumPermissionDto } from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
+import { minimumPermissionDto } from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
 import EncryptMessageService from "../../service/crypto/encryptMessageService";
-import { defaultResourceV4Dto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
-import { plaintextSecretPasswordAndDescriptionDto } from "passbolt-styleguide/src/shared/models/entity/plaintextSecret/plaintextSecretEntity.test.data";
+import { defaultResourceV4Dto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { plaintextSecretPasswordAndDescriptionDto } from "haspr-styleguide/src/shared/models/entity/plaintextSecret/plaintextSecretEntity.test.data";
 import { simulateShareSecretsChangesDto } from "../../service/share/shareResourceService.test.data";
-import { anonymousSiteSettings } from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import { anonymousSiteSettings } from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
 import GetOrFindSiteSettingsService from "../../service/siteSettings/getOrFindSiteSettingsService";
 
-const { pgpKeys } = require("passbolt-styleguide/test/fixture/pgpKeys/keys");
+const { pgpKeys } = require("haspr-styleguide/test/fixture/pgpKeys/keys");
 
 describe("ShareResourcesController", () => {
   beforeEach(() => {

@@ -12,8 +12,8 @@
  * @since         3.6.0
  */
 
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 import AccountRecoveryOrganizationPolicyEntity from "./accountRecoveryOrganizationPolicyEntity";
 import {
   createDisabledAccountRecoveryOrganizationPolicyDto,
@@ -25,9 +25,9 @@ import {
   enabledAccountRecoveryOrganizationPolicyDto,
   rotateKeyAccountRecoveryOrganizationPolicyDto,
 } from "./accountRecoveryOrganizationPolicyEntity.test.data";
-import { users } from "passbolt-styleguide/src/shared/models/entity/user/userEntity.test.data";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+import { users } from "haspr-styleguide/src/shared/models/entity/user/userEntity.test.data";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 
 describe("AccountRecoveryOrganizationPolicy entity", () => {
   describe("AccountRecoveryOrganizationPolicyEntity::getSchema", () => {

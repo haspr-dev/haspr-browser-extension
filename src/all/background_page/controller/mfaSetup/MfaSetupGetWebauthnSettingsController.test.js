@@ -11,11 +11,11 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.17.0
  */
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 import MfaSetupGetWebauthnSettingsController from "./MfaSetupGetWebauthnSettingsController";
 import { defaultMfaWebauthnSettingsDto } from "../../model/entity/mfa/mfaWebauthnSettingsEntity.test.data";
-import { mockPassboltResponse } from "passbolt-styleguide/test/mocks/mockApiResponse";
+import { mockPassboltResponse } from "haspr-styleguide/test/mocks/mockApiResponse";
 
 describe("MfaSetupGetWebauthnSettingsController", () => {
   let controller, worker;

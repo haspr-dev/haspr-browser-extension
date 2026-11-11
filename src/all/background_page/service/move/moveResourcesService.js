@@ -16,7 +16,7 @@ import i18n from "../../sdk/i18n";
 import FindResourcesService from "../../service/resource/findResourcesService";
 import ShareResourceService, { PROGRESS_STEPS_SHARE_RESOURCES_SHARE_ALL } from "../share/shareResourceService";
 import { assertNonEmptyArray, assertString, assertType } from "../../utils/assertions";
-import { assertArrayUUID, assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertArrayUUID, assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 import FindFoldersService from "../folder/findFoldersService";
 import MoveService from "../api/move/moveService";
 import FoldersCollection from "../../model/entity/folder/foldersCollection";

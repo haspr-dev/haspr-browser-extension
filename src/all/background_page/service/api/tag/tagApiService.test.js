@@ -14,11 +14,11 @@
 
 import { enableFetchMocks } from "jest-fetch-mock";
 
-import PassboltBadResponseError from "passbolt-styleguide/src/shared/lib/Error/PassboltBadResponseError";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import { defaultTagDto, sharedTagDto } from "passbolt-styleguide/src/shared/models/entity/tag/tagEntity.test.data";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
-import PassboltResponseEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
+import PassboltBadResponseError from "haspr-styleguide/src/shared/lib/Error/PassboltBadResponseError";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultTagDto, sharedTagDto } from "haspr-styleguide/src/shared/models/entity/tag/tagEntity.test.data";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import PassboltResponseEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
 
 import TagApiService, { TAG_API_SERVICE_RESOURCE_NAME } from "./tagApiService";
 import { mockApiResponse } from "../../../../../../test/mocks/mockApiResponse";

@@ -12,11 +12,11 @@
  * @since         3.0.0
  */
 import UserLocalStorage from "../../service/local_storage/userLocalStorage";
-import UserApiService from "passbolt-styleguide/src/shared/services/api/user/userApiService";
+import UserApiService from "haspr-styleguide/src/shared/services/api/user/userApiService";
 import UserEntity from "../entity/user/userEntity";
-import UsersCollection from "passbolt-styleguide/src/shared/models/entity/user/usersCollection";
+import UsersCollection from "haspr-styleguide/src/shared/models/entity/user/usersCollection";
 import Validator from "validator";
-import RoleEntity from "passbolt-styleguide/src/shared/models/entity/role/roleEntity";
+import RoleEntity from "haspr-styleguide/src/shared/models/entity/role/roleEntity";
 import GetOrFindSiteSettingsService from "../../service/siteSettings/getOrFindSiteSettingsService";
 
 /**

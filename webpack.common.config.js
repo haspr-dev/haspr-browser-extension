@@ -16,8 +16,12 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const { svgRule, reactAlias, baseConfigPath } = require('./webpack/common-blocks');
 const I18nextExtractionPlugin = require('./webpack/i18nextExtractionPlugin');
 
+const fs = require('fs');
 const resolveSrc = relPath => path.resolve(__dirname, relPath);
-const styleguidePath = relPath => resolveSrc(path.join('node_modules/passbolt-styleguide', relPath));
+const styleguideDir = fs.existsSync(resolveSrc('node_modules/haspr-styleguide'))
+  ? 'node_modules/haspr-styleguide'
+  : 'node_modules/passbolt-styleguide';
+const styleguidePath = relPath => resolveSrc(path.join(styleguideDir, relPath));
 const warBuildPath = relPath => resolveSrc(path.join('build/all/webAccessibleResources', relPath));
 
 const themeCss = '{ext_login.min.css,ext_in_form_cta.min.css,ext_setup.min.css,ext_quickaccess.min.css,ext_app.min.css,ext_authentication.min.css,ext_in_form_menu.min.css}';
@@ -29,7 +33,11 @@ const buildConfig = ({ entry, chunkLoadingGlobal, outputPath, withReact = false,
   ...(withSvg ? { module: { rules: [svgRule] } } : {}),
   resolve: {
     extensions: [".js", ".jsx"],
-    ...(withReact ? { alias: reactAlias } : {}),
+    alias: {
+      'haspr-styleguide': resolveSrc(styleguideDir),
+      'passbolt-styleguide': resolveSrc(styleguideDir),
+      ...(withReact ? reactAlias : {}),
+    },
   },
   output: {
     // Set a unique name to ensure the cohabitation of multiple webpack loader on the same page.

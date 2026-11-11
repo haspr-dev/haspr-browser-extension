@@ -18,8 +18,8 @@ import {
   resourceStandaloneTotpDto,
   resourceUnknownResourceTypeDto,
   resourceWithTotpDto,
-} from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
-import { metadata } from "passbolt-styleguide/test/fixture/encryptedMetadata/metadata";
+} from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { metadata } from "haspr-styleguide/test/fixture/encryptedMetadata/metadata";
 
 /**
  * Build an array of resources dto containing resources of different supported types.

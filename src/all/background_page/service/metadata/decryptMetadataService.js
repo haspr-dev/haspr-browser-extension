@@ -22,10 +22,10 @@ import GetOrFindMetadataKeysService from "./getOrFindMetadataKeysService";
 import GetOrFindSessionKeysService from "../sessionKey/getOrFindSessionKeysService";
 import GetSessionKeyService from "../crypto/getSessionKeyService";
 import SaveSessionKeysService from "../sessionKey/saveSessionKeysService";
-import SessionKeysCollection from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysCollection";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
-import ResourceMetadataEntity from "passbolt-styleguide/src/shared/models/entity/resource/metadata/resourceMetadataEntity";
-import Logger from "passbolt-styleguide/src/shared/utils/logger";
+import SessionKeysCollection from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysCollection";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import ResourceMetadataEntity from "haspr-styleguide/src/shared/models/entity/resource/metadata/resourceMetadataEntity";
+import Logger from "haspr-styleguide/src/shared/utils/logger";
 
 class DecryptMetadataService {
   /**

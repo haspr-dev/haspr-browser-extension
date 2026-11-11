@@ -12,7 +12,7 @@
  * @since         4.8.0
  */
 
-import { readSecret } from "passbolt-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
+import { readSecret } from "haspr-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
 
 /**
  * Build dtos.

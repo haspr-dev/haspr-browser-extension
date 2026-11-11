@@ -12,10 +12,10 @@
  * @since         5.2.0
  */
 
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
 import ResourceLocalStorage from "../../local_storage/resourceLocalStorage";
 import ResourceUpdateLocalStorageService from "./resourceUpdateLocalStorageService";
-import { defaultResourceDtosCollection } from "passbolt-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
+import { defaultResourceDtosCollection } from "haspr-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
 import ResourcesCollection from "../../../model/entity/resource/resourcesCollection";
 import { v4 as uuidv4 } from "uuid";
 

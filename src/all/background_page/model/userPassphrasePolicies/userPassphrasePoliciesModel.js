@@ -14,7 +14,7 @@
 
 import UserPassphrasePoliciesService from "../../service/api/userPassphrasePolicies/userPassphrasePoliciesService";
 import { assertType } from "../../utils/assertions";
-import UserPassphrasePoliciesEntity from "passbolt-styleguide/src/shared/models/entity/userPassphrasePolicies/userPassphrasePoliciesEntity";
+import UserPassphrasePoliciesEntity from "haspr-styleguide/src/shared/models/entity/userPassphrasePolicies/userPassphrasePoliciesEntity";
 
 class UserPassphrasePoliciesModel {
   /**

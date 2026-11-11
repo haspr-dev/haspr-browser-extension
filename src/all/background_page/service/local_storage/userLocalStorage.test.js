@@ -11,9 +11,9 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.13.0
  */
-import { defaultUserDto } from "passbolt-styleguide/src/shared/models/entity/user/userEntity.test.data";
-import { defaultUsersDtos } from "passbolt-styleguide/src/shared/models/entity/user/usersCollection.test.data";
-import UsersCollection from "passbolt-styleguide/src/shared/models/entity/user/usersCollection";
+import { defaultUserDto } from "haspr-styleguide/src/shared/models/entity/user/userEntity.test.data";
+import { defaultUsersDtos } from "haspr-styleguide/src/shared/models/entity/user/usersCollection.test.data";
+import UsersCollection from "haspr-styleguide/src/shared/models/entity/user/usersCollection";
 import UserEntity from "../../model/entity/user/userEntity";
 import UserLocalStorage from "./userLocalStorage";
 

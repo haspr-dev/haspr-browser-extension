@@ -19,14 +19,14 @@ import BuildApiClientOptionsService from "../../account/buildApiClientOptionsSer
 import {
   decryptedMetadataPrivateKeyDto,
   defaultMetadataPrivateKeyDto,
-} from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity.test.data";
 import MetadataPrivateKeyApiService from "./metadataPrivateKeyApiService";
-import MetadataPrivateKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity";
+import MetadataPrivateKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity";
 import {
   shareMetadataPrivateKeysWithDecryptedKeyDtos,
   shareMetadataPrivateKeysWithEncryptedKeyDtos,
-} from "passbolt-styleguide/src/shared/models/entity/metadata/shareMetadataPrivateKeysCollection.test.data";
-import ShareMetadataPrivateKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/shareMetadataPrivateKeysCollection";
+} from "haspr-styleguide/src/shared/models/entity/metadata/shareMetadataPrivateKeysCollection.test.data";
+import ShareMetadataPrivateKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/shareMetadataPrivateKeysCollection";
 
 describe("metadataPrivateKeyApiService", () => {
   let apiClientOptions;

@@ -15,15 +15,15 @@ import GetOrFindOfflineSettingsService from "./getOrFindOfflineSettingsService";
 import GetOrFindSiteSettingsService from "../siteSettings/getOrFindSiteSettingsService";
 import GetOrFindMeService from "../user/getOrFindMeService";
 import GetOrFindRbacService from "../rbac/getOrFindRbacService";
-import { actions } from "passbolt-styleguide/src/shared/services/rbacs/actionEnumeration";
-import RbacsCollection from "passbolt-styleguide/src/shared/models/entity/rbac/rbacsCollection";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import { actions } from "haspr-styleguide/src/shared/services/rbacs/actionEnumeration";
+import RbacsCollection from "haspr-styleguide/src/shared/models/entity/rbac/rbacsCollection";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
 import OfflineSettingsLocalStorage from "../local_storage/offlineSettingsLocalStorage";
 import SiteSettingsLocalStorage from "../local_storage/siteSettingsLocalStorage";
 import UserMeLocalStorage from "../local_storage/userMeLocalStorage";
 import RbacsLocalStorage from "../local_storage/rbacLocalStorage";
 import UserEntity from "../../model/entity/user/userEntity";
-import CanUse from "passbolt-styleguide/src/shared/services/rbacs/canUseService";
+import CanUse from "haspr-styleguide/src/shared/services/rbacs/canUseService";
 
 /**
  * Returns whether the current user can use offline storage for resources.

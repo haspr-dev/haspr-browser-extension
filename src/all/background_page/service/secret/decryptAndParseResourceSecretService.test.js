@@ -14,14 +14,14 @@
 
 import DecryptAndParseResourceSecretService from "./decryptAndParseResourceSecretService";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import EncryptMessageService from "../crypto/encryptMessageService";
 import PlaintextEntity from "../../model/entity/plaintext/plaintextEntity";
-import SecretEntity from "passbolt-styleguide/src/shared/models/entity/secret/secretEntity";
+import SecretEntity from "haspr-styleguide/src/shared/models/entity/secret/secretEntity";
 import {
   resourceTypePasswordAndDescriptionDto,
   resourceTypePasswordStringDto,
-} from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
 
 describe("DecryptAndParseResourceSecretService", () => {
   describe("decryptAndParse", () => {

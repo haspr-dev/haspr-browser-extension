@@ -11,17 +11,17 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         2.13.0
  */
-import CollectionValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/collectionValidationError";
+import CollectionValidationError from "haspr-styleguide/src/shared/models/entity/abstract/collectionValidationError";
 import CommentsCollection from "./commentsCollection";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import {
   defaultCommentDto,
   minimumCommentDto,
-} from "passbolt-styleguide/src/shared/models/entity/comment/commentEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/comment/commentEntity.test.data";
 import {
   defaultCommentCollectionDto,
   buildDefineNumberOfCommentsDtos,
-} from "passbolt-styleguide/src/shared/models/entity/comment/commentEntityCollection.test.data";
+} from "haspr-styleguide/src/shared/models/entity/comment/commentEntityCollection.test.data";
 import { v4 as uuidv4 } from "uuid";
 
 describe("CommentsCollection entity", () => {

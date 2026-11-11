@@ -10,9 +10,9 @@
  * @license       https://opensource.org/licenses/AGPL-3.0 AGPL License
  * @link          https://www.passbolt.com Passbolt(tm)
  */
-import Entity from "passbolt-styleguide/src/shared/models/entity/abstract/entity";
-import GroupUserEntity from "passbolt-styleguide/src/shared/models/entity/groupUser/groupUserEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import Entity from "haspr-styleguide/src/shared/models/entity/abstract/entity";
+import GroupUserEntity from "haspr-styleguide/src/shared/models/entity/groupUser/groupUserEntity";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 
 const ENTITY_NAME = "GroupUser";
 const GROUP_USER_CHANGE_CREATE = "create";

@@ -14,10 +14,10 @@
 
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import GetOrFindUsersController from "./getOrFindUsersController";
-import UsersCollection from "passbolt-styleguide/src/shared/models/entity/user/usersCollection";
-import { defaultUsersDtos } from "passbolt-styleguide/src/shared/models/entity/user/usersCollection.test.data";
+import UsersCollection from "haspr-styleguide/src/shared/models/entity/user/usersCollection";
+import { defaultUsersDtos } from "haspr-styleguide/src/shared/models/entity/user/usersCollection.test.data";
 
 beforeEach(() => {
   jest.clearAllMocks();

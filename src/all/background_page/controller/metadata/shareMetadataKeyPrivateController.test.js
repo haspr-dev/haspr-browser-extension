@@ -12,19 +12,19 @@
  * @since         5.2.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import ShareMetadataKeyPrivateController from "./shareMetadataKeyPrivateController";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import GetOrFindMetadataKeysService from "../../service/metadata/getOrFindMetadataKeysService";
-import UsersCollection from "passbolt-styleguide/src/shared/models/entity/user/usersCollection";
+import UsersCollection from "haspr-styleguide/src/shared/models/entity/user/usersCollection";
 import {
   metadataKeysSignedByCurrentDto,
   usersWithMissingMetadataKeysDto,
 } from "../../service/metadata/shareMetadataKeyPrivateService.test.data";
-import MetadataKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
-import RoleEntity from "passbolt-styleguide/src/shared/models/entity/role/roleEntity";
+import MetadataKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
+import RoleEntity from "haspr-styleguide/src/shared/models/entity/role/roleEntity";
 import { enableFetchMocks } from "jest-fetch-mock";
 import MockExtension from "../../../../../test/mocks/mockExtension";
 import Keyring from "../../model/keyring";
@@ -32,8 +32,8 @@ import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import DecryptMessageService from "../../service/crypto/decryptMessageService";
 import FindSignatureService from "../../service/crypto/findSignatureService";
 import MetadataPrivateKeyApiService from "../../service/api/metadata/metadataPrivateKeyApiService";
-import { anonymousSiteSettings } from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import { anonymousSiteSettings } from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
 import GetOrFindSiteSettingsService from "../../service/siteSettings/getOrFindSiteSettingsService";
 
 jest.mock("../../service/passphrase/getPassphraseService");

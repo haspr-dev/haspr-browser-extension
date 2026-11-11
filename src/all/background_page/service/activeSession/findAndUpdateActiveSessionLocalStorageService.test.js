@@ -14,12 +14,12 @@
 
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import FindAndUpdateActiveSessionLocalStorageService from "./findAndUpdateActiveSessionLocalStorageService";
 import UserActiveSessionEntity, {
   USER_ACTIVE_SESSION_OFFLINE,
   USER_ACTIVE_SESSION_ONLINE,
-} from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
+} from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
 import MfaAuthenticationRequiredError from "../../error/mfaAuthenticationRequiredError";
 
 beforeEach(() => {

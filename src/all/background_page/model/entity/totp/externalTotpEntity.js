@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.5.0
  */
-import TotpEntity from "passbolt-styleguide/src/shared/models/entity/totp/totpEntity";
+import TotpEntity from "haspr-styleguide/src/shared/models/entity/totp/totpEntity";
 
 const SUPPORTED_ALGORITHMS = ["SHA1", "SHA256", "SHA512"];
 const DEFAULT_ALGORITHM = SUPPORTED_ALGORITHMS[0];

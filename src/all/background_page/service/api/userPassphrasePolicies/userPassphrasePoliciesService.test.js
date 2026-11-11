@@ -19,11 +19,11 @@ import { defaultAccountDto } from "../../../model/entity/account/accountEntity.t
 import {
   defaultUserPassphrasePoliciesDto,
   userPassphrasePoliciesDtoFromApi,
-} from "passbolt-styleguide/src/shared/models/entity/userPassphrasePolicies/userPassphrasePoliciesEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/userPassphrasePolicies/userPassphrasePoliciesEntity.test.data";
 import { mockApiResponse, mockApiResponseError } from "../../../../../../test/mocks/mockApiResponse";
 import UserPassphrasePoliciesService from "./userPassphrasePoliciesService";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
-import PassboltServiceUnavailableError from "passbolt-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltServiceUnavailableError from "haspr-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
 
 describe("UserPassphrasePolicies service", () => {
   let apiClientOptions;

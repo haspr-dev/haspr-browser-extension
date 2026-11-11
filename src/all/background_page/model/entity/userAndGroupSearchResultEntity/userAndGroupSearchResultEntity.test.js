@@ -12,13 +12,13 @@
  * @since         4.9.0
  */
 import UserAndGroupSearchResultEntity from "./userAndGroupSearchResultEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import { defaultProfileDto } from "passbolt-styleguide/src/shared/models/entity/profile/ProfileEntity.test.data";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import { defaultProfileDto } from "haspr-styleguide/src/shared/models/entity/profile/ProfileEntity.test.data";
 import { defaultGroupSearchResultDto, defaultUserSearchResultDto } from "./userAndGroupSearchResultEntity.test.data";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 import { v4 as uuid } from "uuid";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
-import { customEmailValidationProSiteSettings } from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import { customEmailValidationProSiteSettings } from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
 import SiteSettingsRuntimeCache from "../../../service/siteSettings/siteSettingsRuntimeCache";
 
 describe("UserAndGroupSearchResultEntity", () => {

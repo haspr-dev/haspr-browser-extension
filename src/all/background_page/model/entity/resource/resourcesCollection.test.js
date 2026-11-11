@@ -14,36 +14,36 @@
 import { v4 as uuidv4 } from "uuid";
 import ResourcesCollection from "./resourcesCollection";
 import TagEntity from "../tag/tagEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import TagsCollection from "../tag/tagsCollection";
 import {
   TEST_RESOURCE_TYPE_PASSWORD_AND_DESCRIPTION,
   TEST_RESOURCE_TYPE_PASSWORD_DESCRIPTION_TOTP,
   TEST_RESOURCE_TYPE_PASSWORD_STRING,
   TEST_RESOURCE_TYPE_TOTP,
-} from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
 import {
   defaultResourceDtosCollection,
   defaultResourcesDtos,
   resourceAllTypesDtosCollection,
-} from "passbolt-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
-import ResourceTypesCollection from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
-import { resourceTypesCollectionDto } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
+} from "haspr-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
+import ResourceTypesCollection from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
+import { resourceTypesCollectionDto } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
 import {
   defaultResourceDto,
   defaultResourceV4Dto,
   resourceStandaloneTotpDto,
   resourceWithTotpDto,
-} from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
 import ResourceEntity, { METADATA_KEY_TYPE_METADATA_KEY, METADATA_KEY_TYPE_USER_KEY } from "./resourceEntity";
 import { defaultTagDto } from "../tag/tagEntity.test.data";
 import {
   ownerPermissionDto,
   readPermissionDto,
   updatePermissionDto,
-} from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
-import { defaultResourceMetadataDto } from "passbolt-styleguide/src/shared/models/entity/resource/metadata/resourceMetadataEntity.test.data";
-import { metadata } from "passbolt-styleguide/test/fixture/encryptedMetadata/metadata";
+} from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
+import { defaultResourceMetadataDto } from "haspr-styleguide/src/shared/models/entity/resource/metadata/resourceMetadataEntity.test.data";
+import { metadata } from "haspr-styleguide/test/fixture/encryptedMetadata/metadata";
 
 describe("ResourcesCollection", () => {
   it("schema must validate", () => {

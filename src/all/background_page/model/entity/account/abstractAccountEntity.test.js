@@ -12,10 +12,10 @@
  * @since         4.8.0
  */
 import AbstractAccountEntity from "./abstractAccountEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 import { StubAbstractAccountEntity, defaultAbstractAccountDto } from "./abstractAccountEntity.test.data";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 
 describe("AbstractAccountEntity", () => {
   describe("AbstractAccountEntity::getSchema", () => {

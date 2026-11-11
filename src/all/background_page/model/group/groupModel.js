@@ -12,7 +12,7 @@
  * @since         3.0.0
  */
 import GroupLocalStorage from "../../service/local_storage/groupLocalStorage";
-import GroupEntity from "passbolt-styleguide/src/shared/models/entity/group/groupEntity";
+import GroupEntity from "haspr-styleguide/src/shared/models/entity/group/groupEntity";
 import GroupApiService from "../../service/api/group/groupApiService";
 import GroupUpdateDryRunResultEntity from "../entity/group/update/groupUpdateDryRunResultEntity";
 import FindGroupsService from "../../service/group/findGroupsService";

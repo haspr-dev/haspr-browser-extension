@@ -11,8 +11,8 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         2.13.0
  */
-import PermissionEntity from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity";
-import EntityV2 from "passbolt-styleguide/src/shared/models/entity/abstract/entityV2";
+import PermissionEntity from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity";
+import EntityV2 from "haspr-styleguide/src/shared/models/entity/abstract/entityV2";
 
 const PERMISSION_CHANGE_CREATE = "create";
 const PERMISSION_CHANGE_DELETE = "delete";

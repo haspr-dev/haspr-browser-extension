@@ -12,7 +12,7 @@
  * @since         2.13.0
  */
 import FolderLocalStorage from "../../service/local_storage/folderLocalStorage";
-import { ApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions";
+import { ApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions";
 import FolderModel from "./folderModel";
 import AccountEntity from "../entity/account/accountEntity";
 import { defaultAccountDto } from "../entity/account/accountEntity.test.data";

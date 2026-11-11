@@ -25,12 +25,12 @@ import FolderEntity from "../../model/entity/folder/folderEntity";
 import GetOrFindMetadataSettingsService from "./getOrFindMetadataSettingsService";
 import FoldersCollection from "../../model/entity/folder/foldersCollection";
 import ResourcesCollection from "../../model/entity/resource/resourcesCollection";
-import { RESOURCE_TYPE_VERSION_5 } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
+import { RESOURCE_TYPE_VERSION_5 } from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
 import Keyring from "../../model/keyring";
-import ExternalGpgKeyEntity from "passbolt-styleguide/src/shared/models/entity/gpgkey/externalGpgKeyEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import CollectionValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/collectionValidationError";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import ExternalGpgKeyEntity from "haspr-styleguide/src/shared/models/entity/gpgkey/externalGpgKeyEntity";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import CollectionValidationError from "haspr-styleguide/src/shared/models/entity/abstract/collectionValidationError";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 import GetOrFindResourceTypesService from "../resourceType/getOrFindResourceTypesService";
 
 class EncryptMetadataService {

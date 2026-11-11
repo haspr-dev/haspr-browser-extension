@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.8.0
  */
-import RolesCollection from "passbolt-styleguide/src/shared/models/entity/role/rolesCollection";
+import RolesCollection from "haspr-styleguide/src/shared/models/entity/role/rolesCollection";
 import RolesLocalStorage from "../local_storage/rolesLocalStorage";
 import FindAndUpdateRolesLocalStorage from "./findAndUpdateRolesLocalStorageService";
 

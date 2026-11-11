@@ -13,7 +13,7 @@
  */
 import React from "react";
 import { createRoot } from "react-dom/client";
-import ExtBootstrapLogin from "passbolt-styleguide/src/react-extension/ExtBootstrapLogin";
+import ExtBootstrapLogin from "haspr-styleguide/src/react-extension/ExtBootstrapLogin";
 import Port from "../../../webAccessibleResources/js/lib/port";
 import MessageService from "../service/messageService";
 import MessageEventHandler from "../message/messageEventHandler";

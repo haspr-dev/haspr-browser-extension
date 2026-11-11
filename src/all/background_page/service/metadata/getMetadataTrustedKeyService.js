@@ -12,7 +12,7 @@
  * @since         5.1.0
  */
 
-import MetadataTrustedKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTrustedKeyEntity";
+import MetadataTrustedKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataTrustedKeyEntity";
 import TrustedMetadataKeyLocalStorage from "../local_storage/trustedMetadataKeyLocalStorage";
 
 class GetMetadataTrustedKeyService {

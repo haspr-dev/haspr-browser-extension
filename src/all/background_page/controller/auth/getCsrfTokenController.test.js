@@ -14,7 +14,7 @@
 
 import { enableFetchMocks } from "jest-fetch-mock";
 import GetCsrfTokenController from "./getCsrfTokenController";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 beforeEach(() => {
   enableFetchMocks();
 });

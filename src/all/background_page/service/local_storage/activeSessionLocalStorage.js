@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         6.0.0
  */
-import UserActiveSessionEntity from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
+import UserActiveSessionEntity from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
 import Log from "../../model/log";
 import { assertType } from "../../utils/assertions";
 import AbstractAccountEntity from "../../model/entity/account/abstractAccountEntity";

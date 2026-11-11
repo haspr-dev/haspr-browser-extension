@@ -13,8 +13,8 @@
  */
 
 import GetUserPassphrasePoliciesController from "./getUserPassphrasePoliciesController";
-import { defaultUserPassphrasePoliciesEntityDto } from "passbolt-styleguide/src/shared/models/userPassphrasePolicies/UserPassphrasePoliciesDto.test.data";
-import UserPassphrasePoliciesEntity from "passbolt-styleguide/src/shared/models/entity/userPassphrasePolicies/userPassphrasePoliciesEntity";
+import { defaultUserPassphrasePoliciesEntityDto } from "haspr-styleguide/src/shared/models/userPassphrasePolicies/UserPassphrasePoliciesDto.test.data";
+import UserPassphrasePoliciesEntity from "haspr-styleguide/src/shared/models/entity/userPassphrasePolicies/userPassphrasePoliciesEntity";
 import AccountTemporarySessionStorageService from "../../service/sessionStorage/accountTemporarySessionStorageService";
 
 describe("GetUserPassphrasePoliciesController", () => {

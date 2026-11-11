@@ -12,8 +12,8 @@
  * @since         5.7.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import GroupsCollection from "passbolt-styleguide/src/shared/models/entity/group/groupsCollection";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import GroupsCollection from "haspr-styleguide/src/shared/models/entity/group/groupsCollection";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import UpdateAllGroupsLocalStorageController from "./updateAllGroupsLocalStorageController";

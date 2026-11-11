@@ -12,21 +12,21 @@
  */
 import CsvDashlaneRowParser from "./csvDashlaneRowParser";
 import ExternalResourceEntity from "../../../entity/resource/external/externalResourceEntity";
-import ResourceTypesCollection from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
-import { resourceTypesCollectionDto } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
-import MetadataTypesSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
+import ResourceTypesCollection from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
+import { resourceTypesCollectionDto } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
+import MetadataTypesSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
 import {
   defaultMetadataTypesSettingsV4Dto,
   defaultMetadataTypesSettingsV50FreshDto,
-} from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity.test.data";
 import {
   RESOURCE_TYPE_PASSWORD_AND_DESCRIPTION_SLUG,
   RESOURCE_TYPE_V5_DEFAULT_SLUG,
   RESOURCE_TYPE_V5_STANDALONE_NOTE_SLUG,
-} from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeSchemasDefinition";
+} from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeSchemasDefinition";
 import ImportResourcesFileEntity from "../../../entity/import/importResourcesFileEntity";
 import BinaryConvert from "../../../../utils/format/binaryConvert";
-import { SECRET_DATA_OBJECT_TYPE } from "passbolt-styleguide/src/shared/models/entity/secretData/secretDataEntity";
+import { SECRET_DATA_OBJECT_TYPE } from "haspr-styleguide/src/shared/models/entity/secretData/secretDataEntity";
 
 describe("CsvDashlaneRowParser", () => {
   it("can parse LastPass csv", () => {

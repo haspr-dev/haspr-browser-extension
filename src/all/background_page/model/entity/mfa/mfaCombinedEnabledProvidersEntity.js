@@ -12,8 +12,8 @@
  * @since         3.11.0
  */
 
-import Entity from "passbolt-styleguide/src/shared/models/entity/abstract/entity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import Entity from "haspr-styleguide/src/shared/models/entity/abstract/entity";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import MfaEnabledProviderEntity from "./mfaEnabledProviderEntity";
 
 const ENTITY_NAME = "MfaCombinedEnabledProviders";

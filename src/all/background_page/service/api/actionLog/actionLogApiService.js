@@ -12,7 +12,7 @@
  */
 import AbstractActionLogEntity from "../../../model/entity/actionLog/abstractActionLogEntity";
 import { assertNonEmptyString, assertNumber } from "../../../utils/assertions";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 import AbstractService from "../abstract/abstractService";
 
 const RESOURCE_SERVICE_RESOURCE_NAME = "actionlog";

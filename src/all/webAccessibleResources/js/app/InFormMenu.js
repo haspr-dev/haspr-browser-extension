@@ -13,7 +13,7 @@
  */
 import React from "react";
 import { createRoot } from "react-dom/client";
-import ExtInFormMenu from "passbolt-styleguide/src/react-web-integration/ExtInFormMenu";
+import ExtInFormMenu from "haspr-styleguide/src/react-web-integration/ExtInFormMenu";
 import Port from "../lib/port";
 
 async function main() {

@@ -12,12 +12,12 @@
  * @since         4.10.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import FindPermissionsService from "./findPermissionsService";
 import { v4 as uuidv4 } from "uuid";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { ownerPermissionDto } from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity.test.data.js";
+import { ownerPermissionDto } from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity.test.data.js";
 
 describe("FindPermissionService", () => {
   describe("::findAllByAcoForeignKeyForDisplay", () => {

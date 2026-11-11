@@ -11,9 +11,9 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         3.12.0
  */
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
-import IsRegexValidator from "passbolt-styleguide/src/shared/lib/Validator/IsRegexValidator";
-import IsEmailValidator from "passbolt-styleguide/src/shared/lib/Validator/IsEmailValidator";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import IsRegexValidator from "haspr-styleguide/src/shared/lib/Validator/IsRegexValidator";
+import IsEmailValidator from "haspr-styleguide/src/shared/lib/Validator/IsEmailValidator";
 import SiteSettingsRuntimeCache from "../siteSettings/siteSettingsRuntimeCache";
 
 /**

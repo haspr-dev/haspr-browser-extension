@@ -11,8 +11,8 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.8.0
  */
-import RbacsCollection from "passbolt-styleguide/src/shared/models/entity/rbac/rbacsCollection";
-import RbacApiService from "passbolt-styleguide/src/shared/services/api/rbac/rbacApiService";
+import RbacsCollection from "haspr-styleguide/src/shared/models/entity/rbac/rbacsCollection";
+import RbacApiService from "haspr-styleguide/src/shared/services/api/rbac/rbacApiService";
 
 /**
  * The service aims to find rbacs from the API.

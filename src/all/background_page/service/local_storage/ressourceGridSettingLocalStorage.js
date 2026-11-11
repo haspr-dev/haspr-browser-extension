@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.3.0
  */
-import GridUserSettingEntity from "passbolt-styleguide/src/shared/models/entity/gridUserSetting/gridUserSettingEntity";
+import GridUserSettingEntity from "haspr-styleguide/src/shared/models/entity/gridUserSetting/gridUserSettingEntity";
 import AccountEntity from "../../model/entity/account/accountEntity";
 
 export const RESOURCE_GRID_USER_SETTING_STORAGE_KEY = "resourceGridUserSetting";

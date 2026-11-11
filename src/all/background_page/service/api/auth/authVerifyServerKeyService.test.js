@@ -11,11 +11,11 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.1.0
  */
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import { enableFetchMocks } from "jest-fetch-mock";
 import AuthVerifyServerKeyService from "./authVerifyServerKeyService";
 import { mockApiResponse, mockApiResponseError } from "../../../../../../test/mocks/mockApiResponse";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
 import { defaultAccountDto } from "../../../model/entity/account/accountEntity.test.data";
 import GpgAuthToken from "../../../model/gpgAuthToken";
 import { OpenpgpAssertion } from "../../../utils/openpgp/openpgpAssertions";

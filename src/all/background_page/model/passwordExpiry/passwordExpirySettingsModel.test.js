@@ -17,19 +17,19 @@ import AccountEntity from "../entity/account/accountEntity";
 import BuildApiClientOptionsService from "../../service/account/buildApiClientOptionsService";
 import { defaultAccountDto } from "../entity/account/accountEntity.test.data";
 import { mockApiResponse, mockApiResponseError } from "../../../../../test/mocks/mockApiResponse";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
-import PassboltServiceUnavailableError from "passbolt-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltServiceUnavailableError from "haspr-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
 import PasswordPoliciesEntity from "../entity/passwordPolicies/passwordPoliciesEntity";
 import {
   defaultPasswordExpirySettingsDto,
   defaultPasswordExpirySettingsDtoFromApi,
-} from "passbolt-styleguide/src/shared/models/entity/passwordExpiry/passwordExpirySettingsEntity.test.data";
-import PasswordExpirySettingsEntity from "passbolt-styleguide/src/shared/models/entity/passwordExpiry/passwordExpirySettingsEntity";
+} from "haspr-styleguide/src/shared/models/entity/passwordExpiry/passwordExpirySettingsEntity.test.data";
+import PasswordExpirySettingsEntity from "haspr-styleguide/src/shared/models/entity/passwordExpiry/passwordExpirySettingsEntity";
 import PasswordExpirySettingsModel from "./passwordExpirySettingsModel";
 import GetOrFindSiteSettingsService from "../../service/siteSettings/getOrFindSiteSettingsService";
 import { v4 as uuid } from "uuid";
-import PassboltBadResponseError from "passbolt-styleguide/src/shared/lib/Error/PassboltBadResponseError";
-import PasswordExpiryProSettingsEntity from "passbolt-styleguide/src/shared/models/entity/passwordExpiryPro/passwordExpiryProSettingsEntity";
+import PassboltBadResponseError from "haspr-styleguide/src/shared/lib/Error/PassboltBadResponseError";
+import PasswordExpiryProSettingsEntity from "haspr-styleguide/src/shared/models/entity/passwordExpiryPro/passwordExpiryProSettingsEntity";
 
 describe("PasswordExpiry model", () => {
   let apiClientOptions, model;

@@ -14,7 +14,7 @@
 import ImportSetupPrivateKeyController from "./importSetupPrivateKeyController";
 import GetGpgKeyInfoService from "../../service/crypto/getGpgKeyInfoService";
 import GpgKeyError from "../../error/GpgKeyError";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import MockExtension from "../../../../../test/mocks/mockExtension";
 import AccountSetupEntity from "../../model/entity/account/accountSetupEntity";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
@@ -22,7 +22,7 @@ import {
   startAccountSetupDto,
   withServerKeyAccountSetupDto,
 } from "../../model/entity/account/accountSetupEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AccountTemporarySessionStorageService from "../../service/sessionStorage/accountTemporarySessionStorageService";
 
 beforeEach(() => {

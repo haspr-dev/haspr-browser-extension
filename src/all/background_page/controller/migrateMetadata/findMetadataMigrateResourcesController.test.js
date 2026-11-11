@@ -12,10 +12,10 @@
  * @since         4.12.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import FindMetadataMigrateResourcesController from "./findMetadataMigrateResourcesController";
-import PassboltResponsePaginationHeaderEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponsePaginationHeaderEntity";
-import { defaultPassboltResponsePaginationHeaderDto } from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponsePaginationHeaderEntity.test.data";
+import PassboltResponsePaginationHeaderEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponsePaginationHeaderEntity";
+import { defaultPassboltResponsePaginationHeaderDto } from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponsePaginationHeaderEntity.test.data";
 
 describe("FindMetadataMigrateResourcesController", () => {
   describe("::exec", () => {

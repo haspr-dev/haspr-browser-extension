@@ -13,14 +13,14 @@
  */
 import ResourceLocalStorage from "../local_storage/resourceLocalStorage";
 import { assertNumber } from "../../utils/assertions";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 import FindResourcesService from "./findResourcesService";
 import ResourcesCollection from "../../model/entity/resource/resourcesCollection";
 import DecryptMetadataService from "../metadata/decryptMetadataService";
 import OfflineResourcesOPFSStorage from "../opfsStorage/offlineResourcesOPFSStorage";
 import OfflineSecretsOPFSStorage from "../opfsStorage/offlineSecretsOPFSStorage";
 import CanUseOfflineStorageService from "../offline/canUseOfflineStorageService";
-import SecretsCollection from "passbolt-styleguide/src/shared/models/entity/secret/secretsCollection";
+import SecretsCollection from "haspr-styleguide/src/shared/models/entity/secret/secretsCollection";
 import GetOrFindResourceTypesService from "../resourceType/getOrFindResourceTypesService";
 
 const RESOURCES_UPDATE_ALL_LS_LOCK_PREFIX = "RESOURCES_UPDATE_LS_LOCK_";

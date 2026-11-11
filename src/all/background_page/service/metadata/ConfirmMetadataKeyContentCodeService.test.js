@@ -11,10 +11,10 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.1.0
  */
-import MetadataTrustedKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTrustedKeyEntity";
-import MetadataKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeyEntity";
-import { defaultMetadataTrustedKeyDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTrustedKeyEntity.test.data";
-import { defaultMetadataKeyDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeyEntity.test.data";
+import MetadataTrustedKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataTrustedKeyEntity";
+import MetadataKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeyEntity";
+import { defaultMetadataTrustedKeyDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataTrustedKeyEntity.test.data";
+import { defaultMetadataKeyDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeyEntity.test.data";
 import ConfirmMetadataKeyContentCodeService from "./ConfirmMetadataKeyContentCodeService";
 
 beforeEach(() => {

@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         3.7.0
  */
-import { PublicWebsiteSignInBootstrap } from "passbolt-styleguide/src/public-website-sign-in/PublicWebsiteSignInBootstrap.js";
+import { PublicWebsiteSignInBootstrap } from "haspr-styleguide/src/public-website-sign-in/PublicWebsiteSignInBootstrap.js";
 import Port from "../../../webAccessibleResources/js/lib/port";
 
 async function main() {

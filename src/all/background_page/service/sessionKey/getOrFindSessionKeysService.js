@@ -14,10 +14,10 @@
 
 import FindAndUpdateSessionKeysSessionStorageService from "./findAndUpdateSessionKeysSessionStorageService";
 import SessionKeysBundlesSessionStorageService from "../sessionStorage/sessionKeysBundlesSessionStorageService";
-import SessionKeysBundlesCollection from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection";
+import SessionKeysBundlesCollection from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection";
 import { assertNonEmptyString } from "../../utils/assertions";
-import { assertArrayUUID } from "passbolt-styleguide/src/shared/utils/assertions";
-import SessionKeysCollection from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysCollection";
+import { assertArrayUUID } from "haspr-styleguide/src/shared/utils/assertions";
+import SessionKeysCollection from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysCollection";
 
 /**
  * The service aims to get session keys from the local storage, or to retrieve them from the API and store them in the session storage.

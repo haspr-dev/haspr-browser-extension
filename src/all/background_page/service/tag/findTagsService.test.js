@@ -13,8 +13,8 @@
  */
 import { enableFetchMocks } from "jest-fetch-mock";
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import { defaultPassboltResponseEntity } from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultPassboltResponseEntity } from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity.test.data";
 
 import FindTagsService from "./findTagsService";
 import TagEntity from "../../model/entity/tag/tagEntity";

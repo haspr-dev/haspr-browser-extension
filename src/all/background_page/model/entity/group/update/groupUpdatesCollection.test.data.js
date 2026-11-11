@@ -13,7 +13,7 @@
  */
 
 import { v4 as uuidv4 } from "uuid";
-import { readSecret } from "passbolt-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
+import { readSecret } from "haspr-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
 
 export const groupNameUpdateOperationDto = (data = {}) => ({
   id: uuidv4(),

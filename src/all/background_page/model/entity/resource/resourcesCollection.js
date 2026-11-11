@@ -12,8 +12,8 @@
  * @since         2.13.0
  */
 import ResourceEntity from "./resourceEntity";
-import ResourceTypesCollection from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
-import EntityV2Collection from "passbolt-styleguide/src/shared/models/entity/abstract/entityV2Collection";
+import ResourceTypesCollection from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
+import EntityV2Collection from "haspr-styleguide/src/shared/models/entity/abstract/entityV2Collection";
 import { assertType } from "../../../utils/assertions";
 
 const ENTITY_NAME = "Resources";

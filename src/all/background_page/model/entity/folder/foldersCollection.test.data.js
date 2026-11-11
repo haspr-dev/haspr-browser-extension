@@ -11,12 +11,12 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.16.0
  */
-import { defaultFolderDto } from "passbolt-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
+import { defaultFolderDto } from "haspr-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
 import {
   ownerPermissionDto,
   readPermissionDto,
-} from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
-import PermissionEntity from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity";
+} from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
+import PermissionEntity from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity";
 
 /**
  * A folder DTO carrying an owner or read permission, for the given id and parent.

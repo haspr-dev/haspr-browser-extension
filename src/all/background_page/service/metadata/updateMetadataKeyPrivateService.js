@@ -12,7 +12,7 @@
  * @since         5.1.0
  */
 
-import MetadataPrivateKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity";
+import MetadataPrivateKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity";
 import MetadataPrivateKeyApiService from "../api/metadata/metadataPrivateKeyApiService";
 import { assertType } from "../../utils/assertions";
 

@@ -14,11 +14,11 @@
 
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import FindAndUpdateGroupsLocalStorageService from "./findAndUpdateGroupsLocalStorageService";
-import GroupsCollection from "passbolt-styleguide/src/shared/models/entity/group/groupsCollection";
-import { defaultGroupDto } from "passbolt-styleguide/src/shared/models/entity/group/groupEntity.test.data";
-import { defaultGroupsDtos } from "passbolt-styleguide/src/shared/models/entity/group/groupsCollection.test.data";
+import GroupsCollection from "haspr-styleguide/src/shared/models/entity/group/groupsCollection";
+import { defaultGroupDto } from "haspr-styleguide/src/shared/models/entity/group/groupEntity.test.data";
+import { defaultGroupsDtos } from "haspr-styleguide/src/shared/models/entity/group/groupsCollection.test.data";
 import FindGroupsService from "./findGroupsService";
 
 beforeEach(() => {

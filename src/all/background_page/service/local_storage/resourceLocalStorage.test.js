@@ -13,11 +13,11 @@
  */
 import { v4 as uuidv4 } from "uuid";
 import ResourceLocalStorage, { RESOURCES_LOCAL_STORAGE_KEY } from "./resourceLocalStorage";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
-import { defaultOfflineItemDto } from "passbolt-styleguide/src/shared/models/entity/offline/offlineItemEntity.test.data";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { defaultOfflineItemDto } from "haspr-styleguide/src/shared/models/entity/offline/offlineItemEntity.test.data";
 import ResourcesCollection from "../../model/entity/resource/resourcesCollection";
 import ResourceEntity from "../../model/entity/resource/resourceEntity";
-import { metadata } from "passbolt-styleguide/test/fixture/encryptedMetadata/metadata";
+import { metadata } from "haspr-styleguide/test/fixture/encryptedMetadata/metadata";
 
 describe("ResourceLocalStorage", () => {
   describe("::get", () => {

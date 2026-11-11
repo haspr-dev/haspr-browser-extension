@@ -12,8 +12,8 @@
  * @since         4.3.0
  */
 
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 import PasswordPoliciesEntity from "./passwordPoliciesEntity";
 import { defaultPasswordPolicies } from "./passwordPoliciesEntity.test.data";
 

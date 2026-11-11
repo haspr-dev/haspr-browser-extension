@@ -11,12 +11,12 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.10.0
  */
-import MetadataTypesSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
+import MetadataTypesSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
 import FindMetadataSettingsService from "./findMetadataSettingsService";
 import MetadataTypesSettingsLocalStorage from "../local_storage/metadataTypesSettingsLocalStorage";
 import GetOrFindSiteSettingsService from "../siteSettings/getOrFindSiteSettingsService";
 import MetadataKeysSettingsLocalStorage from "../local_storage/metadataKeysSettingsLocalStorage";
-import MetadataKeysSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity";
+import MetadataKeysSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity";
 
 const FIND_AND_UPDATE_METADATA_TYPES_SETTINGS_LS_LOCK_PREFIX = "FIND_AND_UPDATE_METADATA_TYPES_SETTINGS_LS_LOCK-";
 const FIND_AND_UPDATE_METADATA_KEYS_SETTINGS_LS_LOCK_PREFIX = "FIND_AND_UPDATE_METADATA_KEYS_SETTINGS_LS_LOCK-";

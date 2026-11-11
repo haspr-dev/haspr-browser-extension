@@ -19,9 +19,9 @@ import ResourcesKdbxExporter from "./resourcesKdbxExporter";
 import ExportResourcesFileEntity from "../../entity/export/exportResourcesFileEntity";
 import fs from "fs";
 import { defaultTotpDto } from "../../entity/totp/totpDto.test.data";
-import { defaultIconDto } from "passbolt-styleguide/src/shared/models/entity/resource/metadata/iconEntity.test.data";
-import { defaultCustomFieldsCollection } from "passbolt-styleguide/src/shared/models/entity/customField/customFieldsCollection.test.data";
-import { defaultCustomField } from "passbolt-styleguide/src/shared/models/entity/customField/customFieldEntity.test.data";
+import { defaultIconDto } from "haspr-styleguide/src/shared/models/entity/resource/metadata/iconEntity.test.data";
+import { defaultCustomFieldsCollection } from "haspr-styleguide/src/shared/models/entity/customField/customFieldsCollection.test.data";
+import { defaultCustomField } from "haspr-styleguide/src/shared/models/entity/customField/customFieldEntity.test.data";
 
 global.kdbxweb = kdbxweb;
 kdbxweb.CryptoEngine.argon2 = argon2;

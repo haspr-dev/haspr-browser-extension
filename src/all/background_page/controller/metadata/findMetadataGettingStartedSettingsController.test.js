@@ -12,9 +12,9 @@
  * @since         5.4.0
  */
 import FindMetadataGettingStartedSettingsController from "./findMetadataGettingStartedSettingsController";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import MetadataGettingStartedSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataGettingStartedSettingsEntity";
-import { enableMetadataGettingStartedSettingsDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataGettingStartedSettingsEntity.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import MetadataGettingStartedSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataGettingStartedSettingsEntity";
+import { enableMetadataGettingStartedSettingsDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataGettingStartedSettingsEntity.test.data";
 
 describe("FindMetadataGettingStartedSettingsController", () => {
   describe("::exec", () => {

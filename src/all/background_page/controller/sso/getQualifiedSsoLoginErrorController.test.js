@@ -13,13 +13,13 @@
  */
 import "../../../../../test/mocks/mockSsoDataStorage";
 import { clientSsoKit } from "../../model/entity/sso/ssoKitClientPart.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import SsoDataStorage from "../../service/indexedDB_storage/ssoDataStorage";
 import GetQualifiedSsoLoginErrorController from "./getQualifiedSsoLoginErrorController";
 import { enableFetchMocks } from "jest-fetch-mock";
 import { mockApiResponse } from "../../../../../test/mocks/mockApiResponse";
-import AzureSsoSettingsEntity from "passbolt-styleguide/src/shared/models/entity/ssoSettings/AzureSsoSettingsEntity";
-import GoogleSsoSettingsEntity from "passbolt-styleguide/src/shared/models/entity/ssoSettings/GoogleSsoSettingsEntity";
+import AzureSsoSettingsEntity from "haspr-styleguide/src/shared/models/entity/ssoSettings/AzureSsoSettingsEntity";
+import GoogleSsoSettingsEntity from "haspr-styleguide/src/shared/models/entity/ssoSettings/GoogleSsoSettingsEntity";
 import SsoDisabledError from "../../error/ssoDisabledError";
 import SsoProviderMismatchError from "../../error/ssoProviderMismatchError";
 

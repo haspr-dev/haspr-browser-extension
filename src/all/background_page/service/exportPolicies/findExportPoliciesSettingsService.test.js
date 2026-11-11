@@ -13,9 +13,9 @@
  */
 import { enableFetchMocks } from "jest-fetch-mock";
 import FindExportPoliciesSettingsService from "./findExportPoliciesSettingsService";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import ExportPoliciesSettingsEntity from "passbolt-styleguide/src/shared/models/entity/exportSettings/ExportPoliciesSettingsEntity";
-import { defaultExportPoliciesSettingsDto } from "passbolt-styleguide/src/shared/models/entity/exportSettings/ExportPoliciesSettingsEntity.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import ExportPoliciesSettingsEntity from "haspr-styleguide/src/shared/models/entity/exportSettings/ExportPoliciesSettingsEntity";
+import { defaultExportPoliciesSettingsDto } from "haspr-styleguide/src/shared/models/entity/exportSettings/ExportPoliciesSettingsEntity.test.data";
 import { mockApiResponse, mockApiResponseError } from "../../../../../test/mocks/mockApiResponse";
 
 beforeEach(() => {

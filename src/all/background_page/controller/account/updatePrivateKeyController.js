@@ -18,7 +18,7 @@ import FileService from "../../service/file/fileService";
 import GetOrFindSiteSettingsService from "../../service/siteSettings/getOrFindSiteSettingsService";
 import SsoDataStorage from "../../service/indexedDB_storage/ssoDataStorage";
 import SsoKitServerPartModel from "../../model/sso/ssoKitServerPartModel";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
 import GenerateSsoKitService from "../../service/sso/generateSsoKitService";
 import KeepSessionAliveService from "../../service/session_storage/keepSessionAliveService";
 

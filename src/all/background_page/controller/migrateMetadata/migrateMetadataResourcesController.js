@@ -12,13 +12,13 @@
  * @since         4.12.0
  */
 
-import PassboltResponsePaginationHeaderEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponsePaginationHeaderEntity";
+import PassboltResponsePaginationHeaderEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponsePaginationHeaderEntity";
 import MigrateMetadataResourcesService, {
   MIGRATE_METADATA_BASE_MAIN_STEPS_COUNT,
 } from "../../service/migrateMetadata/migrateMetadataResourcesService";
 import GetPassphraseService from "../../service/passphrase/getPassphraseService";
 import ProgressService from "../../service/progress/progressService";
-import MigrateMetadataEntity from "passbolt-styleguide/src/shared/models/entity/metadata/migrateMetadataEntity";
+import MigrateMetadataEntity from "haspr-styleguide/src/shared/models/entity/metadata/migrateMetadataEntity";
 import i18n from "../../sdk/i18n";
 import Keyring from "../../model/keyring";
 

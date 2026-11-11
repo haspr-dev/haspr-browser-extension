@@ -11,9 +11,9 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         2.13.0
  */
-import CollectionValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/collectionValidationError";
+import CollectionValidationError from "haspr-styleguide/src/shared/models/entity/abstract/collectionValidationError";
 import CommentEntity from "./commentEntity";
-import EntityV2Collection from "passbolt-styleguide/src/shared/models/entity/abstract/entityV2Collection";
+import EntityV2Collection from "haspr-styleguide/src/shared/models/entity/abstract/entityV2Collection";
 
 const RULE_SAME_FOREIGN_MODEL = "same_foreign_model";
 

@@ -12,7 +12,7 @@
  * @since         5.13.0
  */
 
-import SubscriptionEntity from "passbolt-styleguide/src/shared/models/entity/subscription/subscriptionEntity";
+import SubscriptionEntity from "haspr-styleguide/src/shared/models/entity/subscription/subscriptionEntity";
 
 import PassboltSubscriptionError from "../../error/passboltSubscriptionError";
 import PassboltEditionApiService from "../api/edition/passboltEditionApiService";

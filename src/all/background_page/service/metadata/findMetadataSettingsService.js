@@ -12,9 +12,9 @@
  * @since         4.10.0
  */
 import MetadataTypesSettingsApiService from "../api/metadata/metadataTypesSettingsApiService";
-import MetadataTypesSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
+import MetadataTypesSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
 import MetadataKeysSettingsApiService from "../api/metadata/metadataKeysSettingsApiService";
-import MetadataKeysSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity";
+import MetadataKeysSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity";
 
 /**
  * The service aims to find metadata settings from the API.

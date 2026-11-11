@@ -13,11 +13,11 @@
  */
 import { v4 as uuidv4 } from "uuid";
 import OfflineSecretsOPFSStorage from "./offlineSecretsOPFSStorage";
-import SecretEntity from "passbolt-styleguide/src/shared/models/entity/secret/secretEntity";
-import { readSecret } from "passbolt-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
+import SecretEntity from "haspr-styleguide/src/shared/models/entity/secret/secretEntity";
+import { readSecret } from "haspr-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import SecretsCollection from "passbolt-styleguide/src/shared/models/entity/secret/secretsCollection";
+import SecretsCollection from "haspr-styleguide/src/shared/models/entity/secret/secretsCollection";
 
 describe("OfflineSecretsOPFSStorage", () => {
   let account, storage;

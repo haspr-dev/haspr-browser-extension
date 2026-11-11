@@ -12,14 +12,14 @@
  * @since         5.6.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import MockPort from "passbolt-styleguide/src/react-extension/test/mock/MockPort";
+import MockPort from "haspr-styleguide/src/react-extension/test/mock/MockPort";
 import RotateMetadataKeyController from "./rotateMetadataKeyController";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import { v4 as uuidv4 } from "uuid";
-import ExternalGpgKeyPairEntity from "passbolt-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
+import ExternalGpgKeyPairEntity from "haspr-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
 
 describe("RotateMetadataKeyController", () => {
   describe("::exec", () => {

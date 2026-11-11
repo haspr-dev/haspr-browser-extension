@@ -12,9 +12,9 @@
  * @since         3.0.0
  */
 import GroupUserTransferEntity from "./groupUserTransferEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
-import { defaultUserTransferDto } from "passbolt-styleguide/src/shared/models/entity/group/groupTransfer.test.data";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
+import { defaultUserTransferDto } from "haspr-styleguide/src/shared/models/entity/group/groupTransfer.test.data";
 
 describe("GroupUser transfer entity", () => {
   describe("::getSchema", () => {

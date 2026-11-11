@@ -13,9 +13,9 @@
  */
 
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
-import ExternalGpgKeyEntity from "passbolt-styleguide/src/shared/models/entity/gpgkey/externalGpgKeyEntity";
+import ExternalGpgKeyEntity from "haspr-styleguide/src/shared/models/entity/gpgkey/externalGpgKeyEntity";
 import GetGpgKeyInfoService from "./getGpgKeyInfoService";
-import ExternalGpgKeyCollection from "passbolt-styleguide/src/shared/models/entity/gpgkey/externalGpgKeyCollection";
+import ExternalGpgKeyCollection from "haspr-styleguide/src/shared/models/entity/gpgkey/externalGpgKeyCollection";
 
 const {
   validKeyDto,
@@ -33,7 +33,7 @@ const {
   ecc_brainpoolp512r1KeyDto,
   invalidKeyDto,
 } = require("./getGpgKeyInfoService.test.data");
-const { pgpKeys } = require("passbolt-styleguide/test/fixture/pgpKeys/keys");
+const { pgpKeys } = require("haspr-styleguide/test/fixture/pgpKeys/keys");
 
 describe("GpgKeyInfo service", () => {
   it(`should provide the right information given a key from a compatible type`, async () => {

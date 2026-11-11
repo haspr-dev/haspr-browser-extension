@@ -20,7 +20,7 @@ import BuildApiClientOptionsService from "../../service/account/buildApiClientOp
 import PasswordPoliciesModel from "./passwordPoliciesModel";
 import { defaultPasswordPolicies } from "../entity/passwordPolicies/passwordPoliciesEntity.test.data";
 import PasswordPoliciesEntity from "../entity/passwordPolicies/passwordPoliciesEntity";
-import PassboltServiceUnavailableError from "passbolt-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
+import PassboltServiceUnavailableError from "haspr-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
 
 describe("PasswordPoliciesModel", () => {
   let account, apiClientOptions;

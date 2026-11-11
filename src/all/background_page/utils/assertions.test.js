@@ -27,11 +27,11 @@ import {
 import GenerateSsoIvService from "../service/crypto/generateSsoIvService";
 import { buildMockedCryptoKey } from "./assertions.test.data";
 import PasswordGeneratorSettingsEntity from "../model/entity/passwordPolicies/passwordGeneratorSettingsEntity";
-import { defaultAccountRecoveryPrivateKeyPasswordDto } from "passbolt-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryPrivateKeyPasswordEntity.test.data";
-import AccountRecoveryPrivateKeyEntity from "passbolt-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryPrivateKeyEntity";
+import { defaultAccountRecoveryPrivateKeyPasswordDto } from "haspr-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryPrivateKeyPasswordEntity.test.data";
+import AccountRecoveryPrivateKeyEntity from "haspr-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryPrivateKeyEntity";
 import ResourceEntity from "../model/entity/resource/resourceEntity";
 import FolderEntity from "../model/entity/folder/folderEntity";
-import { defaultFolderDto } from "passbolt-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
+import { defaultFolderDto } from "haspr-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
 
 describe("Assertions", () => {
   describe("Assertions::assertBase64String", () => {

@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.17.0
  */
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import MfaSetupDeleteWebauthnCredentialController from "./MfaSetupDeleteWebauthnCredentialController";
 
 describe("MfaSetupDeleteWebauthnCredentialController", () => {

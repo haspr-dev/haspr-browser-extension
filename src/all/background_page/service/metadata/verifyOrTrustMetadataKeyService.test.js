@@ -15,19 +15,19 @@
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import BuildApiClientOptionsService from "../account/buildApiClientOptionsService";
-import { decryptedMetadataPrivateKeyDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity.test.data";
-import { defaultMetadataTrustedKeyDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTrustedKeyEntity.test.data";
-import MetadataTrustedKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTrustedKeyEntity";
-import { defaultMetadataKeyDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeyEntity.test.data";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import MetadataKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
+import { decryptedMetadataPrivateKeyDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity.test.data";
+import { defaultMetadataTrustedKeyDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataTrustedKeyEntity.test.data";
+import MetadataTrustedKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataTrustedKeyEntity";
+import { defaultMetadataKeyDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeyEntity.test.data";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import MetadataKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
 import { v4 as uuidv4 } from "uuid";
 import MockExtension from "../../../../../test/mocks/mockExtension";
 import VerifyOrTrustMetadataKeyService from "./verifyOrTrustMetadataKeyService";
 import UntrustedMetadataKeyError from "../../error/UntrustedMetadataKeyError";
-import { defaultCeSiteSettings } from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import { defaultCeSiteSettings } from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
 import GetOrFindSiteSettingsService from "../siteSettings/getOrFindSiteSettingsService";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
 import CanUseOfflineStorageService from "../offline/canUseOfflineStorageService";
 
 describe("VerifyOrTrustMetadataKeyService", () => {

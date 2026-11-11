@@ -15,9 +15,9 @@
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import ResourceGridUserSettingLocalStorage from "./ressourceGridSettingLocalStorage";
-import { defaultGridUserSettingData } from "passbolt-styleguide/src/shared/models/entity/gridUserSetting/gridUserSettingEntity.test.data";
-import GridUserSettingEntity from "passbolt-styleguide/src/shared/models/entity/gridUserSetting/gridUserSettingEntity";
-import { defaultSorterData } from "passbolt-styleguide/src/shared/models/entity/sorter/sorterEntity.test.data";
+import { defaultGridUserSettingData } from "haspr-styleguide/src/shared/models/entity/gridUserSetting/gridUserSettingEntity.test.data";
+import GridUserSettingEntity from "haspr-styleguide/src/shared/models/entity/gridUserSetting/gridUserSettingEntity";
+import { defaultSorterData } from "haspr-styleguide/src/shared/models/entity/sorter/sorterEntity.test.data";
 
 beforeEach(() => {
   jest.clearAllMocks();

@@ -11,19 +11,19 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         6.0.0
  */
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultProSiteSettings } from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import { defaultProSiteSettings } from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
 import SiteSettingsLocalStorage from "../local_storage/siteSettingsLocalStorage";
 import SiteSettingsRuntimeCache from "./siteSettingsRuntimeCache";
 import FindAndUpdateSiteSettingsLocalStorageService from "./findAndUpdateSiteSettingsLocalStorageService";
-import UserActiveSessionEntity from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
+import UserActiveSessionEntity from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
 import {
   defaultUserActiveSessionDto,
   offlineUserActiveSessionDto,
-} from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
 import PassboltBadResponseError from "../../error/passboltBadResponseError";
 import AuthenticationStatusService from "../authenticationStatusService";
 

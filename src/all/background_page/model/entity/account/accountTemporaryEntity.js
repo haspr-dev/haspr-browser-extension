@@ -17,7 +17,7 @@ import AccountAccountRecoveryEntity from "./accountAccountRecoveryEntity";
 import AccountSetupEntity from "./accountSetupEntity";
 import AccountRecoverEntity from "./accountRecoverEntity";
 import AccountRecoveryOrganizationPolicyEntity from "../accountRecovery/accountRecoveryOrganizationPolicyEntity";
-import UserPassphrasePoliciesEntity from "passbolt-styleguide/src/shared/models/entity/userPassphrasePolicies/userPassphrasePoliciesEntity";
+import UserPassphrasePoliciesEntity from "haspr-styleguide/src/shared/models/entity/userPassphrasePolicies/userPassphrasePoliciesEntity";
 
 const ENTITY_NAME = "AccountTemporary";
 

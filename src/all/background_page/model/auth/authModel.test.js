@@ -11,9 +11,9 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.1.0
  */
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AuthModel from "../../model/auth/authModel";
-import AuthLogoutService from "passbolt-styleguide/src/shared/services/api/auth/AuthLogoutService";
+import AuthLogoutService from "haspr-styleguide/src/shared/services/api/auth/AuthLogoutService";
 import PostLogoutService from "../../service/auth/postLogoutService";
 import FindAndUpdateActiveSessionLocalStorageService from "../../service/activeSession/findAndUpdateActiveSessionLocalStorageService";
 import AccountEntity from "../entity/account/accountEntity";

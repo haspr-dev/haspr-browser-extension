@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.1.0
  */
-import MetadataTrustedKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTrustedKeyEntity";
+import MetadataTrustedKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataTrustedKeyEntity";
 import AccountEntity from "../../model/entity/account/accountEntity";
 
 export const TRUSTED_METADATA_KEY_LOCAL_STORAGE_KEY = "trusted_metadata_key";

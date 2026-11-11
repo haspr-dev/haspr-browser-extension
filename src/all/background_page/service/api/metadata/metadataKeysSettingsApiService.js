@@ -14,7 +14,7 @@
 
 import AbstractService from "../abstract/abstractService";
 import { assertType } from "../../../utils/assertions";
-import MetadataKeysSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity";
+import MetadataKeysSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity";
 
 const METADATA_KEYS_SETTINGS_API_SERVICE_RESOURCE_NAME = "metadata/keys/settings";
 

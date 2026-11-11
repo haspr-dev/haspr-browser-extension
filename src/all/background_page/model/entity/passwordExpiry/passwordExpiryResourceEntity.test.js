@@ -11,11 +11,11 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.5.0
  */
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import PasswordExpiryResourceEntity from "./passwordExpiryResourceEntity";
 import { defaultPasswordExpiryResourceDto } from "./passwordExpiryResourceEntity.test.data";
 import { v4 as uuid } from "uuid";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 
 describe("PasswordExpiryResource entity", () => {
   describe("PasswordExpiryResourceEntity::getSchema", () => {

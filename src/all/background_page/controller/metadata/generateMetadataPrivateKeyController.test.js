@@ -15,8 +15,8 @@
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import GenerateMetadataPrivateKeyController from "./generateMetadataPrivateKeyController";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import ExternalGpgKeyPairEntity from "passbolt-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import ExternalGpgKeyPairEntity from "haspr-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
 
 beforeEach(() => {
   jest.clearAllMocks();

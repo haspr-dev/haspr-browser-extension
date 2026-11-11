@@ -14,13 +14,13 @@
 
 import { mockApiResponse } from "../../../../../test/mocks/mockApiResponse";
 import FindRbacMeController from "./findRbacMeController";
-import { userSettingsRbacsCollectionData } from "passbolt-styleguide/src/shared/models/entity/rbac/rbacsCollection.test.data";
-import rbacEntity from "passbolt-styleguide/src/shared/models/entity/rbac/rbacEntity";
-import RbacsCollection from "passbolt-styleguide/src/shared/models/entity/rbac/rbacsCollection";
+import { userSettingsRbacsCollectionData } from "haspr-styleguide/src/shared/models/entity/rbac/rbacsCollection.test.data";
+import rbacEntity from "haspr-styleguide/src/shared/models/entity/rbac/rbacEntity";
+import RbacsCollection from "haspr-styleguide/src/shared/models/entity/rbac/rbacsCollection";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import { enableFetchMocks } from "jest-fetch-mock";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 
 beforeEach(() => {
   enableFetchMocks();

@@ -12,9 +12,9 @@
  * @since         2.13.0
  */
 import { v4 as uuid } from "uuid";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import { FAIL_ARRAY_SCENARIOS } from "passbolt-styleguide/test/assert/assertEntityProperty";
-import CollectionValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/collectionValidationError";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import { FAIL_ARRAY_SCENARIOS } from "haspr-styleguide/test/assert/assertEntityProperty";
+import CollectionValidationError from "haspr-styleguide/src/shared/models/entity/abstract/collectionValidationError";
 
 import { defaultTagDto } from "./tagEntity.test.data";
 import TagsCollection from "./tagsCollection";

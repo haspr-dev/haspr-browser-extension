@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.2.0
  */
-import { SecretGeneratorComplexity } from "passbolt-styleguide/src/shared/lib/SecretGenerator/SecretGeneratorComplexity";
+import { SecretGeneratorComplexity } from "haspr-styleguide/src/shared/lib/SecretGenerator/SecretGeneratorComplexity";
 import PasswordPoliciesEntity from "../../model/entity/passwordPolicies/passwordPoliciesEntity";
 import PasswordPoliciesModel from "../../model/passwordPolicies/passwordPoliciesModel";
 

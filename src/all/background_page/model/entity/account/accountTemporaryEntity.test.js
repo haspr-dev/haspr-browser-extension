@@ -12,8 +12,8 @@
  * @since         4.7.0
  */
 
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import { defaultUserPassphrasePoliciesDto } from "passbolt-styleguide/src/shared/models/entity/userPassphrasePolicies/userPassphrasePoliciesEntity.test.data";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import { defaultUserPassphrasePoliciesDto } from "haspr-styleguide/src/shared/models/entity/userPassphrasePolicies/userPassphrasePoliciesEntity.test.data";
 import AccountTemporaryEntity from "./accountTemporaryEntity";
 import {
   temporaryAccountRecoveryAccountDto,

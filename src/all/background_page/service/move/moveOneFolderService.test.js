@@ -13,12 +13,12 @@
  */
 import FolderEntity from "../../model/entity/folder/folderEntity";
 import MoveOneFolderService, { PROGRESS_STEPS_MOVE_FOLDER_MOVE_ONE } from "./moveOneFolderService";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultFolderDto } from "passbolt-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
+import { defaultFolderDto } from "haspr-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
 import FoldersCollection from "../../model/entity/folder/foldersCollection";
-import PermissionsCollection from "passbolt-styleguide/src/shared/models/entity/permission/permissionsCollection";
+import PermissionsCollection from "haspr-styleguide/src/shared/models/entity/permission/permissionsCollection";
 import {
   ownerFolderPermissionDto,
   ownerGroupPermissionDto,
@@ -27,12 +27,12 @@ import {
   readPermissionDto,
   updateFolderPermissionDto,
   updatePermissionDto,
-} from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
 import { v4 as uuidv4 } from "uuid";
 import ResourcesCollection from "../../model/entity/resource/resourcesCollection";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
-import MockPort from "passbolt-styleguide/src/react-extension/test/mock/MockPort";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import MockPort from "haspr-styleguide/src/react-extension/test/mock/MockPort";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import ResourceLocalStorage from "../local_storage/resourceLocalStorage";
 import FolderLocalStorage from "../local_storage/folderLocalStorage";
 import ProgressService from "../progress/progressService";

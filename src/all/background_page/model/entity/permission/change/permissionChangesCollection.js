@@ -11,10 +11,10 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         2.13.0
  */
-import PermissionsCollection from "passbolt-styleguide/src/shared/models/entity/permission/permissionsCollection";
+import PermissionsCollection from "haspr-styleguide/src/shared/models/entity/permission/permissionsCollection";
 import PermissionChangeEntity from "./permissionChangeEntity";
-import EntityCollection from "passbolt-styleguide/src/shared/models/entity/abstract/entityCollection";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityCollection from "haspr-styleguide/src/shared/models/entity/abstract/entityCollection";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 
 const ENTITY_NAME = "PermissionChanges";
 

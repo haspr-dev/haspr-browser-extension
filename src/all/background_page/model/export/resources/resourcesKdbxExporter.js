@@ -13,7 +13,7 @@
 import ExternalFolderEntity from "../../entity/folder/external/externalFolderEntity";
 import * as kdbxweb from "kdbxweb";
 import { FORMAT_KDBX, FORMAT_KDBX_OTHERS } from "../../entity/export/exportResourcesFileEntity";
-import { ICON_TYPE_KEEPASS_ICON_SET } from "passbolt-styleguide/src/shared/models/entity/resource/metadata/IconEntity";
+import { ICON_TYPE_KEEPASS_ICON_SET } from "haspr-styleguide/src/shared/models/entity/resource/metadata/IconEntity";
 import { KDBX_SUPPORTED_FIELDS } from "../../import/resources/resourcesKdbxImportParser";
 
 class ResourcesKdbxExporter {

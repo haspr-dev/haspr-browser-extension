@@ -11,8 +11,8 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.17.0
  */
-import EntityV2 from "passbolt-styleguide/src/shared/models/entity/abstract/entityV2";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntityV2 from "haspr-styleguide/src/shared/models/entity/abstract/entityV2";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 
 // COSE algorithm identifiers ES256 and RS256, https://www.iana.org/assignments/cose#algorithms
 const ALLOWED_ALGORITHMS = [-7, -257];

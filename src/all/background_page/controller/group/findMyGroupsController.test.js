@@ -13,13 +13,13 @@
  */
 
 import { enableFetchMocks } from "jest-fetch-mock";
-import { defaultGroupsDtos } from "passbolt-styleguide/src/shared/models/entity/group/groupsCollection.test.data";
+import { defaultGroupsDtos } from "haspr-styleguide/src/shared/models/entity/group/groupsCollection.test.data";
 import { mockApiResponse } from "../../../../../test/mocks/mockApiResponse";
 import FindMyGroupsController from "./findMyGroupsController";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import GroupsCollection from "passbolt-styleguide/src/shared/models/entity/group/groupsCollection";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import GroupsCollection from "haspr-styleguide/src/shared/models/entity/group/groupsCollection";
 import MockExtension from "../../../../../test/mocks/mockExtension";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import FindGroupsService from "../../service/group/findGroupsService";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";

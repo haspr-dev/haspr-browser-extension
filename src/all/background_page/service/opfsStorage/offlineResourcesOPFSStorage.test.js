@@ -16,11 +16,11 @@ import OfflineResourcesOPFSStorage from "./offlineResourcesOPFSStorage";
 import {
   defaultResourceDto,
   resourceMetadataEncryptedDto,
-} from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
-import { defaultFavoriteDto } from "passbolt-styleguide/src/shared/models/entity/favorite/favoriteEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { defaultFavoriteDto } from "haspr-styleguide/src/shared/models/entity/favorite/favoriteEntity.test.data";
 import ResourcesCollection from "../../model/entity/resource/resourcesCollection";
 import ResourceEntity from "../../model/entity/resource/resourceEntity";
-import { metadata } from "passbolt-styleguide/test/fixture/encryptedMetadata/metadata";
+import { metadata } from "haspr-styleguide/test/fixture/encryptedMetadata/metadata";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import FavoriteEntity from "../../model/entity/favorite/favoriteEntity";

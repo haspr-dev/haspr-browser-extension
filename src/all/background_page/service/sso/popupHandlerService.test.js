@@ -14,9 +14,9 @@
 import PopupHandlerService from "./popupHandlerService";
 import { v4 as uuid } from "uuid";
 import SsoLoginUrlEntity from "../../model/entity/sso/ssoLoginUrlEntity";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
-import AzureSsoSettingsEntity from "passbolt-styleguide/src/shared/models/entity/ssoSettings/AzureSsoSettingsEntity";
-import GoogleSsoSettingsEntity from "passbolt-styleguide/src/shared/models/entity/ssoSettings/GoogleSsoSettingsEntity";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import AzureSsoSettingsEntity from "haspr-styleguide/src/shared/models/entity/ssoSettings/AzureSsoSettingsEntity";
+import GoogleSsoSettingsEntity from "haspr-styleguide/src/shared/models/entity/ssoSettings/GoogleSsoSettingsEntity";
 
 const SUPPORTED_LOGIN_URLS = [
   { url: "https://login.microsoftonline.com", provider: AzureSsoSettingsEntity.PROVIDER_ID },

@@ -12,10 +12,10 @@
  * @since         3.6.0
  */
 
-import ExternalGpgKeyPairEntity from "passbolt-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
+import ExternalGpgKeyPairEntity from "haspr-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
 import * as openpgp from "openpgp";
 import AppEmailValidatorService from "../validator/appEmailValidatorService";
-import IsEmailValidator from "passbolt-styleguide/src/shared/lib/Validator/IsEmailValidator";
+import IsEmailValidator from "haspr-styleguide/src/shared/lib/Validator/IsEmailValidator";
 
 class GenerateGpgKeyPairService {
   /**

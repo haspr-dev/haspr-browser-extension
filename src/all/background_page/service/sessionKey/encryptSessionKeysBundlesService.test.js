@@ -12,16 +12,16 @@
  * @since         4.10.1
  */
 
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import SessionKeysBundleEntity from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleEntity";
-import UserPassphraseRequiredError from "passbolt-styleguide/src/shared/error/userPassphraseRequiredError";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import SessionKeysBundleEntity from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleEntity";
+import UserPassphraseRequiredError from "haspr-styleguide/src/shared/error/userPassphraseRequiredError";
 import PassphraseStorageService from "../session_storage/passphraseStorageService";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import {
   decryptedSessionKeysBundleDto,
   defaultSessionKeysBundleDto,
-} from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleEntity.test.data";
 import EncryptSessionKeysBundlesService from "./encryptSessionKeysBundlesService";
 
 beforeEach(() => {

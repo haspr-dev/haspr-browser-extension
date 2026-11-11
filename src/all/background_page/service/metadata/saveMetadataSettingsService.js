@@ -11,16 +11,16 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.11.0
  */
-import MetadataTypesSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
+import MetadataTypesSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
 import MetadataTypesSettingsApiService from "../api/metadata/metadataTypesSettingsApiService";
 import MetadataTypesSettingsLocalStorage from "../local_storage/metadataTypesSettingsLocalStorage";
 import { assertString, assertType } from "../../utils/assertions";
 import MetadataKeysSettingsApiService from "../api/metadata/metadataKeysSettingsApiService";
-import MetadataKeysSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity";
+import MetadataKeysSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity";
 import MetadataKeysSettingsLocalStorage from "../local_storage/metadataKeysSettingsLocalStorage";
 import ShareMetadataKeyPrivateService from "./shareMetadataKeyPrivateService";
 import FindMetadataSettingsService from "./findMetadataSettingsService";
-import ShareMetadataPrivateKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/shareMetadataPrivateKeysCollection";
+import ShareMetadataPrivateKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/shareMetadataPrivateKeysCollection";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import DecryptPrivateKeyService from "../crypto/decryptPrivateKeyService";
 import FindAndUpdateMetadataKeysSessionStorageService from "./findAndUpdateMetadataKeysSessionStorageService";

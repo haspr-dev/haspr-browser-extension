@@ -13,8 +13,8 @@
  */
 
 import GetKeyInfoController from "./getKeyInfoController";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import { adaExternalPrivateGpgKeyEntityDto } from "passbolt-styleguide/src/shared/models/entity/gpgkey/externalGpgKeyEntity.test.data";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import { adaExternalPrivateGpgKeyEntityDto } from "haspr-styleguide/src/shared/models/entity/gpgkey/externalGpgKeyEntity.test.data";
 
 describe("GetKeyInfoController", () => {
   it("Should return the key info.", async () => {

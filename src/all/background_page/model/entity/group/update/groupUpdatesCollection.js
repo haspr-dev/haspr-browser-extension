@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.6.0
  */
-import EntityV2Collection from "passbolt-styleguide/src/shared/models/entity/abstract/entityV2Collection";
+import EntityV2Collection from "haspr-styleguide/src/shared/models/entity/abstract/entityV2Collection";
 import GroupUpdateEntity from "./groupUpdateEntity";
 import GroupUserChangeEntity from "../../groupUser/change/groupUserChangeEntity";
 import { assertType } from "../../../../utils/assertions";

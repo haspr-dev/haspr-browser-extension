@@ -12,9 +12,9 @@
  * @since         4.8.0
  */
 import AbstractAccountEntity from "./abstractAccountEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import { defaultSecurityTokenDto } from "../../entity/securityToken/SecurityTokenEntity.test.data";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 
 /**
  * "Copy" of the AbstractAccountEntity class for testing purpose.

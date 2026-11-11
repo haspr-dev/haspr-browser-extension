@@ -11,10 +11,10 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.4.0
  */
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import UpdatedPermissionsCollection from "./updatedPermissionsCollection";
-import { defaultUserDto } from "passbolt-styleguide/src/shared/models/entity/user/userEntity.test.data";
-import { defaultGroupDto } from "passbolt-styleguide/src/shared/models/entity/group/groupEntity.test.data";
+import { defaultUserDto } from "haspr-styleguide/src/shared/models/entity/user/userEntity.test.data";
+import { defaultGroupDto } from "haspr-styleguide/src/shared/models/entity/group/groupEntity.test.data";
 import { defaultUpdatePermissionDto } from "./updatedPermissionEntity.test.data";
 import UpdatedPermissionEntity from "./updatedPermissionEntity";
 

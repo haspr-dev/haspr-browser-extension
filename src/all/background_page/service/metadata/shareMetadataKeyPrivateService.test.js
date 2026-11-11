@@ -12,7 +12,7 @@
  * @since         5.1.1
  */
 
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import MockExtension from "../../../../../test/mocks/mockExtension";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
@@ -24,9 +24,9 @@ import {
   usersWithMissingMetadataKeysDto,
   usersWithoutMissingMetadataKeysDto,
 } from "./shareMetadataKeyPrivateService.test.data";
-import RoleEntity from "passbolt-styleguide/src/shared/models/entity/role/roleEntity";
-import UsersCollection from "passbolt-styleguide/src/shared/models/entity/user/usersCollection";
-import MetadataKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
+import RoleEntity from "haspr-styleguide/src/shared/models/entity/role/roleEntity";
+import UsersCollection from "haspr-styleguide/src/shared/models/entity/user/usersCollection";
+import MetadataKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import Keyring from "../../model/keyring";
 import { enableFetchMocks } from "jest-fetch-mock";

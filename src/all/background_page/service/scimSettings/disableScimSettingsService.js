@@ -13,7 +13,7 @@
  */
 
 import ScimSettingsApiService from "../api/scimSettings/scimSettingsApiService";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 
 class DisableScimSettingsService {
   /**

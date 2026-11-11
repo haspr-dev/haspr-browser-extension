@@ -18,10 +18,10 @@
 
 import DecryptMessageService from "./decryptMessageService";
 import EncryptMessageService from "./encryptMessageService";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import FindSignatureService from "./findSignatureService";
-import ExternalGpgSignatureEntity from "passbolt-styleguide/src/shared/models/entity/gpgkey/externalGpgSignatureEntity";
+import ExternalGpgSignatureEntity from "haspr-styleguide/src/shared/models/entity/gpgkey/externalGpgSignatureEntity";
 
 describe("FindSignatureService", () => {
   describe("::findSignatureForGpgKey", () => {

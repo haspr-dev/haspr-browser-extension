@@ -12,25 +12,25 @@
  * @since         4.12.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import PassboltResponseEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
-import { passboltReponseWithCollectionDto } from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import PassboltResponseEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
+import { passboltReponseWithCollectionDto } from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity.test.data";
 import MigrateMetadataResourcesService from "./migrateMetadataResourcesService";
-import MigrateMetadataEntity from "passbolt-styleguide/src/shared/models/entity/metadata/migrateMetadataEntity";
-import { defaultMigrateMetadataDto } from "passbolt-styleguide/src/shared/models/entity/metadata/migrateMetadataEntity.test.data";
-import { defaultResourceDtosCollection } from "passbolt-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
-import ResourceTypesCollection from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
-import { resourceTypesCollectionDto } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
+import MigrateMetadataEntity from "haspr-styleguide/src/shared/models/entity/metadata/migrateMetadataEntity";
+import { defaultMigrateMetadataDto } from "haspr-styleguide/src/shared/models/entity/metadata/migrateMetadataEntity.test.data";
+import { defaultResourceDtosCollection } from "haspr-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
+import ResourceTypesCollection from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
+import { resourceTypesCollectionDto } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
 import MockExtension from "../../../../../test/mocks/mockExtension";
-import { defaultDecryptedSharedMetadataKeysDtos } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection.test.data";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import MetadataKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
+import { defaultDecryptedSharedMetadataKeysDtos } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection.test.data";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import MetadataKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
 import GetOrFindMetadataKeysService from "../metadata/getOrFindMetadataKeysService";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import ResourcesCollection from "../../model/entity/resource/resourcesCollection";
 import { mockApiResponseError } from "../../../../../test/mocks/mockApiResponse";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
 import { defaultProgressService } from "../progress/progressService.test.data";
 import {
   TEST_RESOURCE_TYPE_TOTP,
@@ -38,9 +38,9 @@ import {
   resourceTypePasswordAndDescriptionDto,
   resourceTypeTotpDto,
   resourceTypeV5DefaultDto,
-} from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
-import { defaultMetadataKeysSettingsDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { defaultMetadataKeysSettingsDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity.test.data";
 import { enableFetchMocks } from "jest-fetch-mock";
 import GetOrFindResourceTypesService from "../resourceType/getOrFindResourceTypesService";
 

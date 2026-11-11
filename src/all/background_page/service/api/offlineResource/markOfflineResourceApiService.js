@@ -13,8 +13,8 @@
  */
 import AbstractService from "../abstract/abstractService";
 import ResourceEntity from "../../../model/entity/resource/resourceEntity";
-import PassboltResponseEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import PassboltResponseEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 const OFFLINE_RESOURCE_API_SERVICE_RESOURCE_NAME = `offline/${ResourceEntity.ENTITY_NAME.toLowerCase()}`;
 
 class MarkOfflineResourceApiService extends AbstractService {

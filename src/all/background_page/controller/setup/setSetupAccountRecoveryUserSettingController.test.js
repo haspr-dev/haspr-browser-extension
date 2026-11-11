@@ -14,9 +14,9 @@
 
 import { enableFetchMocks } from "jest-fetch-mock";
 import SetSetupAccountRecoveryUserSettingController from "./setSetupAccountRecoveryUserSettingController";
-import AccountRecoveryUserSettingEntity from "passbolt-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryUserSettingEntity";
-import { createRejectedAccountRecoveryUserSettingDto } from "passbolt-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryUserSettingEntity.test.data";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import AccountRecoveryUserSettingEntity from "haspr-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryUserSettingEntity";
+import { createRejectedAccountRecoveryUserSettingDto } from "haspr-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryUserSettingEntity.test.data";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import { enabledAccountRecoveryOrganizationPolicyDto } from "../../model/entity/accountRecovery/accountRecoveryOrganizationPolicyEntity.test.data";
 import AccountRecoveryOrganizationPolicyEntity from "../../model/entity/accountRecovery/accountRecoveryOrganizationPolicyEntity";
 import { withUserKeyAccountSetupDto } from "../../model/entity/account/accountSetupEntity.test.data";

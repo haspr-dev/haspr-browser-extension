@@ -18,20 +18,20 @@ import GroupsUpdateController from "./groupUpdateController";
 import MockExtension from "../../../../../test/mocks/mockExtension";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import GroupLocalStorage from "../../service/local_storage/groupLocalStorage";
 
 const { enableFetchMocks } = require("jest-fetch-mock");
 const { mockApiResponse } = require("../../../../../test/mocks/mockApiResponse");
-const { pgpKeys } = require("passbolt-styleguide/test/fixture/pgpKeys/keys");
-const { users } = require("passbolt-styleguide/src/shared/models/entity/user/userEntity.test.data");
+const { pgpKeys } = require("haspr-styleguide/test/fixture/pgpKeys/keys");
+const { users } = require("haspr-styleguide/src/shared/models/entity/user/userEntity.test.data");
 
 const {
   updateGroupNameDto,
   add2UsersToGroupDto,
   add2UsersToGroupDryRunResponse,
 } = require("./groupUpdateController.test.data");
-const { defaultGroupDto } = require("passbolt-styleguide/src/shared/models/entity/group/groupEntity.test.data");
+const { defaultGroupDto } = require("haspr-styleguide/src/shared/models/entity/group/groupEntity.test.data");
 const { defaultDryRunResponse } = require("../../model/entity/group/update/groupUpdateDryRunResultEntity.test.data");
 
 jest.mock("../../service/progress/progressService");

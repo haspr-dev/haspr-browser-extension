@@ -15,7 +15,7 @@ import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import GetGpgKeyInfoService from "../crypto/getGpgKeyInfoService";
 import AuthVerifyServerKeyService from "../api/auth/authVerifyServerKeyService";
 import Keyring from "../../model/keyring";
-import { GPG_KEY_TYPE_RSA } from "passbolt-styleguide/src/shared/models/entity/gpgkey/gpgkeyEntity";
+import { GPG_KEY_TYPE_RSA } from "haspr-styleguide/src/shared/models/entity/gpgkey/gpgkeyEntity";
 
 class ValidateOrganizationPublicKeyService {
   /**

@@ -13,8 +13,8 @@
  */
 
 import { enableFetchMocks } from "jest-fetch-mock";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 import MfaSetupVerifyTotpCodeController from "./MfaSetupVerifyTotpCodeController";
 import { mockApiResponse } from "../../../../../test/mocks/mockApiResponse";
 import { defaultSetupTotpData } from "../../model/entity/mfa/mfaSetupTotpEntity.test.data";

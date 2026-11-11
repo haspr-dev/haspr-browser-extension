@@ -13,7 +13,7 @@
  */
 import Keyring from "../../model/keyring";
 import GroupModel from "../../model/group/groupModel";
-import GroupEntity from "passbolt-styleguide/src/shared/models/entity/group/groupEntity";
+import GroupEntity from "haspr-styleguide/src/shared/models/entity/group/groupEntity";
 import GroupUpdateEntity from "../../model/entity/group/update/groupUpdateEntity";
 import i18n from "../../sdk/i18n";
 import GroupUpdateSecretsCollection from "../../model/entity/secret/groupUpdate/groupUpdateSecretsCollection";

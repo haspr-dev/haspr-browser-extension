@@ -15,7 +15,7 @@
  * @since         4.10.1
  */
 
-import { defaultFolderDto } from "passbolt-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
+import { defaultFolderDto } from "haspr-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
 import ExportResourcesFileController from "./exportResourcesFileController";
 import ExportResourcesFileEntity, {
   FORMAT_CSV_KDBX,
@@ -23,20 +23,20 @@ import ExportResourcesFileEntity, {
   FORMAT_KDBX,
 } from "../../model/entity/export/exportResourcesFileEntity";
 import MockExtension from "../../../../../test/mocks/mockExtension";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import ResourceService from "../../service/api/resource/resourceService";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 import { v4 as uuidv4 } from "uuid";
 import { KdbxCsvFile } from "../../model/entity/import/importResourcesFileEntity.test.data";
 import ResourceTypeService from "../../service/api/resourceType/resourceTypeService";
-import { resourceTypesCollectionDto } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
+import { resourceTypesCollectionDto } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
 import {
   RESOURCE_TYPE_PASSWORD_DESCRIPTION_TOTP_SLUG,
   RESOURCE_TYPE_V5_DEFAULT_TOTP_SLUG,
-} from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeSchemasDefinition";
+} from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeSchemasDefinition";
 import FileService from "../../service/file/fileService";
 import FolderLocalStorage from "../../service/local_storage/folderLocalStorage";
 import ResourcesKdbxExporter from "../../model/export/resources/resourcesKdbxExporter";
@@ -47,14 +47,14 @@ import ResourcesCollection from "../../model/entity/resource/resourcesCollection
 import { defaultTotpDto } from "../../model/entity/totp/totpDto.test.data";
 import ExternalTotpEntity from "../../model/entity/totp/externalTotpEntity";
 import { resourceCollectionV4ToExport } from "../../service/resource/export/exportResourcesService.test.data";
-import { defaultDecryptedSharedMetadataKeysDtos } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection.test.data";
-import MetadataKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
+import { defaultDecryptedSharedMetadataKeysDtos } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection.test.data";
+import MetadataKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
 import GetOrFindMetadataKeysService from "../../service/metadata/getOrFindMetadataKeysService";
-import { mockPassboltResponse } from "passbolt-styleguide/test/mocks/mockApiResponse";
+import { mockPassboltResponse } from "haspr-styleguide/test/mocks/mockApiResponse";
 import GetOrFindResourceTypesService from "../../service/resourceType/getOrFindResourceTypesService";
 import GetOrFindActiveSessionService from "../../service/activeSession/getOrFindActiveSessionService";
-import UserActiveSessionEntity from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
-import { defaultUserActiveSessionDto } from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
+import UserActiveSessionEntity from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
+import { defaultUserActiveSessionDto } from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
 
 beforeEach(async () => {
   await MockExtension.withConfiguredAccount();

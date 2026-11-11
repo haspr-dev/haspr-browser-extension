@@ -15,29 +15,29 @@
 import InformMenuController from "./InformMenuController";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import { v4 as uuidv4 } from "uuid";
 import { QuickAccessService } from "../../service/ui/quickAccess.service";
 import WorkerService from "../../service/worker/workerService";
 import BrowserTabService from "../../service/ui/browserTab.service";
 import ResourceInProgressCacheService from "../../service/cache/resourceInProgressCache.service";
 import { readWorker } from "../../model/entity/worker/workerEntity.test.data";
-import MockPort from "passbolt-styleguide/src/react-extension/test/mock/MockPort";
-import { defaultResourcesDtos } from "passbolt-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
+import MockPort from "haspr-styleguide/src/react-extension/test/mock/MockPort";
+import { defaultResourcesDtos } from "haspr-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
 import ResourcesCollection from "../../model/entity/resource/resourcesCollection";
 import ExternalResourceEntity from "../../model/entity/resource/external/externalResourceEntity";
-import ResourceMetadataEntity from "passbolt-styleguide/src/shared/models/entity/resource/metadata/resourceMetadataEntity";
-import { sortResourcesByUriMatchingScore } from "passbolt-styleguide/src/shared/utils/sortUtils";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
-import { defaultResourceMetadataDto } from "passbolt-styleguide/src/shared/models/entity/resource/metadata/resourceMetadataEntity.test.data";
+import ResourceMetadataEntity from "haspr-styleguide/src/shared/models/entity/resource/metadata/resourceMetadataEntity";
+import { sortResourcesByUriMatchingScore } from "haspr-styleguide/src/shared/utils/sortUtils";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { defaultResourceMetadataDto } from "haspr-styleguide/src/shared/models/entity/resource/metadata/resourceMetadataEntity.test.data";
 import GetOrFindResourcesService from "../../service/resource/getOrFindResourcesService";
 import GetOrFindOfflineResourcesService from "../../service/resource/getOrFindOfflineResourcesService";
 import GetOrFindActiveSessionService from "../../service/activeSession/getOrFindActiveSessionService";
-import UserActiveSessionEntity from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
+import UserActiveSessionEntity from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
 import {
   defaultUserActiveSessionDto,
   offlineUserActiveSessionDto,
-} from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
 
 describe("InformMenuController", () => {
   let requestId, worker, port, controller, webIntegrationPort;

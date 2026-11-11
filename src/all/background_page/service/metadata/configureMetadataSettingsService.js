@@ -11,13 +11,13 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.4.0
  */
-import MetadataTypesSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
-import MetadataKeysSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity";
+import MetadataTypesSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
+import MetadataKeysSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity";
 import GenerateMetadataKeyService from "./generateMetadataKeyService";
 import CreateMetadataKeyService from "./createMetadataKeyService";
 import SaveMetadataSettingsService from "./saveMetadataSettingsService";
 import { assertString } from "../../utils/assertions";
-import FindMetadataGettingStartedSettingsService from "passbolt-styleguide/src/shared/services/metadata/findMetadataGettingStartedSettingsService";
+import FindMetadataGettingStartedSettingsService from "haspr-styleguide/src/shared/services/metadata/findMetadataGettingStartedSettingsService";
 
 /**
  * The service aims to orchestrate the enablement of the metadata encryption.

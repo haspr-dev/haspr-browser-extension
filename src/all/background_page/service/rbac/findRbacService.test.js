@@ -13,10 +13,10 @@
  */
 
 import FindRbacService from "./findRbacService";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import PassboltResponseEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
-import RbacsCollection from "passbolt-styleguide/src/shared/models/entity/rbac/rbacsCollection";
-import { defaultSettingsRbacsCollectionData } from "passbolt-styleguide/src/shared/models/entity/rbac/rbacsCollection.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import PassboltResponseEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
+import RbacsCollection from "haspr-styleguide/src/shared/models/entity/rbac/rbacsCollection";
+import { defaultSettingsRbacsCollectionData } from "haspr-styleguide/src/shared/models/entity/rbac/rbacsCollection.test.data";
 
 describe("FindRbacService", () => {
   beforeEach(async () => {

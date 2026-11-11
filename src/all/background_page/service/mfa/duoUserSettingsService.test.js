@@ -12,8 +12,8 @@
  * @since         5.10.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import { mockMfaSettings } from "passbolt-styleguide/src/react-extension/components/Administration/DisplayMfaAdministration/DisplayMfaAdministration.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { mockMfaSettings } from "haspr-styleguide/src/react-extension/components/Administration/DisplayMfaAdministration/DisplayMfaAdministration.test.data";
 import DuoUserSettingsService from "./duoUserSettingsService";
 import BrowserTabService from "../ui/browserTab.service";
 

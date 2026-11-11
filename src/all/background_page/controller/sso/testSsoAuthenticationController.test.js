@@ -15,11 +15,11 @@ import { enableFetchMocks } from "jest-fetch-mock";
 import { v4 as uuid } from "uuid";
 import { mockApiResponse, mockApiResponseError } from "../../../../../test/mocks/mockApiResponse";
 import { withAzureSsoSettings } from "./saveSsoSettingsAsDraftController.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import TestSsoAuthenticationController from "./testSsoAuthenticationController";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
 import SsoLoginUrlEntity from "../../model/entity/sso/ssoLoginUrlEntity";
-import AzureSsoSettingsEntity from "passbolt-styleguide/src/shared/models/entity/ssoSettings/AzureSsoSettingsEntity";
+import AzureSsoSettingsEntity from "haspr-styleguide/src/shared/models/entity/ssoSettings/AzureSsoSettingsEntity";
 
 const mock_getSsoTokenFromThirdParty = jest.fn();
 const mock_closeHandler = jest.fn();

@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.17.0
  */
-import EntityV2 from "passbolt-styleguide/src/shared/models/entity/abstract/entityV2";
+import EntityV2 from "haspr-styleguide/src/shared/models/entity/abstract/entityV2";
 
 const CEREMONY_TTL_MS = 5 * 60 * 1000;
 // dashed hex of the 16 authenticator bytes; not an RFC 4122 uuid for some authenticators

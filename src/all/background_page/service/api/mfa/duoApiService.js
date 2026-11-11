@@ -12,7 +12,7 @@
  * @since         5.10.0
  */
 
-import AbstractService from "passbolt-styleguide/src/shared/services/api/abstract/abstractService";
+import AbstractService from "haspr-styleguide/src/shared/services/api/abstract/abstractService";
 
 const DUO_MFA_RESOURCE_NAME = "/mfa/setup/duo";
 

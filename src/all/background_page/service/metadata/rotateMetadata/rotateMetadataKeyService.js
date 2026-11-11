@@ -13,14 +13,14 @@
  */
 
 import { assertString, assertType } from "../../../utils/assertions";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 import i18n from "../../../sdk/i18n";
 import CreateMetadataKeyService from "../createMetadataKeyService";
 import ExpireMetadataKeyService from "../expireMetadataKeyService";
 import DeleteMetadataKeyService from "../deleteMetadataKeyService";
-import ExternalGpgKeyPairEntity from "passbolt-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
+import ExternalGpgKeyPairEntity from "haspr-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
 import RotateResourcesMetadataKeyService from "./rotateResourcesMetadataKeyService";
-import MetadataKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeyEntity";
+import MetadataKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeyEntity";
 
 /**
  * The service aims to rotate metadata key.

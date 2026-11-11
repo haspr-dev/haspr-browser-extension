@@ -12,8 +12,8 @@
  * @since         3.0.0
  */
 import Log from "../../model/log";
-import RoleEntity from "passbolt-styleguide/src/shared/models/entity/role/roleEntity";
-import RolesCollection from "passbolt-styleguide/src/shared/models/entity/role/rolesCollection";
+import RoleEntity from "haspr-styleguide/src/shared/models/entity/role/roleEntity";
+import RolesCollection from "haspr-styleguide/src/shared/models/entity/role/rolesCollection";
 import Lock from "../../utils/lock";
 const lock = new Lock();
 

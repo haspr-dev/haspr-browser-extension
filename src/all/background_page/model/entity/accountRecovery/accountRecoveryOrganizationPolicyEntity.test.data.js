@@ -13,7 +13,7 @@
  */
 
 import { v4 as uuidv4 } from "uuid";
-import { defaultUserDto } from "passbolt-styleguide/src/shared/models/entity/user/userEntity.test.data";
+import { defaultUserDto } from "haspr-styleguide/src/shared/models/entity/user/userEntity.test.data";
 import {
   alternativeAccountRecoveryOrganizationPublicKeyDto,
   createAccountRecoveryOrganizationPublicKeyDto,
@@ -25,8 +25,8 @@ import {
 import {
   createAccountRecoveryPrivateKeyPasswordDto,
   defaultAccountRecoveryPrivateKeyPasswordDto,
-} from "passbolt-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryPrivateKeyPasswordEntity.test.data.js";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+} from "haspr-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryPrivateKeyPasswordEntity.test.data.js";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 
 // Disabled account recovery organization policy
 

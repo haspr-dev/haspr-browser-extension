@@ -13,10 +13,10 @@
  */
 
 import NeededSecretsCollection from "./neededSecretsCollection";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
-import { defaultNeededSecretDto } from "passbolt-styleguide/src/shared/models/entity/secret/neededSecretEntity.test.data";
-import { defaultNeededSecretsDtos } from "passbolt-styleguide/src/shared/models/entity/secret/neededSecretCollection.test.data";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
+import { defaultNeededSecretDto } from "haspr-styleguide/src/shared/models/entity/secret/neededSecretEntity.test.data";
+import { defaultNeededSecretsDtos } from "haspr-styleguide/src/shared/models/entity/secret/neededSecretCollection.test.data";
 
 describe("Needed secrets collection entity", () => {
   describe("::getSchema", () => {

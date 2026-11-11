@@ -12,8 +12,8 @@
  * @since         4.5.0
  */
 
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 import MfaTotpSetupInfoEntity from "./mfaTotpSetupInfoEntity";
 import { defaultTotpQrCodeData } from "./mfaTotpSetupInfoEntity.test.data";
 

@@ -13,8 +13,8 @@
  */
 import { enableFetchMocks } from "jest-fetch-mock";
 import { mockApiResponse, mockApiResponseError } from "../../../../../../test/mocks/mockApiResponse";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
 import WebauthnSettingsApiService from "./webauthnSettingsApiService";
 import { defaultMfaWebauthnSettingsDto } from "../../../model/entity/mfa/mfaWebauthnSettingsEntity.test.data";
 

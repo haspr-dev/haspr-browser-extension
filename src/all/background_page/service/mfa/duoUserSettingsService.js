@@ -12,7 +12,7 @@
  * @since         5.10.0
  */
 
-import MFAService from "passbolt-styleguide/src/shared/services/api/Mfa/MfaService";
+import MFAService from "haspr-styleguide/src/shared/services/api/Mfa/MfaService";
 import { assertString } from "../../utils/assertions";
 import DuoApiService from "../api/mfa/duoApiService";
 import BrowserTabService from "../ui/browserTab.service";

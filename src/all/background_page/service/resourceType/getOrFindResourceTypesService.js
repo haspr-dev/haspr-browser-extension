@@ -13,7 +13,7 @@
  */
 import ResourceTypeLocalStorage from "../local_storage/resourceTypeLocalStorage";
 import ResourceTypeService from "../api/resourceType/resourceTypeService";
-import ResourceTypesCollection from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
+import ResourceTypesCollection from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
 import GetOrFindActiveSessionService from "../activeSession/getOrFindActiveSessionService";
 
 /**

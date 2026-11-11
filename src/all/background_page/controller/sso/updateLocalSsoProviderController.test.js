@@ -13,11 +13,11 @@
  */
 import "../../../../../test/mocks/mockSsoDataStorage";
 import { clientSsoKit } from "../../model/entity/sso/ssoKitClientPart.test.data";
-import AzureSsoSettingsEntity from "passbolt-styleguide/src/shared/models/entity/ssoSettings/AzureSsoSettingsEntity";
-import GoogleSsoSettingsEntity from "passbolt-styleguide/src/shared/models/entity/ssoSettings/GoogleSsoSettingsEntity";
+import AzureSsoSettingsEntity from "haspr-styleguide/src/shared/models/entity/ssoSettings/AzureSsoSettingsEntity";
+import GoogleSsoSettingsEntity from "haspr-styleguide/src/shared/models/entity/ssoSettings/GoogleSsoSettingsEntity";
 import SsoDataStorage from "../../service/indexedDB_storage/ssoDataStorage";
 import UpdateLocalSsoProviderController from "./updateLocalSsoProviderController";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 
 describe("UpdateLocalSsoProviderController", () => {
   describe("UpdateLocalSsoProviderController::exec", () => {

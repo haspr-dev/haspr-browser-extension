@@ -14,9 +14,9 @@
 import GroupLocalStorage from "../local_storage/groupLocalStorage";
 import FindGroupsService from "./findGroupsService";
 import GroupApiService from "../api/group/groupApiService";
-import GroupEntity from "passbolt-styleguide/src/shared/models/entity/group/groupEntity";
-import GroupsCollection from "passbolt-styleguide/src/shared/models/entity/group/groupsCollection";
-import { assertArrayUUID } from "passbolt-styleguide/src/shared/utils/assertions";
+import GroupEntity from "haspr-styleguide/src/shared/models/entity/group/groupEntity";
+import GroupsCollection from "haspr-styleguide/src/shared/models/entity/group/groupsCollection";
+import { assertArrayUUID } from "haspr-styleguide/src/shared/utils/assertions";
 
 const GROUPS_UPDATE_ALL_LS_LOCK_PREFIX = "GROUPS_UPDATE_LS_LOCK_";
 

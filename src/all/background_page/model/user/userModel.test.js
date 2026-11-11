@@ -13,23 +13,23 @@
  */
 import { mockApiResponse } from "../../../../../test/mocks/mockApiResponse";
 import { enableFetchMocks } from "jest-fetch-mock";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import PendingAccountRecoveryRequestEntity from "passbolt-styleguide/src/shared/models/entity/accountRecovery/pendingAccountRecoveryRequestEntity";
-import { defaultGroupUser } from "passbolt-styleguide/src/shared/models/entity/groupUser/groupUserEntity.test.data.js";
-import { defaultUserDto } from "passbolt-styleguide/src/shared/models/entity/user/userEntity.test.data";
-import RoleEntity from "passbolt-styleguide/src/shared/models/entity/role/roleEntity";
-import ProfileEntity from "passbolt-styleguide/src/shared/models/entity/profile/profileEntity";
-import AccountRecoveryUserSettingEntity from "passbolt-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryUserSettingEntity";
-import GroupsUsersCollection from "passbolt-styleguide/src/shared/models/entity/groupUser/groupsUsersCollection";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import PendingAccountRecoveryRequestEntity from "haspr-styleguide/src/shared/models/entity/accountRecovery/pendingAccountRecoveryRequestEntity";
+import { defaultGroupUser } from "haspr-styleguide/src/shared/models/entity/groupUser/groupUserEntity.test.data.js";
+import { defaultUserDto } from "haspr-styleguide/src/shared/models/entity/user/userEntity.test.data";
+import RoleEntity from "haspr-styleguide/src/shared/models/entity/role/roleEntity";
+import ProfileEntity from "haspr-styleguide/src/shared/models/entity/profile/profileEntity";
+import AccountRecoveryUserSettingEntity from "haspr-styleguide/src/shared/models/entity/accountRecovery/accountRecoveryUserSettingEntity";
+import GroupsUsersCollection from "haspr-styleguide/src/shared/models/entity/groupUser/groupsUsersCollection";
 import UserModel from "./userModel";
 import UserLocalStorage from "../../service/local_storage/userLocalStorage";
 import UserEntity from "../entity/user/userEntity";
-import CollectionValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/collectionValidationError";
+import CollectionValidationError from "haspr-styleguide/src/shared/models/entity/abstract/collectionValidationError";
 import { adminAccountDto, defaultAccountDto } from "../entity/account/accountEntity.test.data";
 import AccountEntity from "../entity/account/accountEntity";
-import { defaultCeSiteSettings } from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import { defaultCeSiteSettings } from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
 import GetOrFindSiteSettingsService from "../../service/siteSettings/getOrFindSiteSettingsService";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
 
 beforeAll(() => {
   enableFetchMocks();

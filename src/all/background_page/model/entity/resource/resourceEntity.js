@@ -11,19 +11,19 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         2.13.0
  */
-import PermissionEntity from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity";
-import PermissionsCollection from "passbolt-styleguide/src/shared/models/entity/permission/permissionsCollection";
+import PermissionEntity from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity";
+import PermissionsCollection from "haspr-styleguide/src/shared/models/entity/permission/permissionsCollection";
 import FavoriteEntity from "../favorite/favoriteEntity";
-import ResourceTypeEntity from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity";
+import ResourceTypeEntity from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity";
 import TagsCollection from "../tag/tagsCollection";
 import ResourceSecretsCollection from "../secret/resource/resourceSecretsCollection";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import EntityV2 from "passbolt-styleguide/src/shared/models/entity/abstract/entityV2";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityV2 from "haspr-styleguide/src/shared/models/entity/abstract/entityV2";
 import UserEntity from "../user/userEntity";
-import ResourceMetadataEntity from "passbolt-styleguide/src/shared/models/entity/resource/metadata/resourceMetadataEntity";
-import CanSuggestService from "passbolt-styleguide/src/shared/services/canSuggestService/canSuggestService";
-import OfflineItemEntity from "passbolt-styleguide/src/shared/models/entity/offline/offlineItemEntity";
+import ResourceMetadataEntity from "haspr-styleguide/src/shared/models/entity/resource/metadata/resourceMetadataEntity";
+import CanSuggestService from "haspr-styleguide/src/shared/services/canSuggestService/canSuggestService";
+import OfflineItemEntity from "haspr-styleguide/src/shared/models/entity/offline/offlineItemEntity";
 import { assertType } from "../../../utils/assertions";
 
 const ENTITY_NAME = "Resource";

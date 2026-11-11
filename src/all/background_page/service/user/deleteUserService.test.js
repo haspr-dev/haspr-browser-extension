@@ -14,14 +14,14 @@
 
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import DeleteUserService from "./deleteUserService";
 import { v4 as uuidv4 } from "uuid";
 import DeleteDryRunError from "../../error/deleteDryRunError";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
 import UserDeleteTransferEntity from "../../model/entity/user/transfer/userDeleteTransferEntity";
-import { defaultUserDeleteTransferDto } from "passbolt-styleguide/src/shared/models/entity/user/userDeleteTransferEntity.test.data";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { defaultUserDeleteTransferDto } from "haspr-styleguide/src/shared/models/entity/user/userDeleteTransferEntity.test.data";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
 import UserLocalStorage from "../local_storage/userLocalStorage";
 
 beforeEach(() => {

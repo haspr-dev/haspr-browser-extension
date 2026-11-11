@@ -18,7 +18,7 @@ import ExecuteConcurrentlyService from "../execute/executeConcurrentlyService";
 import splitBySize from "../../utils/array/splitBySize";
 import ResourceEntity from "../../model/entity/resource/resourceEntity";
 import DecryptMetadataService from "../metadata/decryptMetadataService";
-import { assertArrayUUID, assertNumber, assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertArrayUUID, assertNumber, assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 import GetOrFindResourceTypesService from "../resourceType/getOrFindResourceTypesService";
 
 const DEFAULT_PAGE_SIZE = 10_000;

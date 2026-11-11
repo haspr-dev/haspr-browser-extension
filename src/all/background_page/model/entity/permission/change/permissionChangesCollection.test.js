@@ -12,9 +12,9 @@
  * @since         2.13.0
  */
 import PermissionChangesCollection from "./permissionChangesCollection";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import PermissionEntity from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity";
-import PermissionsCollection from "passbolt-styleguide/src/shared/models/entity/permission/permissionsCollection";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import PermissionEntity from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity";
+import PermissionsCollection from "haspr-styleguide/src/shared/models/entity/permission/permissionsCollection";
 
 describe("PermissionChangesCollection", () => {
   it("schema must validate", () => {

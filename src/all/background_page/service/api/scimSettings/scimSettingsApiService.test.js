@@ -13,13 +13,13 @@
  */
 
 import { enableFetchMocks } from "jest-fetch-mock";
-import { mockApiResponse, mockApiResponseError } from "passbolt-styleguide/test/mocks/mockApiResponse";
+import { mockApiResponse, mockApiResponseError } from "haspr-styleguide/test/mocks/mockApiResponse";
 import ScimSettingsApiService from "./scimSettingsApiService";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import { defaultScimSettingsDto, scimSettingsWithoutSecretTokenDto } from "./scimSettingsApiService.test.data";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
-import PassboltServiceUnavailableError from "passbolt-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
-import ScimSettingsEntity from "passbolt-styleguide/src/shared/models/entity/scimSettings/scimSettingsEntity";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltServiceUnavailableError from "haspr-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
+import ScimSettingsEntity from "haspr-styleguide/src/shared/models/entity/scimSettings/scimSettingsEntity";
 import { v4 as uuidv4 } from "uuid";
 
 describe("ScimSettingsApiService", () => {

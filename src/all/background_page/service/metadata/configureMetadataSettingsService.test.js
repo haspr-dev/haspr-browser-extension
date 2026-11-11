@@ -14,15 +14,15 @@
 import AccountEntity from "../../model/entity/account/accountEntity";
 import BuildApiClientOptionsService from "../account/buildApiClientOptionsService";
 import ConfigureMetadataSettingsService from "./configureMetadataSettingsService";
-import MetadataTypesSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
-import MetadataKeysSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity";
-import ExternalGpgKeyPairEntity from "passbolt-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
+import MetadataTypesSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
+import MetadataKeysSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity";
+import ExternalGpgKeyPairEntity from "haspr-styleguide/src/shared/models/entity/gpgkey/external/externalGpgKeyPairEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import MetadataGettingStartedSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataGettingStartedSettingsEntity";
+import MetadataGettingStartedSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataGettingStartedSettingsEntity";
 import {
   defaultMetadataGettingStartedSettingsDto,
   enableMetadataGettingStartedSettingsDto,
-} from "passbolt-styleguide/src/shared/models/entity/metadata/metadataGettingStartedSettingsEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/metadata/metadataGettingStartedSettingsEntity.test.data";
 
 describe("ConfigureMetadataSettingsService", () => {
   describe("::enableEncryptedMetadataForNewInstance", () => {

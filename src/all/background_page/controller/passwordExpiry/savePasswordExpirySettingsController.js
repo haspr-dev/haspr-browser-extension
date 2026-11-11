@@ -11,10 +11,10 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.4.0
  */
-import PasswordExpirySettingsEntity from "passbolt-styleguide/src/shared/models/entity/passwordExpiry/passwordExpirySettingsEntity";
+import PasswordExpirySettingsEntity from "haspr-styleguide/src/shared/models/entity/passwordExpiry/passwordExpirySettingsEntity";
 import PasswordExpirySettingsModel from "../../model/passwordExpiry/passwordExpirySettingsModel";
 import GetOrFindSiteSettingsService from "../../service/siteSettings/getOrFindSiteSettingsService";
-import PasswordExpiryProSettingsEntity from "passbolt-styleguide/src/shared/models/entity/passwordExpiryPro/passwordExpiryProSettingsEntity";
+import PasswordExpiryProSettingsEntity from "haspr-styleguide/src/shared/models/entity/passwordExpiryPro/passwordExpiryProSettingsEntity";
 
 class SavePasswordExpirySettingsController {
   /**

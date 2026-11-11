@@ -15,15 +15,12 @@
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import FindRolesService from "./findRolesService";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import PassboltResponseEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
-import { rolesCollectionDto } from "passbolt-styleguide/src/shared/models/entity/role/rolesCollection.test.data";
-import RolesCollection from "passbolt-styleguide/src/shared/models/entity/role/rolesCollection";
-import RoleEntity from "passbolt-styleguide/src/shared/models/entity/role/roleEntity";
-import {
-  TEST_ROLE_GUEST_ID,
-  adminRoleDto,
-} from "passbolt-styleguide/src/shared/models/entity/role/roleEntity.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import PassboltResponseEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
+import { rolesCollectionDto } from "haspr-styleguide/src/shared/models/entity/role/rolesCollection.test.data";
+import RolesCollection from "haspr-styleguide/src/shared/models/entity/role/rolesCollection";
+import RoleEntity from "haspr-styleguide/src/shared/models/entity/role/roleEntity";
+import { TEST_ROLE_GUEST_ID, adminRoleDto } from "haspr-styleguide/src/shared/models/entity/role/roleEntity.test.data";
 
 describe("FindRolesService", () => {
   beforeEach(async () => {

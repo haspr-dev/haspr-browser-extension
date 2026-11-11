@@ -14,11 +14,11 @@
 
 import { enableFetchMocks } from "jest-fetch-mock";
 import AccountRecoveryValidateOrganizationPrivateKeyController from "./accountRecoveryValidateOrganizationPrivateKeyController";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import { enabledAccountRecoveryOrganizationPolicyDto } from "../../model/entity/accountRecovery/accountRecoveryOrganizationPolicyEntity.test.data";
 import WrongOrganizationRecoveryKeyError from "../../error/wrongOrganizationRecoveryKeyError";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import { mockApiResponse } from "../../../../../test/mocks/mockApiResponse";
 
 // Reset the modules before each test.

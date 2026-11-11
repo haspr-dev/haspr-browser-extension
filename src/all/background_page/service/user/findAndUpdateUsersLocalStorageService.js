@@ -11,8 +11,8 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.13.0
  */
-import RoleEntity from "passbolt-styleguide/src/shared/models/entity/role/roleEntity";
-import UsersCollection from "passbolt-styleguide/src/shared/models/entity/user/usersCollection";
+import RoleEntity from "haspr-styleguide/src/shared/models/entity/role/roleEntity";
+import UsersCollection from "haspr-styleguide/src/shared/models/entity/user/usersCollection";
 import GetOrFindSiteSettingsService from "../siteSettings/getOrFindSiteSettingsService";
 import UserLocalStorage from "../local_storage/userLocalStorage";
 import FindUsersService from "./findUsersService";

@@ -16,10 +16,10 @@ import ImportError from "../../../error/importError";
 import * as kdbxweb from "kdbxweb";
 import ExternalTotpEntity from "../../entity/totp/externalTotpEntity";
 import ResourcesTypeImportParser from "./resourcesTypeImportParser";
-import { ICON_TYPE_KEEPASS_ICON_SET } from "passbolt-styleguide/src/shared/models/entity/resource/metadata/IconEntity";
-import { CUSTOM_FIELD_TYPE } from "passbolt-styleguide/src/shared/models/entity/customField/customFieldEntity";
+import { ICON_TYPE_KEEPASS_ICON_SET } from "haspr-styleguide/src/shared/models/entity/resource/metadata/IconEntity";
+import { CUSTOM_FIELD_TYPE } from "haspr-styleguide/src/shared/models/entity/customField/customFieldEntity";
 import { v4 as uuidv4 } from "uuid";
-import { RESOURCE_TYPE_VERSION_5 } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
+import { RESOURCE_TYPE_VERSION_5 } from "haspr-styleguide/src/shared/models/entity/metadata/metadataTypesSettingsEntity";
 
 export const KDBX_SUPPORTED_FIELDS = [
   "Title",

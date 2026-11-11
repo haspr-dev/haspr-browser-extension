@@ -13,7 +13,7 @@
  */
 import BrowserTabService from "../../service/ui/browserTab.service";
 import PrepareResourceController from "./prepareResourceController";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
 
 describe("PrepareResourceController", () => {
   describe("::exec", () => {

@@ -16,9 +16,9 @@ import GroupApiService from "../api/group/groupApiService";
 import GroupLocalStorage from "../local_storage/groupLocalStorage";
 import GroupDeleteTransferEntity from "../../model/entity/group/transfer/groupDeleteTransferEntity";
 import DeleteDryRunError from "../../error/deleteDryRunError";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
 import { assertType } from "../../utils/assertions";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 
 /**
  * The service aims to delete a group from the API, or check whether it can be deleted.

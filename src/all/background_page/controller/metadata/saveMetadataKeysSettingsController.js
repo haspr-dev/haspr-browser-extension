@@ -12,7 +12,7 @@
  * @since         4.11.0
  */
 import SaveMetadataSettingsService from "../../service/metadata/saveMetadataSettingsService";
-import MetadataKeysSettingsEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity";
+import MetadataKeysSettingsEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysSettingsEntity";
 import FindMetadataSettingsService from "../../service/metadata/findMetadataSettingsService";
 import GetPassphraseService from "../../service/passphrase/getPassphraseService";
 

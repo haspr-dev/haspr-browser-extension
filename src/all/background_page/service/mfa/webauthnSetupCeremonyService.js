@@ -12,7 +12,7 @@
  * @since         5.17.0
  */
 import { v4 as uuidv4 } from "uuid";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
 import WebauthnApiService from "../api/mfa/webauthnApiService";
 import WebauthnSetupCeremonySessionStorageService from "../sessionStorage/webauthnSetupCeremonySessionStorageService";
 import WebauthnCredentialCreationOptionsEntity from "../../model/entity/mfa/webauthnCredentialCreationOptionsEntity";

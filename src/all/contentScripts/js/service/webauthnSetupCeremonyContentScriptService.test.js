@@ -20,7 +20,7 @@ import WebauthnCeremonyCancelledError from "../../../background_page/error/webau
 import WebauthnAuthenticatorAlreadyRegisteredError from "../../../background_page/error/webauthnAuthenticatorAlreadyRegisteredError";
 import WebauthnTLSCertificateError from "../../../background_page/error/webauthnTLSCertificateError";
 import WebauthnAlreadyRunningCeremonyError from "../../../background_page/error/webauthnAlreadyRunningCeremonyError";
-import WebauthnRelyingPartyIpAddressError from "passbolt-styleguide/src/shared/lib/Error/WebauthnRelyingPartyIpAddressError";
+import WebauthnRelyingPartyIpAddressError from "haspr-styleguide/src/shared/lib/Error/WebauthnRelyingPartyIpAddressError";
 
 const CEREMONY_ID = "8e3874ae-4b40-590b-968a-418f704b9d9a";
 const OTHER_CEREMONY_ID = "1cbfca6f-ab36-4e13-a5b8-7c0a1b2c3d4e";

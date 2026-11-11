@@ -15,10 +15,10 @@
  * @since         4.10.1
  */
 
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import { resourceTypePasswordAndDescriptionDto } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import { resourceTypePasswordAndDescriptionDto } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
 import { v4 as uuidv4 } from "uuid";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
 import EncryptMessageService from "../../crypto/encryptMessageService";
 import PlaintextEntity from "../../../model/entity/plaintext/plaintextEntity";
 import { OpenpgpAssertion } from "../../../utils/openpgp/openpgpAssertions";

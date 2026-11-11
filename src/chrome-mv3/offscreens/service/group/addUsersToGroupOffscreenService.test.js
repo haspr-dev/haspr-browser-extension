@@ -18,18 +18,18 @@ import AddUsersToGroupOffscreenService, {
   SEND_MESSAGE_TARGET_ADD_USERS_TO_GROUP_OFFSCREEN_RESPONSE_HANDLER,
   SEND_MESSAGE_TARGET_OFFSCREEN_PROGRESS_SERVICE_HANDLER,
 } from "./addUsersToGroupOffscreenService";
-import { defaultGroupDto } from "passbolt-styleguide/src/shared/models/entity/group/groupEntity.test.data";
-import GroupEntity from "passbolt-styleguide/src/shared/models/entity/group/groupEntity";
-import GroupUserEntity from "passbolt-styleguide/src/shared/models/entity/groupUser/groupUserEntity";
-import { createGroupUser } from "passbolt-styleguide/src/shared/models/entity/groupUser/groupUserEntity.test.data";
+import { defaultGroupDto } from "haspr-styleguide/src/shared/models/entity/group/groupEntity.test.data";
+import GroupEntity from "haspr-styleguide/src/shared/models/entity/group/groupEntity";
+import GroupUserEntity from "haspr-styleguide/src/shared/models/entity/groupUser/groupUserEntity";
+import { createGroupUser } from "haspr-styleguide/src/shared/models/entity/groupUser/groupUserEntity.test.data";
 import { defaultResourcesSecretsDtos } from "../../../../all/background_page/model/entity/secret/groupUpdate/groupUpdateSecretsCollection.test.data";
 import { OpenpgpAssertion } from "../../../../all/background_page/utils/openpgp/openpgpAssertions";
-import { plaintextSecretPasswordAndDescriptionDto } from "passbolt-styleguide/src/shared/models/entity/plaintextSecret/plaintextSecretEntity.test.data";
+import { plaintextSecretPasswordAndDescriptionDto } from "haspr-styleguide/src/shared/models/entity/plaintextSecret/plaintextSecretEntity.test.data";
 import EncryptMessageService from "../../../../all/background_page/service/crypto/encryptMessageService";
 import AccountEntity from "../../../../all/background_page/model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../../../all/background_page/model/entity/account/accountEntity.test.data";
 import GroupUpdateDryRunResultEntity from "../../../../all/background_page/model/entity/group/update/groupUpdateDryRunResultEntity";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 import DecryptMessageService from "../../../../all/background_page/service/crypto/decryptMessageService";
 
 describe("AddUsersToGroupOffscreenService", () => {

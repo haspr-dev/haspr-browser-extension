@@ -13,17 +13,17 @@
  */
 
 import { enableFetchMocks } from "jest-fetch-mock";
-import { mockApiResponse, mockApiResponseError } from "passbolt-styleguide/test/mocks/mockApiResponse";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
-import PassboltServiceUnavailableError from "passbolt-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
+import { mockApiResponse, mockApiResponseError } from "haspr-styleguide/test/mocks/mockApiResponse";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltServiceUnavailableError from "haspr-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
 import ResourceEntity, {
   METADATA_KEY_TYPE_METADATA_KEY,
   METADATA_KEY_TYPE_USER_KEY,
 } from "../../model/entity/resource/resourceEntity";
-import { defaultOfflineItemDto } from "passbolt-styleguide/src/shared/models/entity/offline/offlineItemEntity.test.data";
+import { defaultOfflineItemDto } from "haspr-styleguide/src/shared/models/entity/offline/offlineItemEntity.test.data";
 import MarkOfflineResourceService from "./markOfflineResourceService";
-import OfflineItemEntity from "passbolt-styleguide/src/shared/models/entity/offline/offlineItemEntity";
+import OfflineItemEntity from "haspr-styleguide/src/shared/models/entity/offline/offlineItemEntity";
 import { v4 as uuidv4 } from "uuid";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
@@ -31,12 +31,12 @@ import ResourceLocalStorage from "../local_storage/resourceLocalStorage";
 import {
   defaultResourceDto,
   resourceMetadataEncryptedDto,
-} from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
-import { defaultMetadataPrivateKeyDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity.test.data";
-import { defaultMetadataKeyDto } from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeyEntity.test.data";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import MetadataKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
-import { readSecret as readSecretDto } from "passbolt-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { defaultMetadataPrivateKeyDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity.test.data";
+import { defaultMetadataKeyDto } from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeyEntity.test.data";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import MetadataKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
+import { readSecret as readSecretDto } from "haspr-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
 
 describe("MarkOfflineResourceService", () => {
   let apiClientOptions, account;

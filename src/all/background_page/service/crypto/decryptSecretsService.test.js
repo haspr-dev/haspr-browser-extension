@@ -25,27 +25,27 @@ import {
   RESOURCE_TYPE_V5_CUSTOM_FIELDS_SLUG,
   RESOURCE_TYPE_V5_STANDALONE_NOTE_SLUG,
   RESOURCE_TYPE_V5_STANDALONE_PIN_CODE_SLUG,
-} from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeSchemasDefinition";
-import SecretDataV5DefaultEntity from "passbolt-styleguide/src/shared/models/entity/secretData/secretDataV5DefaultEntity";
-import SecretDataV5DefaultTotpEntity from "passbolt-styleguide/src/shared/models/entity/secretData/secretDataV5DefaultTotpEntity";
-import SecretDataV5StandaloneTotpEntity from "passbolt-styleguide/src/shared/models/entity/secretData/secretDataV5StandaloneTotpEntity";
-import SecretDataV5PasswordStringEntity from "passbolt-styleguide/src/shared/models/entity/secretData/secretDataV5PasswordStringEntity";
-import SecretDataV4DefaultEntity from "passbolt-styleguide/src/shared/models/entity/secretData/secretDataV4DefaultEntity";
-import SecretDataV4DefaultTotpEntity from "passbolt-styleguide/src/shared/models/entity/secretData/secretDataV4DefaultTotpEntity";
-import SecretDataV4StandaloneTotpEntity from "passbolt-styleguide/src/shared/models/entity/secretData/secretDataV4StandaloneTotpEntity";
-import SecretDataV4PasswordStringEntity from "passbolt-styleguide/src/shared/models/entity/secretData/secretDataV4PasswordStringEntity";
-import SecretDataV5StandaloneCustomFieldsCollection from "passbolt-styleguide/src/shared/models/entity/secretData/secretDataV5StandaloneCustomFieldsCollection";
-import SecretDataV5StandaloneNoteEntity from "passbolt-styleguide/src/shared/models/entity/secretData/secretDataV5StandaloneNoteEntity";
-import SecretDataV5StandalonePinCodeEntity from "passbolt-styleguide/src/shared/models/entity/secretData/secretDataV5StandalonePinCodeEntity";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import { resourceTypesCollectionDto } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
-import { defaultResourceSecretRevisionsDtos } from "passbolt-styleguide/src/shared/models/entity/secretRevision/resourceSecretRevisionsCollection.test.data";
+} from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeSchemasDefinition";
+import SecretDataV5DefaultEntity from "haspr-styleguide/src/shared/models/entity/secretData/secretDataV5DefaultEntity";
+import SecretDataV5DefaultTotpEntity from "haspr-styleguide/src/shared/models/entity/secretData/secretDataV5DefaultTotpEntity";
+import SecretDataV5StandaloneTotpEntity from "haspr-styleguide/src/shared/models/entity/secretData/secretDataV5StandaloneTotpEntity";
+import SecretDataV5PasswordStringEntity from "haspr-styleguide/src/shared/models/entity/secretData/secretDataV5PasswordStringEntity";
+import SecretDataV4DefaultEntity from "haspr-styleguide/src/shared/models/entity/secretData/secretDataV4DefaultEntity";
+import SecretDataV4DefaultTotpEntity from "haspr-styleguide/src/shared/models/entity/secretData/secretDataV4DefaultTotpEntity";
+import SecretDataV4StandaloneTotpEntity from "haspr-styleguide/src/shared/models/entity/secretData/secretDataV4StandaloneTotpEntity";
+import SecretDataV4PasswordStringEntity from "haspr-styleguide/src/shared/models/entity/secretData/secretDataV4PasswordStringEntity";
+import SecretDataV5StandaloneCustomFieldsCollection from "haspr-styleguide/src/shared/models/entity/secretData/secretDataV5StandaloneCustomFieldsCollection";
+import SecretDataV5StandaloneNoteEntity from "haspr-styleguide/src/shared/models/entity/secretData/secretDataV5StandaloneNoteEntity";
+import SecretDataV5StandalonePinCodeEntity from "haspr-styleguide/src/shared/models/entity/secretData/secretDataV5StandalonePinCodeEntity";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import { resourceTypesCollectionDto } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
+import { defaultResourceSecretRevisionsDtos } from "haspr-styleguide/src/shared/models/entity/secretRevision/resourceSecretRevisionsCollection.test.data";
 import DecryptSecretsService from "./decryptSecretsService";
-import ResourceTypesCollection from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
-import ResourceSecretRevisionsCollection from "passbolt-styleguide/src/shared/models/entity/secretRevision/resourceSecretRevisionsCollection";
+import ResourceTypesCollection from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
+import ResourceSecretRevisionsCollection from "haspr-styleguide/src/shared/models/entity/secretRevision/resourceSecretRevisionsCollection";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
-import { defaultSecretDataV5DefaultTotpEntityDto } from "passbolt-styleguide/src/shared/models/entity/secretData/secretDataV5DefaultTotpEntity.test.data";
-import { minimalDto } from "passbolt-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
+import { defaultSecretDataV5DefaultTotpEntityDto } from "haspr-styleguide/src/shared/models/entity/secretData/secretDataV5DefaultTotpEntity.test.data";
+import { minimalDto } from "haspr-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
 
 describe("DecryptSecretsService", () => {
   beforeEach(() => {

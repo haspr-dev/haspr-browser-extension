@@ -13,9 +13,9 @@
  */
 
 import { assertType } from "../../../utils/assertions";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 import AbstractService from "../abstract/abstractService";
-import MetadataKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeyEntity";
+import MetadataKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeyEntity";
 
 const METADATA_KEYS_API_SERVICE_RESOURCE_NAME = "metadata/keys";
 

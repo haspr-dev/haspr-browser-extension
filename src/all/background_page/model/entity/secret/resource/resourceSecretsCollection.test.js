@@ -12,10 +12,10 @@
  * @since         4.8.0
  */
 
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import ResourceSecretsCollection from "./resourceSecretsCollection";
-import { minimalDto, readSecret } from "passbolt-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
-import SecretEntity from "passbolt-styleguide/src/shared/models/entity/secret/secretEntity";
+import { minimalDto, readSecret } from "haspr-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
+import SecretEntity from "haspr-styleguide/src/shared/models/entity/secret/secretEntity";
 import { defaultResourcesSecretsDtos } from "./resourceSecretsCollection.test.data";
 
 describe("ResourceSecretsCollection", () => {

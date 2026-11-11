@@ -18,8 +18,8 @@ import BuildApiClientOptionsService from "../service/account/buildApiClientOptio
 import BuildAccountSetupService from "../service/setup/buildAccountSetupService";
 import { PownedPasswordEvents } from "../event/pownedPasswordEvents";
 import { enableFetchMocks } from "jest-fetch-mock";
-import { anonymousSiteSettings } from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import { anonymousSiteSettings } from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
 import FindAndUpdateSiteSettingsLocalStorageService from "../service/siteSettings/findAndUpdateSiteSettingsLocalStorageService";
 
 jest.spyOn(BuildAccountSetupService, "buildFromSetupUrl");

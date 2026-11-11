@@ -12,8 +12,8 @@
  * @since         2.13.0
  */
 import Log from "../../model/log";
-import UserEntity from "passbolt-styleguide/src/shared/models/entity/user/userEntity";
-import UsersCollection from "passbolt-styleguide/src/shared/models/entity/user/usersCollection";
+import UserEntity from "haspr-styleguide/src/shared/models/entity/user/userEntity";
+import UsersCollection from "haspr-styleguide/src/shared/models/entity/user/usersCollection";
 
 const USER_LOCAL_STORAGE_KEY = "users";
 

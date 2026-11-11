@@ -12,9 +12,9 @@
  * @since         4.1.0
  */
 import ResourceTypeLocalStorage from "./resourceTypeLocalStorage";
-import { resourceTypeV5DefaultDto } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
-import ResourceTypeEntity from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity";
-import ResourceTypesCollection from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
+import { resourceTypeV5DefaultDto } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
+import ResourceTypeEntity from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity";
+import ResourceTypesCollection from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
 import GetLegacyAccountService from "../account/getLegacyAccountService";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";

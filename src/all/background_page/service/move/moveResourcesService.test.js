@@ -16,11 +16,11 @@ import ResourceLocalStorage from "../local_storage/resourceLocalStorage";
 import ResourcesCollection from "../../model/entity/resource/resourcesCollection";
 import MoveResourcesService, { PROGRESS_STEPS_MOVE_RESOURCES_MOVE_ALL } from "./moveResourcesService";
 import { PROGRESS_STEPS_SHARE_RESOURCES_SHARE_ALL } from "../share/shareResourceService";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
 import { buildOwnedResourceDto, buildTarget } from "./moveResourcesService.test.data";
-import { defaultFolderDto } from "passbolt-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
+import { defaultFolderDto } from "haspr-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
 import { v4 as uuidv4 } from "uuid";
 import FolderLocalStorage from "../local_storage/folderLocalStorage";
 import FoldersCollection from "../../model/entity/folder/foldersCollection";
@@ -32,9 +32,9 @@ import {
   readFolderPermissionDto,
   readPermissionDto,
   updatePermissionDto,
-} from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
-import PermissionsCollection from "passbolt-styleguide/src/shared/models/entity/permission/permissionsCollection";
-import MockPort from "passbolt-styleguide/src/react-extension/test/mock/MockPort";
+} from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
+import PermissionsCollection from "haspr-styleguide/src/shared/models/entity/permission/permissionsCollection";
+import MockPort from "haspr-styleguide/src/react-extension/test/mock/MockPort";
 import ProgressService from "../progress/progressService";
 
 /**

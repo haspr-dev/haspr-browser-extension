@@ -16,7 +16,7 @@ import FolderEntity from "../../model/entity/folder/folderEntity";
 import FoldersCollection from "../../model/entity/folder/foldersCollection";
 import Lock from "../../utils/lock";
 import { assertArray } from "../../utils/assertions";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 const lock = new Lock();
 
 export const FOLDERS_LOCAL_STORAGE_KEY = "folders";

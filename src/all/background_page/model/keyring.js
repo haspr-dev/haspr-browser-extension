@@ -14,7 +14,7 @@
 import { OpenpgpAssertion } from "../utils/openpgp/openpgpAssertions";
 import { Uuid } from "../utils/uuid";
 import UserSettings from "./userSettings/userSettings";
-import ExternalGpgKeyEntity from "passbolt-styleguide/src/shared/models/entity/gpgkey/externalGpgKeyEntity";
+import ExternalGpgKeyEntity from "haspr-styleguide/src/shared/models/entity/gpgkey/externalGpgKeyEntity";
 import GetGpgKeyInfoService from "../service/crypto/getGpgKeyInfoService";
 import storage from "../sdk/storage";
 import Validator from "validator";

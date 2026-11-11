@@ -12,7 +12,7 @@
  */
 import ActionLogsCollection from "../entity/actionLog/actionLogsCollection";
 import { assertNonEmptyString, assertNumber } from "../../utils/assertions";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 import AbstractActionLogEntity from "../entity/actionLog/abstractActionLogEntity";
 import ActionLogApiService from "../../service/api/actionLog/actionLogApiService";
 

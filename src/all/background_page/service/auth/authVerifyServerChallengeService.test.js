@@ -12,12 +12,12 @@
  * @since         3.6.1
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import AuthVerifyServerChallengeService from "./authVerifyServerChallengeService";
 import { defaultGpgAuthTokenVerifyHeadersDto } from "../../model/gpgAuthHeader.test.data";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
 
 beforeEach(() => {
   jest.resetModules();

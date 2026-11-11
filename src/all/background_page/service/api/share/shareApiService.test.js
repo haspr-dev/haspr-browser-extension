@@ -19,7 +19,7 @@ import {
   defaultUserSearchResultDto,
 } from "../../../model/entity/userAndGroupSearchResultEntity/userAndGroupSearchResultEntity.test.data";
 import ShareApiService from "./shareApiService";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 
 beforeEach(() => {
   jest.clearAllMocks();

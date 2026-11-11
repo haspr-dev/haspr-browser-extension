@@ -12,7 +12,7 @@
  * @since         5.6.0
  */
 import MetadataKeysApiService from "../api/metadata/metadataKeysApiService";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 
 /**
  * The service aims to delete an expired metadata key.

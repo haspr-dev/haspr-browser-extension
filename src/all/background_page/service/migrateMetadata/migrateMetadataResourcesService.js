@@ -14,10 +14,10 @@
 import ResourcesCollection from "../../model/entity/resource/resourcesCollection";
 import MigrateMetadataResourcesApiService from "../api/migrateMetadata/migrateMetadataResourcesApiService";
 import EncryptMetadataService from "../metadata/encryptMetadataService";
-import { V4_TO_V5_RESOURCE_TYPE_MAPPING } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeSchemasDefinition";
+import { V4_TO_V5_RESOURCE_TYPE_MAPPING } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeSchemasDefinition";
 import ResourceEntity from "../../model/entity/resource/resourceEntity";
 import i18n from "../../sdk/i18n";
-import PermissionEntity from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity";
+import PermissionEntity from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity";
 import GetOrFindResourceTypesService from "../resourceType/getOrFindResourceTypesService";
 
 const MAX_PROCESS_REPLAY = 3;

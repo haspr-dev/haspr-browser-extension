@@ -12,18 +12,18 @@
  * @since         2.13.0
  */
 import FolderEntity from "./folderEntity";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import PermissionEntity from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import PermissionEntity from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity";
 import {
   defaultFolderDto,
   folderWithReadPermissionDto,
   folderWithUpdatePermissionDto,
   minimalFolderDto,
-} from "passbolt-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
-import { ownerPermissionDto } from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
-import PermissionsCollection from "passbolt-styleguide/src/shared/models/entity/permission/permissionsCollection";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+} from "haspr-styleguide/src/shared/models/entity/folder/folderEntity.test.data";
+import { ownerPermissionDto } from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
+import PermissionsCollection from "haspr-styleguide/src/shared/models/entity/permission/permissionsCollection";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 import UserEntity from "../user/userEntity";
 
 describe("FolderEntity", () => {

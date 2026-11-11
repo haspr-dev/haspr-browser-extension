@@ -12,7 +12,7 @@
  * @since         3.6.0
  */
 
-import ExternalGpgKeyEntity from "passbolt-styleguide/src/shared/models/entity/gpgkey/externalGpgKeyEntity";
+import ExternalGpgKeyEntity from "haspr-styleguide/src/shared/models/entity/gpgkey/externalGpgKeyEntity";
 import { parseGpgUserId } from "../../utils/format/gpgUserIdParser";
 import GpgKeyError from "../../error/GpgKeyError";
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";

@@ -11,15 +11,12 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         3.6.0
  */
-import EntityV2 from "passbolt-styleguide/src/shared/models/entity/abstract/entityV2";
+import EntityV2 from "haspr-styleguide/src/shared/models/entity/abstract/entityV2";
 import AppEmailValidatorService from "../../../../service/validator/appEmailValidatorService";
-import {
-  GPG_KEY_CURVE_25519,
-  GPG_KEY_TYPE_CURVE,
-} from "passbolt-styleguide/src/shared/models/entity/gpgkey/gpgkeyEntity";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import { GPG_KEY_CURVE_25519, GPG_KEY_TYPE_CURVE } from "haspr-styleguide/src/shared/models/entity/gpgkey/gpgkeyEntity";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 import { assertType } from "../../../../utils/assertions";
-import UserKeyPoliciesSettingsEntity from "passbolt-styleguide/src/shared/models/entity/userKeyPolicies/UserKeyPoliciesSettingsEntity";
+import UserKeyPoliciesSettingsEntity from "haspr-styleguide/src/shared/models/entity/userKeyPolicies/UserKeyPoliciesSettingsEntity";
 
 const ENTITY_NAME = "GenerateGpgKeyPairOptionsEntity";
 

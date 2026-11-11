@@ -11,10 +11,10 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  */
 import GroupUpdateDryRunResultEntity from "./groupUpdateDryRunResultEntity";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
-import { defaultNeededSecretDto } from "passbolt-styleguide/src/shared/models/entity/secret/neededSecretEntity.test.data";
-import { minimalDto } from "passbolt-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
+import { defaultNeededSecretDto } from "haspr-styleguide/src/shared/models/entity/secret/neededSecretEntity.test.data";
+import { minimalDto } from "haspr-styleguide/src/shared/models/entity/secret/secretEntity.test.data";
 
 describe("Group update dry run result entity", () => {
   describe("::getSchema", () => {

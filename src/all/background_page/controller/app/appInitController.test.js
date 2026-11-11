@@ -23,7 +23,7 @@ import { mockApiResponse } from "../../../../../test/mocks/mockApiResponse";
 import { generateSsoKitServerData } from "../../model/entity/sso/ssoKitServerPart.test.data";
 import SsoKitClientPartEntity from "../../model/entity/sso/ssoKitClientPartEntity";
 import { clientSsoKit } from "../../model/entity/sso/ssoKitClientPart.test.data";
-import AzureSsoSettingsEntity from "passbolt-styleguide/src/shared/models/entity/ssoSettings/AzureSsoSettingsEntity";
+import AzureSsoSettingsEntity from "haspr-styleguide/src/shared/models/entity/ssoSettings/AzureSsoSettingsEntity";
 
 beforeEach(() => {
   enableFetchMocks();

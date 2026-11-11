@@ -14,14 +14,14 @@
 
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import DeleteGroupService from "./deleteGroupService";
 import { v4 as uuidv4 } from "uuid";
 import DeleteDryRunError from "../../error/deleteDryRunError";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
 import GroupDeleteTransferEntity from "../../model/entity/group/transfer/groupDeleteTransferEntity";
-import { defaultGroupTransferDto } from "passbolt-styleguide/src/shared/models/entity/group/groupTransfer.test.data";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { defaultGroupTransferDto } from "haspr-styleguide/src/shared/models/entity/group/groupTransfer.test.data";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
 
 describe("DeleteGroupService", () => {
   let deleteGroupService;

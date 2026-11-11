@@ -14,7 +14,7 @@
 
 import React from "react";
 import { createRoot } from "react-dom/client";
-import ExtAuthenticationAccountRecovery from "passbolt-styleguide/src/react-extension/ExtAuthenticationAccountRecovery";
+import ExtAuthenticationAccountRecovery from "haspr-styleguide/src/react-extension/ExtAuthenticationAccountRecovery";
 import Port from "../lib/port";
 
 async function main() {

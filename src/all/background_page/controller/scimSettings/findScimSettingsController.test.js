@@ -13,8 +13,8 @@
  */
 
 import FindScimSettingsController from "./findScimSettingsController";
-import ScimSettingsEntity from "passbolt-styleguide/src/shared/models/entity/scimSettings/scimSettingsEntity";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import ScimSettingsEntity from "haspr-styleguide/src/shared/models/entity/scimSettings/scimSettingsEntity";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import { defaultScimSettingsDto } from "../../service/api/scimSettings/scimSettingsApiService.test.data";
 
 describe("FindScimSettingsController", () => {

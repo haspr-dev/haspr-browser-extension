@@ -12,7 +12,7 @@
  * @since         5.13.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 
 import DeleteSubscriptionKeyController from "./deleteSubscriptionKeyController";
 import PostLogoutService from "../../service/auth/postLogoutService";

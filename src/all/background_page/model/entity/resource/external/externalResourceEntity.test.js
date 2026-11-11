@@ -10,12 +10,12 @@
  * @license       https://opensource.org/licenses/AGPL-3.0 AGPL License
  * @link          https://www.passbolt.com Passbolt(tm)
  */
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import ExternalResourceEntity from "./externalResourceEntity";
 import ExternalFolderEntity from "../../folder/external/externalFolderEntity";
 import { defaultTotpDto } from "../../totp/totpDto.test.data";
 import ResourceEntity from "../resourceEntity";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
 import { defaultResourcesSecretsDtos } from "../../secret/resource/resourceSecretsCollection.test.data";
 import {
   defaultExternalResourceDto,
@@ -23,15 +23,15 @@ import {
   minimalExternalResourceDto,
 } from "./externalResourceEntity.test.data";
 import ExternalTotpEntity from "../../totp/externalTotpEntity";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 import { v4 as uuid } from "uuid";
 import ResourceSecretsCollection from "../../secret/resource/resourceSecretsCollection";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
-import CustomFieldsCollection from "passbolt-styleguide/src/shared/models/entity/customField/customFieldsCollection";
-import { defaultCustomFieldsCollection } from "passbolt-styleguide/src/shared/models/entity/customField/customFieldsCollection.test.data";
-import { defaultResourceMetadataDto } from "passbolt-styleguide/src/shared/models/entity/resource/metadata/resourceMetadataEntity.test.data";
-import ResourceTypesCollection from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
-import { resourceTypesCollectionDto } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import CustomFieldsCollection from "haspr-styleguide/src/shared/models/entity/customField/customFieldsCollection";
+import { defaultCustomFieldsCollection } from "haspr-styleguide/src/shared/models/entity/customField/customFieldsCollection.test.data";
+import { defaultResourceMetadataDto } from "haspr-styleguide/src/shared/models/entity/resource/metadata/resourceMetadataEntity.test.data";
+import ResourceTypesCollection from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection";
+import { resourceTypesCollectionDto } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
 import {
   RESOURCE_TYPE_PASSWORD_STRING_SLUG,
   RESOURCE_TYPE_PASSWORD_AND_DESCRIPTION_SLUG,
@@ -44,8 +44,8 @@ import {
   RESOURCE_TYPE_V5_CUSTOM_FIELDS_SLUG,
   RESOURCE_TYPE_V5_STANDALONE_NOTE_SLUG,
   RESOURCE_TYPE_V5_STANDALONE_PIN_CODE_SLUG,
-} from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeSchemasDefinition.js";
-import { SECRET_DATA_OBJECT_TYPE } from "passbolt-styleguide/src/shared/models/entity/secretData/secretDataEntity";
+} from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeSchemasDefinition.js";
+import { SECRET_DATA_OBJECT_TYPE } from "haspr-styleguide/src/shared/models/entity/secretData/secretDataEntity";
 
 describe("ExternalResourceEntity", () => {
   describe("::getSchema", () => {

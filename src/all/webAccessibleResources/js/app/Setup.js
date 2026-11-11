@@ -13,7 +13,7 @@
  */
 import React from "react";
 import { createRoot } from "react-dom/client";
-import ExtAuthenticationSetup from "passbolt-styleguide/src/react-extension/ExtAuthenticationSetup";
+import ExtAuthenticationSetup from "haspr-styleguide/src/react-extension/ExtAuthenticationSetup";
 import Port from "../lib/port";
 
 async function main() {

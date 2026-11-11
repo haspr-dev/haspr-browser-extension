@@ -12,7 +12,7 @@
       "plugins": ["@babel/plugin-transform-runtime"]
     }]
   },
-  "transformIgnorePatterns": ["/node_modules/(.!passbolt-styleguide)"],
+  "transformIgnorePatterns": ["/node_modules/(.!(haspr-styleguide|passbolt-styleguide))"],
   "reporters": [
     "default",
     "jest-junit"

@@ -15,20 +15,20 @@
 import InformCallToActionController from "./informCallToActionController";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import { v4 as uuidv4 } from "uuid";
 import { QuickAccessService } from "../../service/ui/quickAccess.service";
 import WorkerService from "../../service/worker/workerService";
 import { readWorker } from "../../model/entity/worker/workerEntity.test.data";
-import MockPort from "passbolt-styleguide/src/react-extension/test/mock/MockPort";
-import { defaultResourceDtosCollection } from "passbolt-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
+import MockPort from "haspr-styleguide/src/react-extension/test/mock/MockPort";
+import { defaultResourceDtosCollection } from "haspr-styleguide/src/shared/models/entity/resource/resourcesCollection.test.data";
 import UserActiveSessionEntity, {
   USER_ACTIVE_SESSION_ONLINE,
-} from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
+} from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
 import {
   defaultUserActiveSessionDto,
   offlineUserActiveSessionDto,
-} from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
 import GetOrFindResourcesService from "../../service/resource/getOrFindResourcesService";
 import GetOrFindOfflineResourcesService from "../../service/resource/getOrFindOfflineResourcesService";
 

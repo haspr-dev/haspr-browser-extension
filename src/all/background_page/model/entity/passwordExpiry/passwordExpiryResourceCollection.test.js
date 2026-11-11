@@ -11,8 +11,8 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         4.5.0
  */
-import EntityCollectionError from "passbolt-styleguide/src/shared/models/entity/abstract/entityCollectionError";
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
+import EntityCollectionError from "haspr-styleguide/src/shared/models/entity/abstract/entityCollectionError";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
 import PasswordExpiryResourcesCollection from "./passwordExpiryResourcesCollection";
 import { defaultPasswordExpiryCollectionDto } from "./passwordExpiryResourceCollection.test.data";
 import { defaultPasswordExpiryResourceDto } from "./passwordExpiryResourceEntity.test.data";

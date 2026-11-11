@@ -13,11 +13,11 @@
  */
 import { v4 as uuidv4 } from "uuid";
 import deserializeConfirmedMovePermissions from "./deserializeConfirmedMovePermissions";
-import PermissionsCollection from "passbolt-styleguide/src/shared/models/entity/permission/permissionsCollection";
+import PermissionsCollection from "haspr-styleguide/src/shared/models/entity/permission/permissionsCollection";
 import {
   ownerPermissionDto,
   readPermissionDto,
-} from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
+} from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity.test.data";
 
 describe("deserializeConfirmedMovePermissions", () => {
   it("returns an empty Map when nothing was confirmed", () => {

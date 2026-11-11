@@ -12,15 +12,15 @@
  * @since         5.8.0
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import RolesUpdateLocalStorageController from "./rolesUpdateLocalStorageController";
 import { enableFetchMocks } from "jest-fetch-mock";
 import { mockApiResponse, mockApiResponseError } from "../../../../../test/mocks/mockApiResponse";
-import { rolesCollectionDto } from "passbolt-styleguide/src/shared/models/entity/role/rolesCollection.test.data";
+import { rolesCollectionDto } from "haspr-styleguide/src/shared/models/entity/role/rolesCollection.test.data";
 import RolesLocalStorage from "../../service/local_storage/rolesLocalStorage";
-import RolesCollection from "passbolt-styleguide/src/shared/models/entity/role/rolesCollection";
+import RolesCollection from "haspr-styleguide/src/shared/models/entity/role/rolesCollection";
 
 describe("RolesUpdateLocalStorageController", () => {
   beforeEach(() => {

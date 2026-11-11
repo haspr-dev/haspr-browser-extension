@@ -11,8 +11,8 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  */
 import FolderLocalStorage from "../../service/local_storage/folderLocalStorage";
-import PermissionEntity from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity";
-import PermissionsCollection from "passbolt-styleguide/src/shared/models/entity/permission/permissionsCollection";
+import PermissionEntity from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity";
+import PermissionsCollection from "haspr-styleguide/src/shared/models/entity/permission/permissionsCollection";
 import FolderEntity from "../entity/folder/folderEntity";
 import FoldersCollection from "../entity/folder/foldersCollection";
 import PermissionChangesCollection from "../entity/permission/change/permissionChangesCollection";

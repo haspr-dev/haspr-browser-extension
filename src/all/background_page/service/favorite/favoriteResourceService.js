@@ -17,7 +17,7 @@ import ResourceEntity from "../../model/entity/resource/resourceEntity";
 import ResourceModel from "../../model/resource/resourceModel";
 import FavoriteApiService from "../../service/api/favorite/favoriteApiService";
 import { assertType } from "../../utils/assertions";
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 import ResourceLocalStorage from "../local_storage/resourceLocalStorage";
 import OfflineResourcesOPFSStorage from "../opfsStorage/offlineResourcesOPFSStorage";
 

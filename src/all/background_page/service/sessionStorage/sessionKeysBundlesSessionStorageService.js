@@ -12,7 +12,7 @@
  * @since         4.10.1
  */
 import AccountEntity from "../../model/entity/account/accountEntity";
-import SessionKeysBundlesCollection from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection";
+import SessionKeysBundlesCollection from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection";
 
 export const SESSION_KEYS_BUNDLES_SESSION_STORAGE_KEY = "session_keys_bundles";
 

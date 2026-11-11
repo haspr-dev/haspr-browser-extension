@@ -14,7 +14,7 @@
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import EncryptMessageService from "../crypto/encryptMessageService";
 import DecryptMessageService from "../crypto/decryptMessageService";
-import SecretEntity from "passbolt-styleguide/src/shared/models/entity/secret/secretEntity";
+import SecretEntity from "haspr-styleguide/src/shared/models/entity/secret/secretEntity";
 import GroupUpdateSecretsCollection from "../../model/entity/secret/groupUpdate/groupUpdateSecretsCollection";
 import i18n from "../../sdk/i18n";
 

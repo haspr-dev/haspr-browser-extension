@@ -12,7 +12,7 @@
  * @since         6.0.0
  */
 import ActiveSessionLocalStorage from "../local_storage/activeSessionLocalStorage";
-import UserActiveSessionEntity from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
+import UserActiveSessionEntity from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
 import FindAndUpdateActiveSessionLocalStorageService from "./findAndUpdateActiveSessionLocalStorageService";
 
 /**

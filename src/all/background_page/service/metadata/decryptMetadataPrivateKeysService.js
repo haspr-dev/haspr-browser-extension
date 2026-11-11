@@ -13,15 +13,15 @@
  */
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import PassphraseStorageService from "../session_storage/passphraseStorageService";
-import MetadataPrivateKeyEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity";
-import MetadataPrivateKeyDataEntity from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyDataEntity";
-import MetadataPrivateKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataPrivateKeysCollection";
-import MetadataKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
+import MetadataPrivateKeyEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyEntity";
+import MetadataPrivateKeyDataEntity from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeyDataEntity";
+import MetadataPrivateKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataPrivateKeysCollection";
+import MetadataKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
 import { assertType } from "../../utils/assertions";
 import DecryptPrivateKeyService from "../crypto/decryptPrivateKeyService";
 import DecryptMessageService from "../crypto/decryptMessageService";
 import FindSignatureService from "../crypto/findSignatureService";
-import EntityValidationError from "passbolt-styleguide/src/shared/models/entity/abstract/entityValidationError";
+import EntityValidationError from "haspr-styleguide/src/shared/models/entity/abstract/entityValidationError";
 
 class DecryptMetadataPrivateKeysService {
   /**

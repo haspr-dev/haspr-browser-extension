@@ -18,9 +18,9 @@ import { v4 as uuidv4 } from "uuid";
 import { enableFetchMocks } from "jest-fetch-mock";
 import CommentApiService from "../../service/api/comment/commentApiService";
 import CommentService from "./commentService";
-import { defaultCommentCollectionDto } from "passbolt-styleguide/src/shared/models/entity/comment/commentEntityCollection.test.data";
+import { defaultCommentCollectionDto } from "haspr-styleguide/src/shared/models/entity/comment/commentEntityCollection.test.data";
 import CommentsCollection from "../entity/comment/commentsCollection";
-import { defaultCommentDto } from "passbolt-styleguide/src/shared/models/entity/comment/commentEntity.test.data";
+import { defaultCommentDto } from "haspr-styleguide/src/shared/models/entity/comment/commentEntity.test.data";
 import CommentEntity from "../entity/comment/commentEntity";
 
 describe("CommentService", () => {

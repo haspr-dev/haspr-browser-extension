@@ -12,7 +12,7 @@
  * @since         3.8.0
  */
 import PassphraseStorageService from "./passphraseStorageService";
-import UserPassphraseRequiredError from "passbolt-styleguide/src/shared/error/userPassphraseRequiredError";
+import UserPassphraseRequiredError from "haspr-styleguide/src/shared/error/userPassphraseRequiredError";
 
 jest.useFakeTimers();
 

@@ -13,7 +13,7 @@
  */
 
 import { assertNonEmptyString, assertString } from "../../../../all/background_page/utils/assertions";
-import { urlProtocols } from "passbolt-styleguide/src/react-extension/lib/Sanitize/sanitizeUrl";
+import { urlProtocols } from "haspr-styleguide/src/react-extension/lib/Sanitize/sanitizeUrl";
 
 const CSRF_TOKEN_COOKIE_NAME = "csrfToken";
 const DEFAULT_COOKIE_VALUES = {

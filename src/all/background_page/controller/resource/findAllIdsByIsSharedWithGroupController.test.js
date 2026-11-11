@@ -12,7 +12,7 @@
  * @since         4.9.4
  */
 
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import AccountEntity from "../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../model/entity/account/accountEntity.test.data";
 import { v4 as uuidv4 } from "uuid";
@@ -20,18 +20,18 @@ import FindAllIdsByIsSharedWithGroupController from "./findAllIdsByIsSharedWithG
 import FindAndUpdateResourcesLocalStorage from "../../service/resource/findAndUpdateResourcesLocalStorageService";
 import ResourceService from "../../service/api/resource/resourceService";
 import ResourceTypeService from "../../service/api/resourceType/resourceTypeService";
-import { resourceTypesCollectionDto } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
+import { resourceTypesCollectionDto } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypesCollection.test.data";
 import { multipleResourceDtos } from "../../service/resource/findResourcesService.test.data";
 import ResourcesCollection from "../../model/entity/resource/resourcesCollection";
-import { TEST_RESOURCE_TYPE_V5_DEFAULT } from "passbolt-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
+import { TEST_RESOURCE_TYPE_V5_DEFAULT } from "haspr-styleguide/src/shared/models/entity/resourceType/resourceTypeEntity.test.data";
 import { METADATA_KEY_TYPE_USER_KEY } from "../../model/entity/resource/resourceEntity";
-import { defaultResourceDto } from "passbolt-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
-import { metadata } from "passbolt-styleguide/test/fixture/encryptedMetadata/metadata";
-import { pgpKeys } from "passbolt-styleguide/test/fixture/pgpKeys/keys";
-import { mockPassboltResponse } from "passbolt-styleguide/test/mocks/mockApiResponse";
+import { defaultResourceDto } from "haspr-styleguide/src/shared/models/entity/resource/resourceEntity.test.data";
+import { metadata } from "haspr-styleguide/test/fixture/encryptedMetadata/metadata";
+import { pgpKeys } from "haspr-styleguide/test/fixture/pgpKeys/keys";
+import { mockPassboltResponse } from "haspr-styleguide/test/mocks/mockApiResponse";
 import GetOrFindActiveSessionService from "../../service/activeSession/getOrFindActiveSessionService";
-import UserActiveSessionEntity from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
-import { defaultUserActiveSessionDto } from "passbolt-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
+import UserActiveSessionEntity from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity";
+import { defaultUserActiveSessionDto } from "haspr-styleguide/src/shared/models/entity/session/userActiveSessionEntity.test.data";
 
 describe("FindAllIdsByIsSharedWithGroupController", () => {
   let controller, worker, groupId;

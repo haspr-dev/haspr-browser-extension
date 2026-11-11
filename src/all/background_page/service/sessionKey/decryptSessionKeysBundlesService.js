@@ -13,13 +13,13 @@
  */
 import { OpenpgpAssertion } from "../../utils/openpgp/openpgpAssertions";
 import PassphraseStorageService from "../session_storage/passphraseStorageService";
-import SessionKeysBundleEntity from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleEntity";
-import SessionKeysBundleDataEntity from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleDataEntity";
-import SessionKeysBundlesCollection from "passbolt-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection";
+import SessionKeysBundleEntity from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleEntity";
+import SessionKeysBundleDataEntity from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundleDataEntity";
+import SessionKeysBundlesCollection from "haspr-styleguide/src/shared/models/entity/sessionKey/sessionKeysBundlesCollection";
 import { assertType } from "../../utils/assertions";
 import DecryptPrivateKeyService from "../crypto/decryptPrivateKeyService";
 import DecryptMessageService from "../crypto/decryptMessageService";
-import Logger from "passbolt-styleguide/src/shared/utils/logger";
+import Logger from "haspr-styleguide/src/shared/utils/logger";
 
 class DecryptSessionKeysBundlesService {
   /**

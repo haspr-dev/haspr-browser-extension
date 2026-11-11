@@ -12,8 +12,8 @@
  * @since         5.13.0
  */
 
-import EntitySchema from "passbolt-styleguide/src/shared/models/entity/abstract/entitySchema";
-import * as assertEntityProperty from "passbolt-styleguide/test/assert/assertEntityProperty";
+import EntitySchema from "haspr-styleguide/src/shared/models/entity/abstract/entitySchema";
+import * as assertEntityProperty from "haspr-styleguide/test/assert/assertEntityProperty";
 import LocalStorageMetadataEntity from "./localStorageMetadataEntity";
 import { defaultLocalStorageMetadataDto } from "./localStorageMetadataEntity.test.data";
 

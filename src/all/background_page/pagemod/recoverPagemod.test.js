@@ -18,8 +18,8 @@ import { ConfigEvents } from "../event/configEvents";
 import BuildApiClientOptionsService from "../service/account/buildApiClientOptionsService";
 import { PownedPasswordEvents } from "../event/pownedPasswordEvents";
 import { enableFetchMocks } from "jest-fetch-mock";
-import { anonymousSiteSettings } from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
-import SiteSettingsEntity from "passbolt-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
+import { anonymousSiteSettings } from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity.test.data";
+import SiteSettingsEntity from "haspr-styleguide/src/shared/models/entity/siteSettings/siteSettingsEntity";
 import FindAndUpdateSiteSettingsLocalStorageService from "../service/siteSettings/findAndUpdateSiteSettingsLocalStorageService";
 
 jest.spyOn(BuildAccountRecoverService, "buildFromRecoverUrl");

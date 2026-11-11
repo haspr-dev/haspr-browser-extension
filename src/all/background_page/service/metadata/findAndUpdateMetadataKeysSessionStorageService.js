@@ -13,7 +13,7 @@
  */
 import FindMetadataKeysService from "./findMetadataKeysService";
 import MetadataKeysSessionStorage from "../session_storage/metadataKeysSessionStorage";
-import MetadataKeysCollection from "passbolt-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
+import MetadataKeysCollection from "haspr-styleguide/src/shared/models/entity/metadata/metadataKeysCollection";
 import DecryptMetadataPrivateKeysService from "./decryptMetadataPrivateKeysService";
 import CanUseOfflineStorageService from "../offline/canUseOfflineStorageService";
 import MetadataKeyOPFSStorage from "../opfsStorage/metadataKeyOPFSStorage";

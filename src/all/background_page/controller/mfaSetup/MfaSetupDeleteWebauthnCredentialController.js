@@ -11,7 +11,7 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         5.17.0
  */
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 import WebauthnApiService from "../../service/api/mfa/webauthnApiService";
 
 class MfaSetupDeleteWebauthnCredentialController {

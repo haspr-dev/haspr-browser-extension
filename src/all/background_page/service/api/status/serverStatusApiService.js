@@ -11,8 +11,8 @@
  * @link          https://www.passbolt.com Passbolt(tm)
  * @since         6.0.0
  */
-import AbstractService from "passbolt-styleguide/src/shared/services/api/abstract/abstractService";
-import PassboltResponseEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
+import AbstractService from "haspr-styleguide/src/shared/services/api/abstract/abstractService";
+import PassboltResponseEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
 
 const SERVER_STATUS_RESOURCE_NAME = "healthcheck/status";
 

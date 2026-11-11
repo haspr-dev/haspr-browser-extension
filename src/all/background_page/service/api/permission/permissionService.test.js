@@ -14,12 +14,12 @@
 
 import { enableFetchMocks } from "jest-fetch-mock";
 import { mockApiResponse, mockApiResponseError } from "../../../../../../test/mocks/mockApiResponse";
-import PassboltApiFetchError from "passbolt-styleguide/src/shared/lib/Error/PassboltApiFetchError";
-import PassboltServiceUnavailableError from "passbolt-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
+import PassboltApiFetchError from "haspr-styleguide/src/shared/lib/Error/PassboltApiFetchError";
+import PassboltServiceUnavailableError from "haspr-styleguide/src/shared/lib/Error/PassboltServiceUnavailableError";
 import AccountEntity from "../../../model/entity/account/accountEntity";
 import { defaultAccountDto } from "../../../model/entity/account/accountEntity.test.data";
 import BuildApiClientOptionsService from "../../account/buildApiClientOptionsService";
-import { ownerPermissionDto } from "passbolt-styleguide/src/shared/models/entity/permission/permissionEntity.test.data.js";
+import { ownerPermissionDto } from "haspr-styleguide/src/shared/models/entity/permission/permissionEntity.test.data.js";
 import { v4 as uuidv4 } from "uuid";
 import PermissionService from "./permissionService";
 import FindPermissionsService from "../../permission/findPermissionsService";

@@ -12,7 +12,7 @@
  */
 
 import AbstractAccountEntity from "./abstractAccountEntity";
-import RoleEntity from "passbolt-styleguide/src/shared/models/entity/role/roleEntity";
+import RoleEntity from "haspr-styleguide/src/shared/models/entity/role/roleEntity";
 
 const ENTITY_NAME = "Account";
 

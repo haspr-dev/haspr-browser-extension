@@ -15,7 +15,7 @@ import AuthenticationStatusService from "./authenticationStatusService";
 import { enableFetchMocks } from "jest-fetch-mock";
 import { mockApiResponse, mockApiResponseError, mockApiRedirectResponse } from "../../../../test/mocks/mockApiResponse";
 import NotFoundError from "../error/notFoundError";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
 import MfaAuthenticationRequiredError from "../error/mfaAuthenticationRequiredError";
 import PassboltBadResponseError from "../error/passboltBadResponseError";
 

@@ -12,9 +12,9 @@
  * @since         5.13.0
  */
 
-import { assertUuid } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertUuid } from "haspr-styleguide/src/shared/utils/assertions";
 import MarkOfflineResourceApiService from "../api/offlineResource/markOfflineResourceApiService";
-import OfflineItemEntity from "passbolt-styleguide/src/shared/models/entity/offline/offlineItemEntity";
+import OfflineItemEntity from "haspr-styleguide/src/shared/models/entity/offline/offlineItemEntity";
 import ResourceLocalStorage from "../local_storage/resourceLocalStorage";
 import FindResourcesService from "../resource/findResourcesService";
 import MetadataKeyOPFSStorage from "../opfsStorage/metadataKeyOPFSStorage";

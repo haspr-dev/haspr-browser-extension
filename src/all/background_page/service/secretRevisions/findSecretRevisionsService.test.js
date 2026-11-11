@@ -12,10 +12,10 @@
  * @since         5.7.0
  */
 
-import ResourceSecretRevisionsCollection from "passbolt-styleguide/src/shared/models/entity/secretRevision/resourceSecretRevisionsCollection";
-import { defaultApiClientOptions } from "passbolt-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
-import { defaultResourceSecretRevisionsDtos } from "passbolt-styleguide/src/shared/models/entity/secretRevision/resourceSecretRevisionsCollection.test.data";
-import PassboltResponseEntity from "passbolt-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
+import ResourceSecretRevisionsCollection from "haspr-styleguide/src/shared/models/entity/secretRevision/resourceSecretRevisionsCollection";
+import { defaultApiClientOptions } from "haspr-styleguide/src/shared/lib/apiClient/apiClientOptions.test.data";
+import { defaultResourceSecretRevisionsDtos } from "haspr-styleguide/src/shared/models/entity/secretRevision/resourceSecretRevisionsCollection.test.data";
+import PassboltResponseEntity from "haspr-styleguide/src/shared/models/entity/apiService/PassboltResponseEntity";
 import FindSecretRevisionsService from "./findSecretRevisionsService";
 import { v4 as uuidv4 } from "uuid";
 

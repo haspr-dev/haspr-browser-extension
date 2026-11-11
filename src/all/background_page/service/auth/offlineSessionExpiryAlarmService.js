@@ -16,7 +16,7 @@ import BuildApiClientOptionsService from "../account/buildApiClientOptionsServic
 import GetOrFindOfflineSettingsService from "../offline/getOrFindOfflineSettingsService";
 import FindAndUpdateActiveSessionLocalStorageService from "../activeSession/findAndUpdateActiveSessionLocalStorageService";
 import PostLogoutService from "./postLogoutService";
-import { assertNumber } from "passbolt-styleguide/src/shared/utils/assertions";
+import { assertNumber } from "haspr-styleguide/src/shared/utils/assertions";
 
 const OFFLINE_SESSION_EXPIRY_ALARM = "OfflineSessionExpiry";
 const MILLISECONDS_PER_SECOND = 1000;
