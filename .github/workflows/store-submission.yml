@@ -1,0 +1,45 @@
+name: Build Store Submission Files
+
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: 'Branch or tag to build from (leave blank for default)'
+        required: false
+        default: ''
+
+jobs:
+  store-submission:
+    name: Build & Package Store Submission
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.ref || github.ref }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build extension packages
+        run: npm run build
+
+      - name: Prepare store submission files
+        run: npm run package:store
+
+      - name: Upload Store Submission Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: haspr-store-submission
+          path: |
+            dist/store-submission/*
+            dist/haspr-store-submission-*.zip

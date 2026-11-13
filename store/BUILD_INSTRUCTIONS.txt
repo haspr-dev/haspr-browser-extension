@@ -1,0 +1,52 @@
+========================================================================
+BUILD INSTRUCTIONS FOR STORE REVIEWERS (Mozilla AMO / Chrome Web Store)
+========================================================================
+
+Package: haspr-browser-extension
+Version: {{VERSION}}
+Source Code Archive: source-code-haspr-v{{VERSION}}.zip
+Repository: https://github.com/haspr-dev/haspr-browser-extension
+Commit / Tag: v{{VERSION}}
+
+1. PREREQUISITES
+----------------
+- Operating System: Linux, macOS, or Windows
+- Node.js: >= 22.14.0 (Node 22 LTS recommended)
+- npm: >= 10.9.2
+
+Verify your environment:
+  node --version
+  npm --version
+
+2. EXTRACT SOURCE ARCHIVE
+-------------------------
+Unzip the source package:
+  unzip source-code-haspr-v{{VERSION}}.zip
+  cd haspr-browser-extension-{{VERSION}}/
+
+3. INSTALL DEPENDENCIES
+-----------------------
+Install the exact dependency tree:
+  npm ci
+
+4. BUILD THE EXTENSION
+----------------------
+To build all packages:
+  npm run build
+
+To build specifically for Firefox:
+  npm run build:firefox
+
+To build specifically for Chromium MV3:
+  npm run build:chromium-mv3
+
+5. OUTPUT ARTIFACTS
+-------------------
+The built unpacked extension is emitted to:
+  build/all/
+
+The ready-to-load web extension zip files are emitted to:
+  dist/firefox/haspr-{{VERSION}}-firefox.zip
+  dist/chromium-mv3/haspr-{{VERSION}}-chromium-mv3.zip
+  dist/chromium-mv2/haspr-{{VERSION}}-chromium-mv2.zip
+  dist/safari/haspr-{{VERSION}}-safari.zip
